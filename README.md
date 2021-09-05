@@ -19,3 +19,16 @@ We plan to iteratively expand the replica’s capabilities, to make the conversa
 
 This software and the sample data are under very permissive Creative Commons Zero v1.0 Universal licence
 (basically, it describes a release into the Public Domain). 
+
+## 1. How to use
+
+Clone this repo.
+
+Havigate to the AI-replica dir.
+
+Run the console bot:
+`python3 console_bot.py`
+
+## 2. Testing
+
+To run doctests, execute `doctests_run`
