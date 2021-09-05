@@ -1,0 +1,97 @@
+{
+ "name": "Roman",
+ "type": "personal_chat",
+ "id": 789,
+ "messages": [
+  {
+   "id": 58701,
+   "type": "service",
+   "date": "2021-08-09T11:14:20",
+   "actor": "Roman S.",
+   "actor_id": "user123",
+   "action": "clear_history",
+   "text": ""
+  },
+  {
+   "id": 59144,
+   "type": "message",
+   "date": "2021-08-18T07:48:25",
+   "from": "Roman S.",
+   "from_id": "user123",
+   "text": "Hi"
+  },
+  {
+   "id": 59145,
+   "type": "message",
+   "date": "2021-08-18T07:48:44",
+   "from": "Benjamin",
+   "from_id": "user456",
+   "text": "Hello! How are you?"
+  },
+  {
+   "id": 59146,
+   "type": "message",
+   "date": "2021-08-18T07:49:06",
+   "from": "Roman S.",
+   "from_id": "user123",
+   "text": "I’m fine, thanks!"
+  },
+  {
+   "id": 59147,
+   "type": "message",
+   "date": "2021-08-18T07:49:41",
+   "from": "Roman S.",
+   "from_id": "user123",
+   "text": "My name is Roman. Yours?"
+  },
+  {
+   "id": 59148,
+   "type": "message",
+   "date": "2021-08-18T07:50:09",
+   "from": "Benjamin",
+   "from_id": "user456",
+   "text": "My name is Benjamin"
+  },
+  {
+   "id": 59149,
+   "type": "message",
+   "date": "2021-08-18T07:50:36",
+   "edited": "2021-08-18T07:50:46",
+   "from": "Benjamin",
+   "from_id": "user456",
+   "text": "Do you want some pizza 🍕?"
+  },
+  {
+   "id": 59150,
+   "type": "message",
+   "date": "2021-08-18T07:51:00",
+   "from": "Roman S.",
+   "from_id": "user123",
+   "text": "Sure!"
+  },
+  {
+   "id": 59151,
+   "type": "message",
+   "date": "2021-08-18T07:51:34",
+   "from": "Roman S.",
+   "from_id": "user123",
+   "text": "Btw, how old are you?"
+  },
+  {
+   "id": 59152,
+   "type": "message",
+   "date": "2021-08-18T07:52:26",
+   "from": "Benjamin",
+   "from_id": "user456",
+   "text": "No idea. But I was born in 1706"
+  },
+  {
+   "id": 59153,
+   "type": "message",
+   "date": "2021-08-18T07:52:35",
+   "from": "Roman S.",
+   "from_id": "user123",
+   "text": "Cool!"
+  }
+ ]
+}
