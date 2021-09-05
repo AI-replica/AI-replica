@@ -1,0 +1,4 @@
+#!/bin/bash
+# Run this script to run doctests.
+coverage run doctests_build.py --omit *venv*
+coverage report --skip-covered -m
