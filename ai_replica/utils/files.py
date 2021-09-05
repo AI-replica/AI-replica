@@ -1,5 +1,6 @@
 import glob
 import ntpath
+import json
 
 """Tools to work with files"""
 
@@ -44,4 +45,15 @@ def find_files(path, file_type, exclude=None, only_filenames7=False):
 
     sorted_files = sorted(cleaned_files)  # to make the order of the list deterministic
     res = sorted_files
+    return res
+
+
+def write_to_json(path, data_dict):
+    with open(path, 'w') as f:
+        json.dump(data_dict, f, ensure_ascii=False)
+
+
+def read_json(path):
+    with open(path) as f:
+        res = json.load(f)
     return res

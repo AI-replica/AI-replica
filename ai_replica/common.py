@@ -1,4 +1,5 @@
 import ai_replica.skills as skills
+from ai_replica.engine.run_mind import get_model_answer
 from ai_replica.skills import *  # noqa
 
 """Here, we put together the logic from the engine and the skills.
@@ -44,18 +45,21 @@ def ask_skill(user_input, skill_name, skill_funcs):
     return res
 
 
-def get_answer(user_input):
+def get_answer(user_input, custom_model=None, seed=None):
     """
     >>> get_answer("what is the current price of bitcoin?")
     'The price of 1 Bitcoin is exactly 1 Bitcoin. No more, no less.'
     >>> get_answer("How is Potato in Russian?")
     "Dude, ask Google or something. I'm not a translator!"
-    >>> get_answer("Do you like anime?")
-    "You wrote: 'Do you like anime?'. Currently, I'm too stupid to give you a better answer"
+    >>> from ai_replica.engine.run_mind import load_model
+    >>> test_model = load_model("ai_replica/resources/mock_data/mock_personal_data/reconstructed_mind_models/model.txt")
+    >>> get_answer("hand", custom_model=test_model, seed=42)
+    'On occasion, I carried up and down stairs a large form of types in each hand, when others carried but one in both hands'
     """
+
     skill_name = select_skill(user_input, skill_funcs)
     res = ask_skill(user_input, skill_name, skill_funcs)
     if res is None:
-        res = f"You wrote: '{user_input}'. Currently, I'm too stupid to give you a better answer"
+        res = get_model_answer(user_input, custom_model=custom_model, seed=seed)
     return res
 
