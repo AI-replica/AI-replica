@@ -17,17 +17,29 @@ It should work as follows:
 
 We plan to iteratively expand the replica’s capabilities, to make the conversation more natural and more authentic.
 
-This software and the sample data are under very permissive Creative Commons Zero v1.0 Universal licence
+This software and the sample data are under very permissive Creative Commons Zero v1.0 Universal license
 (basically, it describes a release into the Public Domain). 
 
 ## 1. How to use
 
 Clone this repo.
 
-Havigate to the AI-replica dir.
+Navigate to the AI-replica dir.
 
 Run the console bot:
 `python3 console_bot.py`
+
+### Server bot
+Alternatively, run the server bot (default port is 8000, default adress is localhost):
+`python3 server_bot.py`
+
+or:
+`python3 server_bot.py --port=8001`
+
+For help, run:
+`python3 server_bot.py -h`
+
+Then open your browser and navigate to the address and port server listens.
 
 ## 2. Testing
 
