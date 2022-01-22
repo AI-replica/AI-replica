@@ -30,7 +30,7 @@ Run the console bot:
 `python3 console_bot.py`
 
 ### Server bot
-Alternatively, run the server bot (default port is 8000, default adress is localhost):
+Run the server bot (default port is 8000, default address is localhost):
 `python3 server_bot.py`
 
 or:
@@ -39,7 +39,36 @@ or:
 For help, run:
 `python3 server_bot.py -h`
 
-Then open your browser and navigate to the address and port server listens.
+Then open your browser and navigate to the address and port server listens on.
+
+By default, Rasa bot engine is used. Before running the server, make sure that Rasa server is being run at `http://localhost:8002`. Can be changed in `config.yaml`.
+To turn off Rasa engine, change the value of bot_engine setting in `config.yaml`.
+
+### Rasa
+**IMPORTANT.** Install Python 3.8 first as Rasa does not support later versions yet (as of January 2022).
+
+Go to "rasa" folder, create virtual environment and switch to the created virtual environment: 
+```
+cd rasa
+python3.8 -m venv ./venv
+source ./venv/bin/activate
+```
+
+Install latest version of pip: `pip3 install -U pip`
+
+Install Rasa by running `pip3 install rasa` or install dependencies from `requirements.txt` by running `pip3 install -r requirements.txt`.
+
+Go to the `bot` folder. It is a Rasa project folder. It contains data for the bot.
+
+Use `rasa train` to train your model. The trained model will appear in the `bot/models` folder.
+
+Use `rasa run` to start Rasa server. As per default config, the AI Replica server expects the Rasa server is being run at http://localhost:8002.
+
+Sample command to start Rasa server: `rasa run --model ./bot/models/20220122-164843-charitable-rent.tar.gz -i localhost -p 8002`.
+
+#### Notes
+1. Command line interface: https://rasa.com/docs/rasa/command-line-interface
+2. Installation: https://rasa.com/docs/rasa/installation/. Install Python 3.8 first as Rasa does not support later versions yet (as of January 2022). In the `pip3 install -U --user pip && pip3 install rasa` command remove `--user` flag, otherwise you can experience an error saying that execution is not possible ("Can not perform a '--user' install. User site-packages are not visible in this virtualenv."). There is no sense to install packages to user folder (--user) when you are in a virtual environment.
 
 ## 2. Testing
 

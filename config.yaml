@@ -1,0 +1,8 @@
+bot_engine: "rasa"
+
+rasa:
+  rest_webhook: "http://localhost:8002/webhooks/rest/webhook"
+
+server:
+  port: 8000
+  address: "localhost"
