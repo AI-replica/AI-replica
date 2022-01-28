@@ -1,3 +1,5 @@
 .idea
 .coverage
 __pycache__
+venv
+.rasa

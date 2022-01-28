@@ -2,10 +2,15 @@ from http.server import BaseHTTPRequestHandler
 import json
 import mimetypes
 import os.path
+import requests
 
 from ai_replica.common import get_answer
+from server.read_config import config
 
+# TODO: read from config.yaml
 STATIC_FILES_DIR = "./web_chat"
+BOT_ENGINE = config['bot_engine']
+RASA_REST_WEBHOOK = config['rasa']['rest_webhook']
 
 class RequestHandler(BaseHTTPRequestHandler):
   def get_api_get_response(self):
@@ -19,7 +24,23 @@ class RequestHandler(BaseHTTPRequestHandler):
     data = self.rfile.read(length)
     obj = json.loads(data)
     user_message = obj["message"]
-    bot_answer = get_answer(user_message)
+
+    # TODO: provide engine logic via a strategy, e.g. implement a separate class/function to process Rasa requests
+    if (BOT_ENGINE == "rasa"):
+      url = RASA_REST_WEBHOOK
+      data = {
+        "sender": "user",
+        "message": user_message,
+      }
+      response = requests.post(url, data = json.dumps(data))
+      print(f"rasa resp: {response.text}")
+      bot_answers = json.loads(response.text)
+      if (len(bot_answers) == 0):
+        bot_answer = "Sorry, I have no answer :("
+      else:        
+        bot_answer = bot_answers[0]["text"]
+    else:        
+      bot_answer = get_answer(user_message)
 
     return json.dumps({"message": bot_answer})
 
