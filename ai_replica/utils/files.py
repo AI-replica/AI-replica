@@ -1,6 +1,7 @@
 import glob
 import ntpath
 import json
+import os
 
 """Tools to work with files"""
 
@@ -57,3 +58,5 @@ def read_json(path):
     with open(path) as f:
         res = json.load(f)
     return res
+
+PERSONAL_DATA_DIR = os.path.abspath(os.path.dirname(__file__) + "/../../personal_data")

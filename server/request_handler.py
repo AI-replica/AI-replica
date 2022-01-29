@@ -34,15 +34,11 @@ class RequestHandler(BaseHTTPRequestHandler):
       }
       response = requests.post(url, data = json.dumps(data))
       print(f"rasa resp: {response.text}")
-      bot_answers = json.loads(response.text)
-      if (len(bot_answers) == 0):
-        bot_answer = "Sorry, I have no answer :("
-      else:        
-        bot_answer = bot_answers[0]["text"]
+      bot_answers = self.get_bot_answers_from_rasa_bot_answers(response.text)
     else:        
-      bot_answer = get_answer(user_message)
+      bot_answers = [get_answer(user_message)]
 
-    return json.dumps({"message": bot_answer})
+    return json.dumps({"messages": bot_answers})
 
   def do_GET(self):
     print(f"GET method is called: {self.path}")
@@ -93,4 +89,21 @@ class RequestHandler(BaseHTTPRequestHandler):
     self.end_headers()
 
     self.wfile.write(content.encode("utf8"))
-    
+
+  # TODO: messages sent to client should have a richer format, i.e. not only text should be accepted
+  # Images, links, videos, text formatting, etc.
+  # Take into account different possible channels: custom web-chat, WhatsApp, Messenger, Telegram, custom Android chat, etc...
+  # Different message formatters should be used depending on the channel
+  def get_bot_answers_from_rasa_bot_answers(self, response_text):
+    rasa_bot_answers = json.loads(response_text)
+    if (len(rasa_bot_answers) == 0):
+      return ["Sorry, I have no answer :("]
+  
+    bot_answers = []    
+    for rasa_bot_answer in rasa_bot_answers:
+      if (rasa_bot_answer.get("text") != None):
+        bot_answers.append(rasa_bot_answer["text"])
+      elif (rasa_bot_answer.get("image") != None):
+          bot_answers.append(rasa_bot_answer["image"])
+
+    return bot_answers

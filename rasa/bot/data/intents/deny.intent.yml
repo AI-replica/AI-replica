@@ -1,0 +1,12 @@
+version: "3.0"
+
+nlu:
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really

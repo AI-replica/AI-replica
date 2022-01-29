@@ -1,5 +1,6 @@
-.idea
 .coverage
-__pycache__
-venv
+.idea
 .rasa
+__pycache__
+rasa/bot/models
+venv

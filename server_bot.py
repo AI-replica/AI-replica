@@ -20,7 +20,7 @@ def run_server(
   server_address = (addr, port)
   httpd = server_class(server_address, handler_class)
 
-  print(f"Starting httpd server on {addr}:{port}")
+  print(f"Server listening on {addr}:{port} ...")
   httpd.serve_forever()
 
 # parses command line arguments
@@ -43,6 +43,9 @@ def parse_arguments():
   return args
 
 def run():
+  # TODO: move reconstruction into a more suitable place. Probably, it makes sense to run reconstruction as a separate script before starting the server.
+  # E.g. python train_bot.py. And when server is run, already trained model is loaded and consumed by clients.
+  # In a gereral case, training the model can take a lot of time, so makses sense to do it separately, as a preliminary step.
   print("Reconstruction started.")
   reconstruct()
   print("Reconstruction completed.")

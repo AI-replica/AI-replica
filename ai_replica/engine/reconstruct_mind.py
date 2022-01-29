@@ -3,7 +3,7 @@
 For this iteration, we use a simple bag-of-words model.
 The model consists of chunks of texts, accompanies by the corresponding bags of words.
 """
-from ai_replica.utils.files import find_files, write_to_json
+from ai_replica.utils.files import find_files, write_to_json, PERSONAL_DATA_DIR
 from ai_replica.utils.nlp import get_bag_of_words
 
 min_answer_len = 50
@@ -22,7 +22,7 @@ def build_model(custom_data_path=None):
     if isinstance(custom_data_path, str):
         data_path = custom_data_path
     else:
-        data_path = "personal_data/raw_mind_data/"
+        data_path = f"{PERSONAL_DATA_DIR}/raw_mind_data/"
 
     raw_data_files = find_files(
         path=data_path,
@@ -65,7 +65,7 @@ def reconstruct(custom_save_path=None, custom_data_path=None):
     """
 
     save_path = (
-        "personal_data/reconstructed_mind_models/model.txt"
+        f"{PERSONAL_DATA_DIR}/reconstructed_mind_models/model.txt"
         if custom_save_path is None
         else custom_save_path
     )

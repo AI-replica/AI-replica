@@ -2,6 +2,11 @@ version: "3.0"
 
 rules:
 
+- rule: Say Hello anytime the user says Hello
+  steps:
+  - intent: greet
+  - action: utter_greet
+
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
@@ -11,3 +16,24 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Say the name when user asks for the name.
+  steps:
+  - intent: bot_name
+  - action: utter_name
+
+- rule: Tell about what user asks. Search in the bot's personal data.
+  steps:
+  - intent: tell_me_about
+  - action: action_search_data
+
+- rule: Tell about a person when user asks.
+  steps:
+  - intent: who_is
+  - action: action_who_is
+
+# FALLBACK
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
