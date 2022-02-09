@@ -1,8 +1,16 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
 #chat {
   width: 100%;
-  min-width: 100px;
+  min-width: 200px;
   max-width: 800px;
   padding: 3px;
+  /* used just to display avatar div*/
+  /* TODO: use flex layout */
+  float: left;
 }
 
 #input {
@@ -39,4 +47,16 @@
 .message_user-message {
   background-color: #87ceeb;
   margin-right: 30px;
+}
+
+.message__image {
+  width: 100%;
+}
+
+#avatar {
+  width: 200px;
+}
+
+#avatar img {
+  width: 100%;
 }

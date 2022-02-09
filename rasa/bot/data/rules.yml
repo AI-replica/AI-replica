@@ -22,6 +22,21 @@ rules:
   - intent: bot_name
   - action: utter_name
 
+- rule: Say birth date when user asks for birth date
+  steps:
+  - intent: bot_birth_date
+  - action: utter_birth_date
+
+- rule: Say birth place when user asks for birth place
+  steps:
+  - intent: bot_birth_place
+  - action: utter_birth_place
+
+- rule: Send a funny picture if a user is feelling bad
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+
 - rule: Tell about what user asks. Search in the bot's personal data.
   steps:
   - intent: tell_me_about

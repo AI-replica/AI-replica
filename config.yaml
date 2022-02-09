@@ -10,3 +10,4 @@ rasa:
 server:
   port: 8000
   address: "localhost"
+  static_files_dir: "./dist"

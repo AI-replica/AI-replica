@@ -71,9 +71,13 @@ def restart_servers(rasa_path, work_dir, args):
 
     if launch_bools["basic"]:
         stop_basic_server(python_version=required_python)
+        build_web_chat()
         python_name = get_python_exec_name(python_version=required_python)
         execute_command(python_name, "server_bot.py", run_in_another_terminal7=True)
 
+def build_web_chat():
+    python_name = get_python_exec_name(python_version=required_python)
+    execute_command(python_name, "build_web_chat.py", run_in_another_terminal7=False)
 
 def parse_arguments():
     # TODO: add an argument: just shut down all the servers etc, without launching anything

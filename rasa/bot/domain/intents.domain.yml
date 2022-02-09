@@ -1,13 +1,15 @@
 version: "3.0"
 
 intents:
-  - bot_name
-  - greet
-  - goodbye
   - affirm
+  - bot_birth_date
+  - bot_birth_place
+  - bot_challenge
+  - bot_name
   - deny
+  - goodbye
+  - greet
   - mood_great
   - mood_unhappy
-  - bot_challenge
-  - who_is
   - tell_me_about
+  - who_is

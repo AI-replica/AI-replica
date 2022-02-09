@@ -27,6 +27,12 @@ responses:
   - text: "My name is Benjamin Franklin."
   - text: "I am Benjamin Franklin."
 
+  utter_birth_date:
+  - text: I was born on January 17, 1706
+  
+  utter_birth_place:
+  - text: I was born in Boston, Massachusetts, United States of America
+
   utter_tell_me_about:
   - text: "OK, I will tell you about it..."
 

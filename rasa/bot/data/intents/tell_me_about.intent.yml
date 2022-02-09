@@ -6,5 +6,9 @@ version: "3.0"
 nlu:
 - intent: tell_me_about
   examples: |
-    - Dear Ben. [Who are your friends]{"entity": "personal_question"}
-    - Dear Ben. [What do you think about America]{"entity": "personal_question"}
+    - Tell me about [your friends]{"entity": "personal_question"}.
+    - Tell me about [America]{"entity": "personal_question"}.
+    - Tell me about [your dream]{"entity": "personal_question"}.
+    - Tell me about [the biggest scientific achievement of your time]{"entity": "personal_question"}.
+    - Tell me about [government of America]{"entity": "personal_question"}.
+    - Tell me about [the climate in Europe]{"entity": "personal_question"}.

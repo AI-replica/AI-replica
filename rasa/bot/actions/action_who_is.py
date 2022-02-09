@@ -29,8 +29,16 @@ class ActionWhoIs(Action):
       # TODO: return data about requested person using Wikipedia API
       # TODO: think about how to return formatted text data, including links, to different channels, Web, Android, etc.
       # It looks like a channel-specific formatters should be introduced here.
-      dispatcher.utter_message(text=f"Try to check about {name} here: https://en.wikipedia.org/wiki/{name}")
+      message = [
+        {"type": "text", "content": f"Try to check about {name} here: "},
+        {"type": "link", "text": f"https://en.wikipedia.org/wiki/{name}", "link": f"https://en.wikipedia.org/wiki/{name}"},
+        {"type": "text", "content": "."},
+      ]      
+      dispatcher.utter_message(json_message = message)
     else:
-      dispatcher.utter_message(text=f"I have no clue.")
+      message = [
+        {"type": "text", "content": f"I have no clue."},
+      ]
+      dispatcher.utter_message(json_message = message)
 
     return []

@@ -1,0 +1,6 @@
+version: "3.0"
+
+nlu:
+- intent: bot_birth_place
+  examples: |
+    - Where were you born?

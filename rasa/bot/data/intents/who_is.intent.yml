@@ -9,3 +9,29 @@ nlu:
     - Who is [Bill Gates]{"entity": "name"}?
     - Who is [Klaus Meine]{"entity": "name"}?
     - Who is [Robert Heinlein]{"entity": "name"}?
+    - Who is [Nikola Tesla]{"entity": "name"}?
+    - Who is [Benjamin Franklin]{"entity": "name"}?
+    - Who is [xxx ccc]{"entity": "name"}?
+    - Who is [aaa ddd]{"entity": "name"}?
+    - Who is [bbb]{"entity": "name"}?
+    - Who is [cccasd]{"entity": "name"}?
+    - Who is [gjiasdzf]{"entity": "name"}?
+    - Who is [lkliddtpujgfgd]{"entity": "name"}?
+    - Who is [Ivan Ivanov]{"entity": "name"}?
+    - Who is [Ivanivanov]{"entity": "name"}?
+    - Who is [Petr Petrov]{"entity": "name"}?
+    - Who is [Petrpetrov]{"entity": "name"}?
+    - Who is [Stas Stasov]{"entity": "name"}?
+    - Who is [Stasstasov]{"entity": "name"}?
+    - Who is [Andrey]{"entity": "name"}?
+    - Who is [Sergey]{"entity": "name"}?
+    - Who is [Konstantin]{"entity": "name"}?
+    - Who is [Konstantin Petrov]{"entity": "name"}?
+    - Who is [Alexander Semenov]{"entity": "name"}?
+    - Who is [Alexander]{"entity": "name"}?
+    - Who is [Undhdh Sdjdjfui]{"entity": "name"}?
+    - Who is [HkGHGuusu]{"entity": "name"}?
+    - Who is [KdjfKHH GYFtyfgDD]{"entity": "name"}?
+    - Who is [Boris]{"entity": "name"}?
+    - Who is [Claudia]{"entity": "name"}?
+    - Who is [Jacqueline]{"entity": "name"}?
