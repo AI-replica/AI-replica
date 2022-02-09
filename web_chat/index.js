@@ -8,24 +8,31 @@ async function onSendMessageButtonClicked(event) {
   const userMessage = messageInput.value;
   messageInput.value = "";
 
-  addMessage(messages, userMessage, "You", "user-message");
+  const addedMessage = addMessage(messages, userMessage, "You", "user-message");
+  addedMessage.scrollIntoView(false);
 
   const requestData = { message: userMessage };
   const response = await fetch("/getResponse", {
     method: 'POST', 
     body: JSON.stringify(requestData),
   });
-  const botMessage = await response.json();
-  addMessage(messages, botMessage.message, "Bot", "bot-message");
+  const botResponse = await response.json();
+  const botMessages = botResponse.messages || [];
+  botMessages.forEach((message) => {
+    const addedMessage = addMessage(messages, message, "Bot", "bot-message");
+    addedMessage.scrollIntoView(false);
+  });
 }
 
 function addMessage(messagesElement, messageText, userName, modifier) {
-  const botMessageElement = document.createElement("article");
-  botMessageElement.className = `message message_${modifier}`;
-  botMessageElement.innerHTML = `
+  const messageElement = document.createElement("article");
+  messageElement.className = `message message_${modifier}`;
+  messageElement.innerHTML = `
     <section class="message-name">${userName}: </section>
     <section>${messageText}</section>
   `;
 
-  messagesElement.appendChild(botMessageElement);
+  messagesElement.appendChild(messageElement);
+
+  return messageElement;
 }

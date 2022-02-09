@@ -1,7 +1,7 @@
 """Runs inference on the model that was build by reconstruct_mind.py."""
 import random
 
-from ai_replica.utils.files import read_json
+from ai_replica.utils.files import read_json, PERSONAL_DATA_DIR
 from ai_replica.utils.nlp import get_bag_of_words, similarity_score_of_word_bags
 
 
@@ -15,9 +15,9 @@ def load_model(load_path):
     """
     loaded_model = read_json(load_path)
     return loaded_model
+    
 
-
-global_model = load_model("personal_data/reconstructed_mind_models/model.txt")
+global_model = load_model(f"{PERSONAL_DATA_DIR}/reconstructed_mind_models/model.txt")
 
 
 def get_model_answer(user_input, seed=None, custom_model=None):

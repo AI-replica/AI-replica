@@ -1,0 +1,6 @@
+version: "3.0"
+
+actions:
+  - action_hello_world
+  - action_search_data
+  - action_who_is

@@ -1,0 +1,9 @@
+version: "3.0"
+
+slots:
+  name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: name
+      intent: who_is

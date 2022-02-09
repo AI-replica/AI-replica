@@ -34,14 +34,14 @@ Run the server bot (default port is 8000, default address is localhost):
 `python3 server_bot.py`
 
 or:
-`python3 server_bot.py --port=8001`
+`python3 server_bot.py --port=8000`
 
 For help, run:
 `python3 server_bot.py -h`
 
 Then open your browser and navigate to the address and port server listens on.
 
-By default, Rasa bot engine is used. Before running the server, make sure that Rasa server is being run at `http://localhost:8002`. Can be changed in `config.yaml`.
+By default, Rasa bot engine is used. Before running the server, make sure that Rasa server is being run at `http://localhost:8002`. Can be changed in `config.yaml`. Also make sure that Rasa actions server is being run at `http://localhost:8004`. 
 To turn off Rasa engine, change the value of bot_engine setting in `config.yaml`.
 
 ### Rasa
@@ -58,13 +58,18 @@ Install latest version of pip: `pip3 install -U pip`
 
 Install Rasa by running `pip3 install rasa` or install dependencies from `requirements.txt` by running `pip3 install -r requirements.txt`.
 
-Go to the `bot` folder. It is a Rasa project folder. It contains data for the bot.
+Go to the `bot` folder. It is a Rasa project folder. It contains data for the bot. Run all the Rasa-related commands from this folder.
 
-Use `rasa train` to train your model. The trained model will appear in the `bot/models` folder.
+Use `rasa train --domain domain` to train your model. The trained model will appear in the `models` folder.
 
-Use `rasa run` to start Rasa server. As per default config, the AI Replica server expects the Rasa server is being run at http://localhost:8002.
 
-Sample command to start Rasa server: `rasa run --model ./bot/models/20220122-164843-charitable-rent.tar.gz -i localhost -p 8002`.
+Start Rasa server: `rasa run -i localhost -p 8002`.
+
+As per default config, the AI Replica server expects the Rasa server is being run at http://localhost:8002.
+By default, the latest model from the `models` folder is used. If you want to run a specific model, you can do it as follows: `rasa run -i localhost -p 8002 --model models/20220122-164843-charitable-rent.tar.gz`.
+
+
+Start Rasa actions server as follows: `SANIC_HOST=localhost rasa run actions -p 8004`.
 
 #### Notes
 1. Command line interface: https://rasa.com/docs/rasa/command-line-interface
