@@ -1,7 +1,11 @@
+system:
+  preferred_python_version: "3.8"  # Used to create virtual envs, install dependencies
+
 bot_engine: "rasa"
 
 rasa:
   rest_webhook: "http://localhost:8002/webhooks/rest/webhook"
+  expected_launch_duration_sec: 30  # to avoid opening the browser-UI too early
 
 server:
   port: 8000

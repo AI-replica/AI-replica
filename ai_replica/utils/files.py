@@ -73,7 +73,7 @@ def get_main_dir_path(parent_level=1):
 
     parent_level indicates how many levels one must go to reach the main dir,
     counting from the level of the dir where this script is located.
-    Unless you want to move this module to some other place, there is no rason to change the parent_level.
+    Unless you want to move this module to some other place, there is no reason to change the parent_level.
     """
     parent_dir_location = os.path.realpath(
         os.path.join(os.getcwd(), os.path.dirname(__file__))
@@ -133,6 +133,11 @@ def read_json(path):
     with open(path) as f:
         res = json.load(f)
     return res
+
+
+def is_file(fpath):
+    """Returns True if there is a file at the given path, False otherwise."""
+    return os.path.isfile(fpath)
 
 
 PERSONAL_DATA_DIR = os.path.abspath(os.path.dirname(__file__) + "/../../personal_data")
