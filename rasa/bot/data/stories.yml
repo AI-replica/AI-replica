@@ -1,8 +1,23 @@
 # It looks like there is no need to use stories. At least for now.
 # In any case, need to find a way to not too use user stories to reduce complexity and simplify training data.
-# version: "3.0"
+version: "3.0"
 
-# stories:
+stories:
+- story: When were you born?
+  steps:
+  - user: When were you born?
+  - bot: I was born in the year 1706.
+
+- story: Hello!
+  steps:
+  - user: Hello!
+  - bot: Go hell!
+
+- story: Bye!
+  steps:
+  - user: Bye!
+  - action: utter_name
+    
 
 # - story: happy path
 #   steps:
@@ -30,3 +45,5 @@
 #   - action: utter_did_that_help
 #   - intent: deny
 #   - action: utter_goodbye
+
+

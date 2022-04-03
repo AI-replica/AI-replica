@@ -32,3 +32,6 @@ responses:
 
   utter_who_is:
   - text: "OK, I will tell you who {name} is."
+
+  utter_place_of_birth:
+  - text: "I was born in America!"

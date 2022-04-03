@@ -29,6 +29,9 @@ Navigate to the AI-replica dir.
 Run the console bot:
 `python3 console_bot.py`
 
+### Rasa launcher
+`python3 rasa_laucher.py` - installs all the dependnecies and starts rasa server and rasa actions server.
+
 ### Server bot
 Run the server bot (default port is 8000, default address is localhost):
 `python3 server_bot.py`
