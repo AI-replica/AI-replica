@@ -20,7 +20,7 @@ class ActionSearchData(Action):
 
     print("action_search_data is being run")
     text = tracker.latest_message["text"]
-    personal_question = text.replace("Dear Ben.", "")    
+    personal_question = text.replace("Tell me about ", "")    
     bot_answer = get_answer(personal_question)
     dispatcher.utter_message(text="Thinking...")
     dispatcher.utter_message(text=bot_answer)

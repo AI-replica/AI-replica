@@ -1,0 +1,6 @@
+version: "3.0"
+
+nlu:
+- intent: bot_birth_date
+  examples: |
+    - When were you born?

@@ -2,5 +2,6 @@
 .idea
 .rasa
 __pycache__
+dist
 rasa/bot/models
 venv

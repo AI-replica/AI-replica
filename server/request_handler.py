@@ -7,8 +7,7 @@ import requests
 from ai_replica.common import get_answer
 from server.read_config import config
 
-# TODO: read from config.yaml
-STATIC_FILES_DIR = "./web_chat"
+STATIC_FILES_DIR = config['server']['static_files_dir']
 BOT_ENGINE = config['bot_engine']
 RASA_REST_WEBHOOK = config['rasa']['rest_webhook']
 
@@ -28,6 +27,7 @@ class RequestHandler(BaseHTTPRequestHandler):
     # TODO: provide engine logic via a strategy, e.g. implement a separate class/function to process Rasa requests
     if (BOT_ENGINE == "rasa"):
       url = RASA_REST_WEBHOOK
+      # the value of the sender field corresponds to the conversation id in rasa conversation store
       data = {
         "sender": "user",
         "message": user_message,
@@ -55,14 +55,14 @@ class RequestHandler(BaseHTTPRequestHandler):
     if (last_dot_index != -1):
       resource_extension = resource_name[(last_dot_index + 1):]
 
-    content = ""
+    content = None
     content_type = ""
     if (resource_extension != ""):
       file_path = f"{STATIC_FILES_DIR}{path}"
       if (os.path.exists(file_path)):
-        with open(file_path) as f:
+        with open(file_path, "rb") as f:
           content = f.read()
-          content_type = mimetypes.guess_type(path)
+          content_type = mimetypes.guess_type(path)[0]
     else:
       content = self.get_api_get_response()
       content_type = "application/json"
@@ -74,10 +74,8 @@ class RequestHandler(BaseHTTPRequestHandler):
     self.send_header("Content-type", content_type)
     self.end_headers()
     
-    # For some reason, writing into response wstream should happen after send_response method is called.
-    # Otherwise, the content is not sent to the client.
-    # TODO: check why it is so.
-    self.wfile.write(content.encode("utf8"))
+    if content:
+      self.wfile.write(content)
 
   def do_POST(self):
     print(f"POST method is called: {self.path}")
@@ -94,16 +92,19 @@ class RequestHandler(BaseHTTPRequestHandler):
   # Images, links, videos, text formatting, etc.
   # Take into account different possible channels: custom web-chat, WhatsApp, Messenger, Telegram, custom Android chat, etc...
   # Different message formatters should be used depending on the channel
+  # TODO: move message processing logic out of the web server - to the bot engine
   def get_bot_answers_from_rasa_bot_answers(self, response_text):
     rasa_bot_answers = json.loads(response_text)
     if (len(rasa_bot_answers) == 0):
-      return ["Sorry, I have no answer :("]
+      return [[{"type": "text", "content" : "Sorry, I have no answer :("}]]
   
     bot_answers = []    
     for rasa_bot_answer in rasa_bot_answers:
       if (rasa_bot_answer.get("text") != None):
-        bot_answers.append(rasa_bot_answer["text"])
+        bot_answers.append([{"type": "text", "content":rasa_bot_answer["text"]}])
       elif (rasa_bot_answer.get("image") != None):
-          bot_answers.append(rasa_bot_answer["image"])
+        bot_answers.append([{"type": "image", "content": rasa_bot_answer["image"]}])
+      elif (rasa_bot_answer.get("custom") != None):
+        bot_answers.append(rasa_bot_answer["custom"])
 
     return bot_answers
