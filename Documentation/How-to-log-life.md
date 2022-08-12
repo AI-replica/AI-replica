@@ -161,29 +161,31 @@ Do not hesitate to study all the links, if you are a programmer, I recommend tha
 
 ### Resources andd references:
 
-https://www.cnbc.com/2018/03/23/how-to-download-a-copy-of-facebook-data-about-you.html
-https://www.cnbc.com/2018/04/04/everything-twitter-knows-about-you-how-to-download-a-copy.html
-https://www.cnbc.com/2018/04/27/how-to-download-everything-instagram-knows-about-me.html
-https://en.wikipedia.org/wiki/Lifelog
-https://en.wikipedia.org/wiki/Sousveillance
-https://en.wikipedia.org/wiki/Cathal_Gurrin
-https://en.wikipedia.org/wiki/Diary
-https://en.wikipedia.org/wiki/Digital_footprint
-https://en.wikipedia.org/wiki/Dymaxion_Chronofile
-https://en.wikipedia.org/wiki/MyLifeBits
-https://en.wikipedia.org/wiki/Personal_knowledge_base
-https://en.wikipedia.org/wiki/Quantified_self
-https://en.wikipedia.org/wiki/Mind_map
-https://es.wikipedia.org/wiki/Westworld_(serie_de_televisi%C3%B3n)
+- https://www.cnbc.com/2018/03/23/how-to-download-a-copy-of-facebook-data-about-you.html
+
+- https://www.cnbc.com/2018/04/04/everything-twitter-knows-about-you-how-to-download-a-copy.html
+- https://www.cnbc.com/2018/04/27/how-to-download-everything-instagram-knows-about-me.html
+- https://en.wikipedia.org/wiki/Lifelog
+- https://en.wikipedia.org/wiki/Sousveillance
+- https://en.wikipedia.org/wiki/Cathal_Gurrin
+- https://en.wikipedia.org/wiki/Diary
+- https://en.wikipedia.org/wiki/Digital_footprint
+- https://en.wikipedia.org/wiki/Dymaxion_Chronofile
+- https://en.wikipedia.org/wiki/MyLifeBits
+- https://en.wikipedia.org/wiki/Personal_knowledge_base
+- https://en.wikipedia.org/wiki/Quantified_self
+- https://en.wikipedia.org/wiki/Mind_map
+- https://es.wikipedia.org/wiki/Westworld_(serie_de_televisi%C3%B3n)
 
 ### Complementary tools:
 
-GoldenDict
-Google Translator
-DeepL translator
-Wikipedia
-LibreOffice
-Linux
-GitHub
+- GoldenDict
+- Google Translator
+- DeepL translator
+- Wikipedia
+- LibreOffice
+- Linux
+- GitHub
+- And many, many love from Open Source community. 🦖
 
-[Working progress ... ]
+- [Working progress ... ]
