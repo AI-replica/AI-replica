@@ -1,6 +1,6 @@
 # _How to log life at the highest level._
 
-# Summary.
+# Abstract.
 
 This white paper is an essay on how to collect and optimize data extraction from a human down to the finest detail. And its possible utilities and uses. It is collaborative and evolutionary. The principles of formal and polite debate, the scientific method, and the principles of engineering and law are used.
 
