@@ -1,4 +1,4 @@
-How to download a copy of everything Facebook knows about you
+#How to download a copy of everything Facebook knows about you
 
 You can download your own archive of this data from Facebook. Here’s how:
 
@@ -32,7 +32,7 @@ Click or tap "Request archive."
 
 Wait to receive a notification for when the ZIP file of your Twitter archive is ready for download. It can take up to 24 hours for the file to be ready, at which point you will receive either a push notification on the mobile app or an email to your connected account.
 
-How do I access or review my data on Instagram?
+# How do I access or review my data on Instagram?
 
 You're in control of your data on Instagram. You can view your account data or download a copy of your data on Instagram at any time. Reviewing your data on Instagram
 
@@ -85,7 +85,8 @@ To download a copy of your blog from Blogger:
     Click Download
 
 Your blog content will immediately start downloading.
-How can I make a copy of the content of the applications on my cell phone?
+
+# How can I make a copy of the content of the applications on my cell phone?
 
 In this case we will not make a guide about it, because there can be as many guides as applications on the market. Before installing such an application on your computer or mobile or tablet, do not hesitate to verify that the program can upload the records to the cloud. Either to a virtual hard disk on the Internet or to your email account with free storage space.
 
