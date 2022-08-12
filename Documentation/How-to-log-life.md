@@ -99,4 +99,36 @@ Also the use of audio recordings from chat applications or voice-to-text transcr
 
 All bureaucratic documentation can be saved in PDF format by cell phone, either by photo or by the free program ScanPDF on Android. Psychological and psychiatric tests are also a great source of information or sessions with a psychologist or psychiatrist. After starting this compilation it is very important to classify and sort all the data by format and subject for further conceptual processing by the future artificial intelligence program.
 
+# How to make private life record.
+
+Although the private registry of life has evolved a lot for both the public and private parts, a final phase can be added.
+
++ Our public behavior is different from our private behavior due to social conditioning. We should not only carry a camera or smart glasses that record all our vital and general data at all times and filter out irrelevant or repetitive information thanks to the latest advances in artificial intelligence and records of structured and unstructured information.
+
++ The solution to the private part refers to the life we ​​lead alone in our house or in private places, which is where our true person appears. There we have soliloquies, monologues or guttural conversation that express our private thoughts (it is curious that in experiments with myographs the movement of the human tongue has been recorded when thinking, with laryngophones the phonation when thinking, with written records and EEG the thinking; It turns out that all three are the same. And you don't even need a laryngophone, just a high-sensitivity tracking and directional microphone to pick up your 'inner voice.' And there are very cheap wireless tracking and tuning webcams with microphones for home.)
+
++ My idea is to set up a WiFi CCTV connected to the computer with presence and movement monitoring. And then apply image and signal processing to, through various algorithms, both classic and artificial intelligence, extract all possible information from the subject to process it and convert it into a complex multi-dimensional data set.
+
++ By itself it is not to save the videos constantly, it is to extract the essence of the individual. If one searches in depth on the Internet then one will find a multitude of tools and algorithms easily translatable to Python or the language of choice to create a meta-algorithm for feature extraction, analysis and data set generation on the smallest detail:
+
+- facial, tonal, posture, gestural, sign language, micro expressions, voice, inner voice, blinking, pupil dilation, body temperature, pulse, breathing, appearance, voice, stress, emotion, feeling, attention, health, safety , habits, aesthetics, way of dressing, tastes, fashion, conditioning, reasoning, dreams [record while you sleep and if you keep a dream diary then you can cross the information and infer a lot.] and obviously use the other devices or programs or media logging to match data in a matrix and use other algorithms to deduce patterns, cause and effect, etc.
+Including location [environmental behavior determinism], climate, ecology, work, studies, classic vital registration, etc.
+
+- Graph-logical and stylometry analysis can also extract information from the subject.
+
++ Also include complete psychological, psychiatric, medical, sports, genetic and biochemical analyses, genealogical and educational and bibliographic, film-graphic, musical, documentary, etc.
+
++ Transfer all this information to digital format of high richness but low weight, order it, classify it, index it, analyze it algorithmically, professionally and personally.
+
++ There is also one last tool: The 360º interview
+It is a highly detailed interview made to friends, couples, lovers, family members, co-workers, social networks, professionals, etc.
+To get as much information as possible, the most detailed, the most accurate, the ideal and the real and the unpleasant.
+
++ Then process it with tools for both structured and unstructured formats and then pass analysis tools, all possible.
+Finally, a multi-dimensional and multi-format data set must be assembled to use a machine learning algorithm with an assembly of all the learning algorithms and create a continuous incremental model.
+
+Note from one of the authors: although initially it is oriented to a basic verbal model to follow an MVP philosophy to be realistic, the ideal is to use the complete model in detail within the Google GATO system, as it is the first type of AI system. general. And connected to a regulatory system based on the most comprehensive and general cognitive architecture that mimics the human brain based on long-standing, highly-reviewed research. Thus, the copy, which is still an artificial human agent that duplicates its original, can both function as a chat robot, as an avatar in virtual reality or eventually in a realistic robot or humanoid body in the real world.
+
+
+
 [Working progress ... ]
