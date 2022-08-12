@@ -192,6 +192,15 @@ Do not hesitate to study all the links, if you are a programmer, I recommend tha
 - https://en.wikipedia.org/wiki/Mind_map
 - https://es.wikipedia.org/wiki/Westworld_(serie_de_televisi%C3%B3n)
 - https://teachablemachine.withgoogle.com/
+- http://www.openbookproject.net/books/
+- http://aurellem.org/society-of-mind/
+- https://www.philocomp.net/
+- http://www.rossashby.info/index.html
+- http://esgs.free.fr/es/bibl.htm
+- https://generalsemantics.org/
+- http://pespmc1.vub.ac.be/
+- https://es.wikipedia.org/wiki/Artificial_intelligence
+
 
 ### Complementary tools:
 
