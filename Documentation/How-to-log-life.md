@@ -1,3 +1,16 @@
+# _How to log life at the highest level._
+
+# Summary.
+
+This white paper is an essay on how to collect and optimize data extraction from a human down to the finest detail. And its possible utilities and uses. It is collaborative and evolutionary. The principles of formal and polite debate, the scientific method, and the principles of engineering and law are used.
+
+The various information extraction methods for humans (and eventually pets) are compiled, explained, developed and updated.
+for later computer reconstruction in a computer program that is as accurate and credible as possible.
+
+Since it is not known if it will be successful, then this work falls into the field of research and development.
+
+Since it is not possible to make reliable predictions, absolutely nothing is guaranteed at this point.
+
 # How to download a copy of everything Facebook knows about you
 
 You can download your own archive of this data from Facebook. Here’s how:
