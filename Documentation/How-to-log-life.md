@@ -153,6 +153,8 @@ To get as much information as possible, the most detailed, the most accurate, th
 + Then process it with tools for both structured and unstructured formats and then pass analysis tools, all possible.
 Finally, a multi-dimensional and multi-format data set must be assembled to use a machine learning algorithm with an assembly of all the learning algorithms and create a continuous incremental model.
 
++ A good way to continuously and automatically generate a data set is to create a Python module that exploits the functions of Google's Techeable machine to create various types of models based on real-time data.
+
 ## Note from one of the authors: 
 although initially it is oriented to a basic verbal model to follow an MVP philosophy to be realistic, the ideal is to use the complete model in detail within the Google GATO system, as it is the first type of AI system. general. And connected to a regulatory system based on the most comprehensive and general cognitive architecture that mimics the human brain based on long-standing, highly-reviewed research. Thus, the copy, which is still an artificial human agent that duplicates its original, can both function as a chat robot, as an avatar in virtual reality or eventually in a realistic robot or humanoid body in the real world.
 
@@ -176,6 +178,7 @@ Do not hesitate to study all the links, if you are a programmer, I recommend tha
 - https://en.wikipedia.org/wiki/Quantified_self
 - https://en.wikipedia.org/wiki/Mind_map
 - https://es.wikipedia.org/wiki/Westworld_(serie_de_televisi%C3%B3n)
+- https://teachablemachine.withgoogle.com/
 
 ### Complementary tools:
 
