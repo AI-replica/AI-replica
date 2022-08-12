@@ -1,4 +1,4 @@
-#How to download a copy of everything Facebook knows about you
+# How to download a copy of everything Facebook knows about you
 
 You can download your own archive of this data from Facebook. Here’s how:
 
