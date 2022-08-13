@@ -24,8 +24,10 @@ def is_expected_python_version(expected_version):
     return actual_version.startswith(expected_version)
 
 
-def get_python_exec_name(python_version):
+def get_python_exec_name(python_version=None):
     """Returns a string like 'python3.8', given the python version (e.g. '3.8')"""
+    if python_version == None:
+        return "python3"
     return "python" + python_version
 
 

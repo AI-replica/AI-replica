@@ -60,3 +60,7 @@ body {
 #avatar img {
   width: 100%;
 }
+
+#chat_player {
+  display: none;
+}

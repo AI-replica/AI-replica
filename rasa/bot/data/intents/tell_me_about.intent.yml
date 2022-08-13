@@ -1,7 +1,7 @@
 # this intent indicates that user wants to know something about the bot and the answers should be searched in the bot's data
 # currenlty, it is indicated by the 'Dear Ben' part but better method can be used. E.g. if there is no high-confident intent detected, then
 # the bot's free text data can be searched. If the search returns no high confidence response, "I don't know" message is shown.
-version: "3.0"
+version: "3.1"
 
 nlu:
 - intent: tell_me_about

@@ -1,8 +1,13 @@
-version: "3.0"
+version: "3.1"
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
+  - text: "Hey!"
+  - text: "Hello! :)"
+
+  utter_greet_with_name:
+  - text: "Hey, {user_name}. How are you?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -16,6 +21,7 @@ responses:
 
   utter_goodbye:
   - text: "Bye."
+  - text: "Goodbye."
 
   utter_iamabot:
   - text: "I am a bot of Benjamin Franklin."
@@ -33,8 +39,24 @@ responses:
   utter_birth_place:
   - text: I was born in Boston, Massachusetts, United States of America
 
+  utter_i_will_remember_it:
+  - text: "OK, I will remember it! :)"
+
   utter_tell_me_about:
   - text: "OK, I will tell you about it..."
 
-  utter_who_is:
-  - text: "OK, I will tell you who {name} is."
+  utter_suggest_to_buy_apples:
+  - text: "Then go and buy apples! :)"
+
+  utter_user_name:
+  - text: "Your name is {user_name}. :)"
+  - text: "To the best of my knowledge, your name is {user_name}. :)"
+  - text: "{user_name}"
+
+  utter_user_favorite_color:
+  - text: "Your favorite color is {user_favorite_color}!"
+  - text: "To the best of my knowledge, your favorite color is {user_favorite_color}. :)"
+  - text: "{user_favorite_color} :)"
+
+#  utter_who_is:
+#   - text: "OK, I will tell you who {name} is."

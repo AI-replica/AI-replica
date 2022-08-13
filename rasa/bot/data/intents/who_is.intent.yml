@@ -1,6 +1,6 @@
 # this intent indicates that user wants bot to perform some custom action, in particular to check in Internet who the specific person is
 # other useful actions that are bot-independent can be added by example: e.g. calculator, current weather, time in a city, etc.
-version: "3.0"
+version: "3.1"
 
 nlu:
 - intent: who_is
