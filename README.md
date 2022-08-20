@@ -28,6 +28,16 @@ Navigate to the AI-replica dir.
 
 Install `make` tool, so that you can execute useful commands from project's `makefile`.
 
+Make sure Python3.9 is installed in the system and available via `python3.9` command. Also make sure that the following packages are installed: `python3.9-distutils`, `python3.9-venv`, `python3.9-dev`. (You can install them by running `sudo apt install python3.9-dev python3.9-venv python3.9-distutils`)
+
+Create and activate virtual environment: 
+```
+python3.9 -m venv venv
+source venv/bin/activate
+```
+
+All the following commands should be performed under the created virtual environment.
+
 ## 2. How to use: Console bot
 
 Make sure that [Prerequisites ](#1-how-to-use-prerequisites) are satisfied.
@@ -38,6 +48,8 @@ Run the console bot:
 ## 3. How to use: Server bot
 
 Make sure that [Prerequisites ](#1-how-to-use-prerequisites) are satisfied.
+
+Install some dependencies required to run `install_replica_dependencies` command: `python3 -m pip install gtts requests psutil PyYAML`.
 
 By default the server uses Rasa. 
 Install Rasa if not installed. You can do it manually (see [Rasa docs](./documentation/rasa.md)) or run the following command:
