@@ -34,9 +34,6 @@ Install PyYAML Python module. It is required to read yaml config.
 
 `make install_yaml`
 
-All the following commands should be performed under the created virtual environment.
-
-
 ## 2. How to use: Console bot
 
 Make sure that [Prerequisites ](#1-how-to-use-prerequisites) are satisfied.
@@ -48,25 +45,27 @@ Run the console bot:
 
 Make sure that [Prerequisites ](#1-how-to-use-prerequisites) are satisfied.
 
-Install some dependencies required to run `install_replica_dependencies` command: 
-`python3 -m pip install gtts requests psutil PyYAML`.
-
 By default the server uses Rasa. 
 Install Rasa if not installed. You can do it manually (see [Rasa docs](./documentation/rasa.md)) or run the following command:
+
 `make install_replica_dependencies`.
 
 Activate the created venv (it should be created in the root folder):
+
 `source venv/bin/activate`
 
 Make sure that all the subsequent commands are executed in the venv.
 
 Build UI chat by runnning:
+
 `make build_ui`
 
 Train Rasa model:
+
 `make train_rasa_model`
 
 Then you can launch all the servers by running:
+
 `make start_all`
 
 The UI chat will be available at `http://localhost:8000`.
