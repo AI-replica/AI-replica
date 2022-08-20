@@ -34,15 +34,6 @@ Install PyYAML Python module. It is required to read yaml config.
 
 `make install_yaml`
 
-
-(Potentially, you do not need to create a virtual env manually as it can be done via install dependencies command).
-
-Create and activate virtual environment: 
-```
-python3.9 -m venv venv
-source venv/bin/activate
-```
-
 All the following commands should be performed under the created virtual environment.
 
 
@@ -63,6 +54,11 @@ Install some dependencies required to run `install_replica_dependencies` command
 By default the server uses Rasa. 
 Install Rasa if not installed. You can do it manually (see [Rasa docs](./documentation/rasa.md)) or run the following command:
 `make install_replica_dependencies`.
+
+Activate the created venv (it should be created in the root folder):
+`source venv/bin/activate`
+
+Make sure that all the subsequent commands are executed in the venv.
 
 Build UI chat by runnning:
 `make build_ui`

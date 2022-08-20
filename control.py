@@ -23,8 +23,6 @@ from rasa.utils import (
     install_rasa_dependencies,
     get_paths as get_rasa_paths,
 )
-from server_bot import stop_server as stop_basic_server
-
 
 rasa_required_python = config["system"]["rasa_preferred_python_version"]
 expected_launch_duration_sec = config["rasa"]["expected_launch_duration_sec"]
@@ -73,6 +71,9 @@ def restart_servers(rasa_path, work_dir, launch_bools):
         start_rasa_actions_server(rasa_path, work_dir)
 
     if launch_bools["basic"]:
+         # Importing it here to avoid problems with requirements installation automation
+        from server_bot import stop_server as stop_basic_server
+        
         stop_basic_server()
         build_web_chat()
         python_name = get_python_exec_name()
