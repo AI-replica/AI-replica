@@ -14,6 +14,8 @@ install_replica_dependencies:
 	python3 control.py install_replica_dependencies
 install_requirements:
 	python3 -m pip install -r requirements.txt
+install_yaml:
+	python3 -m pip install PyYAML
 reconstruct_mind:
 	python3 control.py reconstruct_mind
 run_console_bot:

@@ -28,7 +28,14 @@ Navigate to the AI-replica dir.
 
 Install `make` tool, so that you can execute useful commands from project's `makefile`.
 
-Make sure Python3.9 is installed in the system and available via `python3.9` command. Also make sure that the following packages are installed: `python3.9-distutils`, `python3.9-venv`, `python3.9-dev`. (You can install them by running `sudo apt install python3.9-dev python3.9-venv python3.9-distutils`)
+Make sure Python3.9 is installed in the system and available via `python3.9` command. Also make sure that the following packages are installed: `python3.9-distutils`, `python3.9-venv`, `python3.9-dev`. (You can install them by running `sudo apt install python3.9-dev python3.9-venv python3.9-distutils`).
+
+Install PyYAML Python module. It is required to read yaml config.
+
+`make install_yaml`
+
+
+(Potentially, you do not need to create a virtual env manually as it can be done via install dependencies command).
 
 Create and activate virtual environment: 
 ```
@@ -37,6 +44,7 @@ source venv/bin/activate
 ```
 
 All the following commands should be performed under the created virtual environment.
+
 
 ## 2. How to use: Console bot
 
