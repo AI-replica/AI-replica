@@ -12,6 +12,8 @@ install_rasa:
 	echo "Not implemented..."
 install_replica_dependencies:
 	python3 control.py install_replica_dependencies
+install_requirements:
+	python3 -m pip install -r requirements.txt
 reconstruct_mind:
 	python3 control.py reconstruct_mind
 run_console_bot:

@@ -64,19 +64,19 @@ def restart_servers(rasa_path, work_dir, launch_bools):
         launch_bools = dict.fromkeys(launch_bools, True)
         train_model(rasa_path, work_dir)
 
-        if launch_bools["main_rasa"]:
-            stop_a_rasa_server(rasa_path, server_name="main")
-            start_rasa_main_server(rasa_path, work_dir)
+    if launch_bools["main_rasa"]:
+        stop_a_rasa_server(rasa_path, server_name="main")
+        start_rasa_main_server(rasa_path, work_dir)
 
-        if launch_bools["actions_rasa"]:
-            stop_a_rasa_server(rasa_path, server_name="actions")
-            start_rasa_actions_server(rasa_path, work_dir)
+    if launch_bools["actions_rasa"]:
+        stop_a_rasa_server(rasa_path, server_name="actions")
+        start_rasa_actions_server(rasa_path, work_dir)
 
-        if launch_bools["basic"]:
-            stop_basic_server()
-            build_web_chat()
-            python_name = get_python_exec_name()
-            execute_command(python_name, "server_bot.py", run_in_another_terminal7=True)
+    if launch_bools["basic"]:
+        stop_basic_server()
+        build_web_chat()
+        python_name = get_python_exec_name()
+        execute_command(python_name, "server_bot.py", run_in_another_terminal7=True)
 
 
 def build_web_chat():
@@ -103,50 +103,49 @@ def execute_control_command():
         "basic": False,
     }
 
-    match cmd_args.command:
-        case "install_replica_dependencies":
-            install_replica_dependencies(rasa_required_python)
-            exec_rasa, work_dir_rasa = install_rasa_dependencies(rasa_required_python)
+    command = cmd_args.command
+    if command == None:
+        print("Default command: currently no default command defined.")
+    elif command == "install_replica_dependencies":
+        install_replica_dependencies(rasa_required_python)
+        exec_rasa, work_dir_rasa = install_rasa_dependencies(rasa_required_python)
+    elif command == "rasa_launcher":
+        install_replica_dependencies(rasa_required_python)
+        exec_rasa, work_dir_rasa = install_rasa_dependencies(rasa_required_python)
+        restart_servers(exec_rasa, work_dir_rasa, args)
 
-        case "rasa_launcher":
-            install_replica_dependencies(rasa_required_python)
-            exec_rasa, work_dir_rasa = install_rasa_dependencies(rasa_required_python)
-            restart_servers(exec_rasa, work_dir_rasa, args)
-
-            time.sleep(expected_launch_duration_sec)
-            open_url_in_browser("http://localhost:8000/")
-        case "reconstruct_mind":
-            print("Reconstruction started.")
-            reconstruct()
-            print("Reconstruction completed.")
-        case "start_rasa_server":
-            start_rasa_server(
-                rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"]
-            )
-        case "start_rasa_server_with_debug_logs":
-            start_rasa_server_with_debug_logs(
-                rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"]
-            )
-        case "start_rasa_actions":
-            args["actions_rasa"] = True
-            restart_servers(
-                rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"], args
-            )
-        case "start_server":
-            args["basic"] = True
-            restart_servers(
-                rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"], args
-            )
-        case "start_ui":
-            open_url_in_browser("http://localhost:8000/")
-        case "train_rasa_model":
-            print("Training Rasa model...", rasa_paths)
-            train_model(rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"])
-            print("Training Rasa model completed.")
-        case None:
-            print("Default command: currently no default command defined.")
-        case _:
-            print("Invalid command", cmd_args.command)
+        time.sleep(expected_launch_duration_sec)
+        open_url_in_browser("http://localhost:8000/")
+    elif command == "reconstruct_mind":
+        print("Reconstruction started.")
+        reconstruct()
+        print("Reconstruction completed.")
+    elif command == "start_rasa_server":
+        start_rasa_server(
+            rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"]
+        )
+    elif command == "start_rasa_server_with_debug_logs":
+        start_rasa_server_with_debug_logs(
+            rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"]
+        )
+    elif command == "start_rasa_actions":
+        args["actions_rasa"] = True
+        restart_servers(
+            rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"], args
+        )
+    elif command == "start_server":
+        args["basic"] = True
+        restart_servers(
+            rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"], args
+        )
+    elif command == "start_ui":
+        open_url_in_browser("http://localhost:8000/")
+    elif command == "train_rasa_model":
+        print("Training Rasa model...", rasa_paths)
+        train_model(rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"])
+        print("Training Rasa model completed.")          
+    else:
+        print("Invalid command", cmd_args.command)
 
 
 if __name__ == "__main__":
