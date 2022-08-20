@@ -46,6 +46,9 @@ Install Rasa if not installed. You can do it manually (see [Rasa docs](./documen
 Build UI chat by runnning:
 `make build_ui`
 
+Train Rasa model:
+`make train_rasa_model`
+
 Then you can launch all the servers by running:
 `make start_all`
 
@@ -59,7 +62,7 @@ By default, Rasa bot engine is used. Before running the server, make sure that:
 
 To turn off Rasa engine, change the value of the `bot_engine setting` in `config.yaml`.
 
-For how to start Rasa, check the document [Rasa](#rasa).
+For how to start Rasa, check [Rasa docs](./documentation/rasa.md).
 
 ### Launch server
 
