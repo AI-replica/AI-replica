@@ -4,6 +4,10 @@ rasa_python_path := ./rasa/venv/bin/python3
 
 build_ui:
 	python3 build_web_chat.py
+format_code:
+	black .
+freeze_requirements:
+	python3 -m pip freeze > requirements.txt
 install_rasa:
 	echo "Not implemented..."
 install_replica_dependencies:

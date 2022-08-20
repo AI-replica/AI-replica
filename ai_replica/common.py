@@ -62,4 +62,3 @@ def get_answer(user_input, custom_model=None, seed=None):
     if res is None:
         res = get_model_answer(user_input, custom_model=custom_model, seed=seed)
     return res
-

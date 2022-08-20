@@ -29,7 +29,7 @@ def tokenize(text):
     ['junto', 'furnished', 'a', 'part', 'the', 'next', 'was', 'to', 'write', 'a', 'pamphlet', 'and', 'we', 'wrote', 'the', 'thing']
     """
     # common_punctuation = ".,:-“。，！？：×“”〟"
-    almost_no_punctuation = text.translate(str.maketrans('', '', string.punctuation))
+    almost_no_punctuation = text.translate(str.maketrans("", "", string.punctuation))
     lowered = almost_no_punctuation.lower()
     tokens = lowered.split()
     return tokens

@@ -9,10 +9,7 @@ import server.data_access as data_access
 
 
 def run_server(
-    server_class=HTTPServer,
-    handler_class=RequestHandler,
-    addr=None,
-    port=None
+    server_class=HTTPServer, handler_class=RequestHandler, addr=None, port=None
 ):
     server_address = (addr, port)
     httpd = server_class(server_address, handler_class)
@@ -29,7 +26,7 @@ def stop_server(python_version=None):
 
 
 def parse_arguments():
-    ''' Parses command line arguments. '''
+    """Parses command line arguments."""
     parser = argparse.ArgumentParser(description="Run a simple HTTP server")
     parser.add_argument(
         "-a",

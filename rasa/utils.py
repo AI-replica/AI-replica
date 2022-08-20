@@ -45,15 +45,13 @@ def install_rasa_dependencies(required_python):
     return rasa_exec, work_dir
 
 
-def start_rasa_main_server(rasa_exec, working_dir, options = None):
+def start_rasa_main_server(rasa_exec, working_dir, options=None):
     """Starts the main Rasa server by executing a command like this: `rasa run -i localhost -p 8002`."""
     command = main_server_command
     if options != None:
         command = command + " " + options
 
-    execute_command(
-        rasa_exec, command , working_dir, run_in_another_terminal7=True
-    )
+    execute_command(rasa_exec, command, working_dir, run_in_another_terminal7=True)
 
 
 def start_rasa_actions_server(rasa_exec, working_dir):

@@ -15,7 +15,7 @@ def load_model(load_path):
     """
     loaded_model = read_json(load_path)
     return loaded_model
-    
+
 
 global_model = load_model(f"{PERSONAL_DATA_DIR}/reconstructed_mind_models/model.txt")
 

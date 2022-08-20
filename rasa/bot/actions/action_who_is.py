@@ -7,38 +7,42 @@ from rasa_sdk.executor import CollectingDispatcher
 
 
 class ActionWhoIs(Action):
+    def name(self) -> Text:
+        return "action_who_is"
 
-  def name(self) -> Text:
-    return "action_who_is"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
 
-  def run(
-    self, 
-    dispatcher: CollectingDispatcher,
-    tracker: Tracker,
-    domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        print("action_who_is is being run")
+        entities = tracker.latest_message["entities"]
+        name_entity = None
+        for entity in entities:
+            if entity["entity"] == "name":
+                name_entity = entity
 
-    print("action_who_is is being run")
-    entities = tracker.latest_message["entities"]
-    name_entity = None
-    for entity in entities:
-      if entity["entity"] == "name":
-        name_entity = entity
+        name = name_entity["value"] if name_entity else None
+        if name:
+            # TODO: return data about requested person using Wikipedia API
+            # TODO: think about how to return formatted text data, including links, to different channels, Web, Android, etc.
+            # It looks like a channel-specific formatters should be introduced here.
+            message = [
+                {"type": "text", "content": f"Try to check about {name} here: "},
+                {
+                    "type": "link",
+                    "text": f"https://en.wikipedia.org/wiki/{name}",
+                    "link": f"https://en.wikipedia.org/wiki/{name}",
+                },
+                {"type": "text", "content": "."},
+            ]
+            dispatcher.utter_message(json_message=message)
+        else:
+            message = [
+                {"type": "text", "content": f"I have no clue."},
+            ]
+            dispatcher.utter_message(json_message=message)
 
-    name = name_entity["value"] if name_entity else None
-    if name:
-      # TODO: return data about requested person using Wikipedia API
-      # TODO: think about how to return formatted text data, including links, to different channels, Web, Android, etc.
-      # It looks like a channel-specific formatters should be introduced here.
-      message = [
-        {"type": "text", "content": f"Try to check about {name} here: "},
-        {"type": "link", "text": f"https://en.wikipedia.org/wiki/{name}", "link": f"https://en.wikipedia.org/wiki/{name}"},
-        {"type": "text", "content": "."},
-      ]      
-      dispatcher.utter_message(json_message = message)
-    else:
-      message = [
-        {"type": "text", "content": f"I have no clue."},
-      ]
-      dispatcher.utter_message(json_message = message)
-
-    return []
+        return []
