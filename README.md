@@ -57,7 +57,8 @@ Run the console bot:
 
 Make sure that [Prerequisites ](#1-how-to-use-prerequisites) are satisfied.
 
-Install some dependencies required to run `install_replica_dependencies` command: `python3 -m pip install gtts requests psutil PyYAML`.
+Install some dependencies required to run `install_replica_dependencies` command: 
+`python3 -m pip install gtts requests psutil PyYAML`.
 
 By default the server uses Rasa. 
 Install Rasa if not installed. You can do it manually (see [Rasa docs](./documentation/rasa.md)) or run the following command:
