@@ -138,6 +138,19 @@ Also the use of audio recordings from chat applications or voice-to-text transcr
 
 All bureaucratic documentation can be saved in PDF format by cell phone, either by photo or by the free program ScanPDF on Android. Psychological and psychiatric tests are also a great source of information or sessions with a psychologist or psychiatrist. After starting this compilation it is very important to classify and sort all the data by format and subject for further conceptual processing by the future artificial intelligence program.
 
+# How to save all information from Anki software.
+
+Anki is a software for spaced repetition, where you place flash cards in a Q-A style for improve the learning.
+You can save the information by the follow instruction: https://docs.ankiweb.net/exporting.html
+
+# How to save your zettelkasten and why
+
+A Zettlecasten or slip-box it's a way to store, proccese and inter-relate information in a similar way like flashcards, but little more elaborated.
+Exist multiple software, but the two main software who fit in the task is: tomboy and zettlr, both run in Windows, mac and Linux.
+Both can export the cards into text format. Follow the links at the end of file.
+The reason you need to save the slip-box is because is similar to your stream of thoughts and can help to save your thinking pattenrs.
+
+
 # How to make a private life record.
 
 Although the private registry of life has evolved a lot for both the public and private parts, a final phase can be added.
@@ -200,7 +213,9 @@ Do not hesitate to study all the links, if you are a programmer, I recommend tha
 - https://generalsemantics.org/
 - http://pespmc1.vub.ac.be/
 - https://es.wikipedia.org/wiki/Artificial_intelligence
-
+- https://docs.ankiweb.net/exporting.html
+- https://en.wikipedia.org/wiki/Zettelkasten
+- https://wiki.gnome.org/Apps/Tomboy
 
 ### Complementary tools:
 
