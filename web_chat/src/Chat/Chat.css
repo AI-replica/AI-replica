@@ -1,0 +1,43 @@
+#chat_player {
+  display: none;
+}
+
+#input {
+  width: 100%;
+}
+
+.input {
+  height: 50px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#messages {
+  height: calc(100vh - 100px);
+  overflow-y: scroll;
+}
+
+.message {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.message-name {
+  font-weight: bold;
+}
+
+.message_bot-message {
+  background-color: #cccccc;
+  margin-left: 30px;
+}
+
+.message_user-message {
+  background-color: #87ceeb;
+  margin-right: 30px;
+}
+
+.message__image {
+  width: 100%;
+}

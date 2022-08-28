@@ -3,10 +3,16 @@ version: "3.1"
 entities:
   # user's favorite color
   - color
+  - GPE # spaCy
+  - language:
+      roles:
+      - from
+      - to
   # name of a user interacting with the bot;
   # name of a person a bot is asked about;
   - name 
-  - personal_question
-  - PERSON # spaCy
-  - GPE # spaCy
   - ORG # spaCy
+  - PERSON # spaCy
+  - personal_question
+  - thing
+  - word_to_translate

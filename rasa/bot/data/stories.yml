@@ -17,6 +17,21 @@ stories:
 #   - user: Bye!
 #   - bot: Goodbye!
 
+- story: User asks if I am the bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: User asks for the name.
+  steps:
+  - intent: bot_name
+  - action: utter_name
+
+- story: User provides their favorite color
+  steps:
+  - intent: user_provides_their_favorite_color
+  - action: utter_i_will_remember_it
+
 - story: User says Hello
   steps:
   - intent: greet
@@ -26,3 +41,63 @@ stories:
   steps:
   - intent: goodbye
   - action: utter_goodbye
+
+- story: User says their name
+  steps:
+  - intent: user_name 
+  - action: utter_greet_with_name
+
+- story: User asks to tell their favorite color.
+  steps:
+  - intent: user_asks_their_favorite_color
+  - action: utter_user_favorite_color
+
+- story: User asks to tell their name.
+  steps:
+  - intent: user_asks_their_name
+  - action: utter_user_name
+
+- story: User asks for birth date
+  steps:
+  - intent: bot_birth_date
+  - action: utter_birth_date
+
+- story: User asks for birth place
+  steps:
+  - intent: bot_birth_place
+  - action: utter_birth_place
+
+- story: User is feeling bad
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+
+- story: User asks for info from personal data.
+  steps:
+  - intent: tell_me_about
+  - action: action_search_data
+
+- story: User asks the price of a thing
+  steps:
+  - intent: price_of_thing
+  - action: action_price_of_thing
+
+- story: User asks to provide info about a thing.
+  steps:
+  - intent: what_is
+  - action: action_what_is
+
+- story: User asks to provide information abut a person.
+  steps:
+  - intent: who_is
+  - action: action_who_is
+
+- story: User asks to translate a word form one language to another
+  steps:
+  - intent: translate_from_to
+  - action: action_translate_from_to
+
+- story: User wants to buy apples.
+  steps:
+  - intent: want_buy_apples
+  - action: utter_suggest_to_buy_apples

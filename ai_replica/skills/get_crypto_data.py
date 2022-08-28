@@ -1,6 +1,10 @@
 from ai_replica.utils.nlp import is_some_keyword_in_text
 
 """A skill that allows the replica to get the current cryptocurrencies data."""
+""" 
+    The skill is available as Rasa action. See action_price_of_thing. 
+    TODO: remove this skill? 
+"""
 
 
 def is_skill_relevant(user_input):

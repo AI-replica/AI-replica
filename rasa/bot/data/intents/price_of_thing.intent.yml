@@ -1,0 +1,7 @@
+version: "3.1"
+
+nlu:
+- intent: price_of_thing
+  examples: |
+    - What is the price of [Bitcoin]{"entity": "thing"}.
+    - What is the price of [Ethereum]{"entity": "thing"}.

@@ -3,5 +3,5 @@ version: "3.1"
 nlu:
 - intent: want_buy_apples
   examples: |
-    - I want to buy fruits.
-    - I want to buy some fruits.
+    - I want to buy apples.
+    - I want to buy some apples.

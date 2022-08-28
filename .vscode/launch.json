@@ -5,6 +5,14 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Python: main server",
+      "type": "python",
+      "request": "launch",
+      "program": "server_bot.py",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+    {
       "name": "Python: Remote Attach",
       "type": "python",
       "request": "attach",

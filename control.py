@@ -6,7 +6,7 @@ It relies on some linux-specific logic, and thus might not work in another OS.
 import sys
 import time
 import argparse
-from server.read_config import config
+from server.utils.read_config import config
 from ai_replica.engine.reconstruct_mind import reconstruct
 from ai_replica.utils.system import (
     execute_command,
@@ -26,6 +26,7 @@ from rasa.utils import (
 
 rasa_required_python = config["system"]["rasa_preferred_python_version"]
 expected_launch_duration_sec = config["rasa"]["expected_launch_duration_sec"]
+web_chat_url = config["server"]["web_chat_url"]
 
 
 def print_notifications():
@@ -71,18 +72,19 @@ def restart_servers(rasa_path, work_dir, launch_bools):
         start_rasa_actions_server(rasa_path, work_dir)
 
     if launch_bools["basic"]:
-         # Importing it here to avoid problems with requirements installation automation
+        # Importing it here to avoid problems with requirements installation automation
         from server_bot import stop_server as stop_basic_server
-        
+
         stop_basic_server()
-        build_web_chat()
+        # build_web_chat()
         python_name = get_python_exec_name()
         execute_command(python_name, "server_bot.py", run_in_another_terminal7=True)
 
 
-def build_web_chat():
-    python_name = get_python_exec_name()
-    execute_command(python_name, "build_web_chat.py", run_in_another_terminal7=False)
+# Now the web chat requires Node.js. Also, the pre-built chat is included into the source files.
+# def build_web_chat():
+#     python_name = get_python_exec_name()
+#     execute_command(python_name, "build_web_chat.py", run_in_another_terminal7=False)
 
 
 def parse_arguments():
@@ -107,16 +109,16 @@ def execute_control_command():
     command = cmd_args.command
     if command == None:
         print("Default command: currently no default command defined.")
-    elif command == "install_replica_dependencies":
+    elif command == "install_dependencies":
         install_replica_dependencies(rasa_required_python)
-        exec_rasa, work_dir_rasa = install_rasa_dependencies(rasa_required_python)
+        install_rasa_dependencies(rasa_required_python)
     elif command == "rasa_launcher":
         install_replica_dependencies(rasa_required_python)
         exec_rasa, work_dir_rasa = install_rasa_dependencies(rasa_required_python)
         restart_servers(exec_rasa, work_dir_rasa, args)
 
         time.sleep(expected_launch_duration_sec)
-        open_url_in_browser("http://localhost:8000/")
+        open_url_in_browser(web_chat_url)
     elif command == "reconstruct_mind":
         print("Reconstruction started.")
         reconstruct()
@@ -140,11 +142,15 @@ def execute_control_command():
             rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"], args
         )
     elif command == "start_ui":
-        open_url_in_browser("http://localhost:8000/")
+        open_url_in_browser(web_chat_url)
+    elif command == "train_core_model":
+        print("Training started.")
+        reconstruct()
+        print("Training completed.")
     elif command == "train_rasa_model":
         print("Training Rasa model...", rasa_paths)
         train_model(rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"])
-        print("Training Rasa model completed.")          
+        print("Training Rasa model completed.")
     else:
         print("Invalid command", cmd_args.command)
 

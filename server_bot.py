@@ -1,21 +1,12 @@
 """ A basic http server. Processes requests from UI chat. """
 
 import argparse
-from http.server import HTTPServer
+import os
 from ai_replica.utils.system import kill_processes, get_python_exec_name
-from server.request_handler import RequestHandler
-from server.read_config import config
-import server.data_access as data_access
-
-
-def run_server(
-    server_class=HTTPServer, handler_class=RequestHandler, addr=None, port=None
-):
-    server_address = (addr, port)
-    httpd = server_class(server_address, handler_class)
-
-    print(f"Server listening on {addr}:{port} ...")
-    httpd.serve_forever()
+from server.utils.read_config import config
+import server.data_access.data_access as data_access
+from server.app import app
+from server.utils.remove_speech_files import remove_outdated_speech_files_on_schedule
 
 
 def stop_server(python_version=None):
@@ -50,7 +41,17 @@ def run():
     args = parse_arguments()
     address = args.address if args.address != None else config["server"]["address"]
     port = args.port if args.port != None else config["server"]["port"]
-    run_server(addr=address, port=port)
+
+    remove_outdated_speech_files_on_schedule()
+    print("Outdated speech files remover started.")
+
+    server_mode = os.environ.get("SERVER_MODE")
+    print("SERVER_MODE", server_mode)
+    dev = True if server_mode == "development" else False
+    debug = True if server_mode == "development" else False
+
+    app.run(host=address, port=port, access_log=True, dev=dev, debug=debug)
+    print("Server started.")
 
 
 if __name__ == "__main__":

@@ -46,4 +46,8 @@ def get_model_answer(user_input, seed=None, custom_model=None):
                 highest_score = score
                 closest_thought = thought
 
+    # no answer found among the thoughts
+    if highest_score == 0:
+        return "I have nothing to say. Probably, it makes sense to google."
+
     return closest_thought["answer"].strip()

@@ -1,11 +1,17 @@
 version: "3.1"
 
 # user provides their name
+# name entity markup is not provided as it is assumed that the spaCy entity extractor used in the pipeline will extract names as the PERSON entity.
 nlu:
 - intent: user_name
   examples: |
-    - My name is [Nikola]{"entity": "name"}
-    - My name is [Elon]{"entity": "name"}
-    - My name is [Isaac]{"entity": "name"}
-    - My name is [Igor Petrov]{"entity": "name"}
-    - My name is [Semen Black]{"entity": "name"}
+    - My name is Nikola.
+    - My name is Elon.
+    - My name is Isaac.
+    - My name is Igor Petrov.
+    - My name is Semen Black.
+  # - My name is [Nikola]{"entity": "name"}
+  # - My name is [Elon]{"entity": "name"}
+  # - My name is [Isaac]{"entity": "name"}
+  # - My name is [Igor Petrov]{"entity": "name"}
+  # - My name is [Semen Black]{"entity": "name"}

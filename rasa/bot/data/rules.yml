@@ -1,5 +1,7 @@
 version: "3.1"
 
+# let's use stories instead of rules as stories are more flexible
+# let's use rules only in case the conversation should always follow the same path
 rules:
 
 # - rule: Say Hello anytime the user says Hello
@@ -7,75 +9,75 @@ rules:
 #   - intent: greet
 #   - action: utter_greet
 
-- rule: Say Hello and user name anytime the user says their name
-  steps:
-  - intent: user_name 
-  - action: utter_greet_with_name
+# - rule: Say Hello and user name anytime the user says their name
+#   steps:
+#   - intent: user_name 
+#   - action: utter_greet_with_name
 
-- rule: Say I will remember it any time user provides their favorite color
-  steps:
-  - intent: user_provides_their_favorite_color
-  - action: utter_i_will_remember_it
+# - rule: Say I will remember it any time user provides their favorite color
+#   steps:
+#   - intent: user_provides_their_favorite_color
+#   - action: utter_i_will_remember_it
 
 # - rule: Say goodbye anytime the user says goodbye
 #   steps:
 #   - intent: goodbye
 #   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+# - rule: Say 'I am a bot' anytime the user challenges
+#   steps:
+#   - intent: bot_challenge
+#   - action: utter_iamabot
 
-- rule: Say the name when user asks for the name.
-  steps:
-  - intent: bot_name
-  - action: utter_name
+# - rule: Say the name when user asks for the name.
+#   steps:
+#   - intent: bot_name
+#   - action: utter_name
 
-- rule: Say user favorite color when user asks to say their favorite color.
-  steps:
-  - intent: user_asks_their_favorite_color
-  - action: utter_user_favorite_color
+# - rule: Say user favorite color when user asks to say their favorite color.
+#   steps:
+#   - intent: user_asks_their_favorite_color
+#   - action: utter_user_favorite_color
 
-- rule: Say user name when user asks to say their name.
-  steps:
-  - intent: user_asks_their_name
-  - action: utter_user_name
+# - rule: Say user name when user asks to say their name.
+#   steps:
+#   - intent: user_asks_their_name
+#   - action: utter_user_name
 
-- rule: Say birth date when user asks for birth date
-  steps:
-  - intent: bot_birth_date
-  - action: utter_birth_date
+# - rule: Say birth date when user asks for birth date
+#   steps:
+#   - intent: bot_birth_date
+#   - action: utter_birth_date
 
-- rule: Say birth place when user asks for birth place
-  steps:
-  - intent: bot_birth_place
-  - action: utter_birth_place
+# - rule: Say birth place when user asks for birth place
+#   steps:
+#   - intent: bot_birth_place
+#   - action: utter_birth_place
 
-- rule: Send a funny picture if a user is feelling bad
-  steps:
-  - intent: mood_unhappy
-  - action: utter_cheer_up
+# - rule: Send a funny picture if a user is feelling bad
+#   steps:
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
 
-- rule: Tell about what user asks. Search in the bot's personal data.
-  steps:
-  - intent: tell_me_about
-  - action: action_search_data
+# - rule: Tell about what user asks. Search in the bot's personal data.
+#   steps:
+#   - intent: tell_me_about
+#   - action: action_search_data
 
-- rule: Tell about a thing when user asks.
-  steps:
-  - intent: what_is
-  - action: action_what_is
+# - rule: Tell about a thing when user asks.
+#   steps:
+#   - intent: what_is
+#   - action: action_what_is
 
-- rule: Tell about a person when user asks.
-  steps:
-  - intent: who_is
-  - action: action_who_is
+# - rule: Tell about a person when user asks.
+#   steps:
+#   - intent: who_is
+#   - action: action_who_is
 
-- rule: Suggest to go and buy apples
-  steps:
-  - intent: want_buy_apples
-  - action: utter_suggest_to_buy_apples
+# - rule: Suggest to go and buy apples
+#   steps:
+#   - intent: want_buy_apples
+#   - action: utter_suggest_to_buy_apples
 
 # FALLBACK
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence

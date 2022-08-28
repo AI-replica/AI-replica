@@ -6,4 +6,5 @@
 __pycache__
 dist
 rasa/bot/models
+server/static/generated
 venv
