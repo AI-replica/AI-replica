@@ -20,16 +20,68 @@ We plan to iteratively expand the replica’s capabilities, to make the conversa
 This software and the sample data are under very permissive Creative Commons Zero v1.0 Universal license
 (basically, it describes a release into the Public Domain). 
 
-## 1. How to use
+## 1. How to use: Prerequisites
 
 Clone this repo.
 
 Navigate to the AI-replica dir.
 
-Run the console bot:
-`python3 console_bot.py`
+Install `make` tool, so that you can execute useful commands from project's `makefile`.
 
-### Server bot
+Make sure Python3.9 is installed in the system and available via `python3.9` command. Also make sure that the following packages are installed: `python3.9-distutils`, `python3.9-venv`, `python3.9-dev`. (You can install them by running `sudo apt install python3.9-dev python3.9-venv python3.9-distutils`).
+
+Install PyYAML Python module. It is required to read yaml config.
+
+`make install_yaml`
+
+## 2. How to use: Console bot
+
+Make sure that [Prerequisites ](#1-how-to-use-prerequisites) are satisfied.
+
+Run the console bot:
+`make run_console_bot`
+
+## 3. How to use: Server bot
+
+Make sure that [Prerequisites ](#1-how-to-use-prerequisites) are satisfied.
+
+By default the server uses Rasa. 
+Install Rasa if not installed. You can do it manually (see [Rasa docs](./documentation/rasa.md)) or run the following command:
+
+`make install_replica_dependencies`.
+
+Activate the created venv (it should be created in the root folder):
+
+`source venv/bin/activate`
+
+Make sure that all the subsequent commands are executed in the venv.
+
+Build UI chat by runnning:
+
+`make build_ui`
+
+Train Rasa model:
+
+`make train_rasa_model`
+
+Then you can launch all the servers by running:
+
+`make start_all`
+
+The UI chat will be available at `http://localhost:8000`.
+
+### Rasa
+
+By default, Rasa bot engine is used. Before running the server, make sure that:
+- Rasa server is being run at `http://localhost:8002`. Can be changed in `config.yaml`. 
+- Rasa actions server is being run at `http://localhost:8004`. 
+
+To turn off Rasa engine, change the value of the `bot_engine setting` in `config.yaml`.
+
+For how to start Rasa, check [Rasa docs](./documentation/rasa.md).
+
+### Launch server
+
 Run the server bot (default port is 8000, default address is localhost):
 `python3 server_bot.py`
 
@@ -39,56 +91,27 @@ or:
 For help, run:
 `python3 server_bot.py -h`
 
-By default, Rasa bot engine is used. Before running the server, make sure that Rasa server is being run at `http://localhost:8002`. Can be changed in `config.yaml`. Also make sure that Rasa actions server is being run at `http://localhost:8004`. 
-To turn off Rasa engine, change the value of bot_engine setting in `config.yaml`.
-
 ### Web chat
-Build web chat by running `python3 build_web_chat.py`. The web chat will be prepared in the `dist` folder.
+Build web chat by running `make build_ui`. The web chat will be prepared in the `dist` folder.
 
 Then open your browser and navigate to the address and port server listens on (by default, the port is 8000).
 
-### Rasa
-**IMPORTANT.** Install Python 3.8 first as Rasa does not support later versions yet (as of January 2022).
+### Preserving conversation history
+By default, conversations are stored in sqllite in-memory db.
+In case you want to preserve conversations history between server reloads, you need to:
+- set path to db file in the `db_path` field in server's config.
+- set sqlite in-file tracker store in Rasa's endpoints.yml (just uncomment the corresponding tracker store and provide path to you db file).
 
-Go to "rasa" folder, create virtual environment and switch to the created virtual environment: 
-```
-cd rasa
-python3.8 -m venv ./venv
-source ./venv/bin/activate
-```
+Note. Two dbs are used currently: server's one and Rasa's one - for the sake of concerns separation.
 
-Install latest version of pip: `pip3 install -U pip`
+### Activating voice output
+You can activate voice output in the UI chat by setting `text_to_speech_activated` option in the server's config to `true`.
+Currently, the voice output is provided by consuming Google's api on server-side.
 
-Install Rasa by running `pip3 install rasa` or install dependencies from `requirements.txt` by running `pip3 install -r requirements.txt`.
+### Docs
 
-Go to the `bot` folder. It is a Rasa project folder. It contains data for the bot. Run all the Rasa-related commands from this folder.
+Please check how to launch Rasa and other project-related Rasa docs here: [Rasa docs](./documentation/rasa.md).
 
-Use `rasa train --domain domain` to train your model. The trained model will appear in the `models` folder.
-
-
-Start Rasa server: `rasa run -i localhost -p 8002`.
-
-As per default config, the AI Replica server expects the Rasa server is being run at http://localhost:8002.
-By default, the latest model from the `models` folder is used. If you want to run a specific model, you can do it as follows: `rasa run -i localhost -p 8002 --model models/20220122-164843-charitable-rent.tar.gz`.
-
-
-Start Rasa actions server as follows: `SANIC_HOST=localhost rasa run actions -p 8004`.
-
-#### Debug Rasa
-You can get access to some useful Rasa internal info, e.g. intent confidence, via Rasa http api. To activate the api, start Rasa server with `--enable-api` flag, e.g. `rasa run -i localhost -p 8002 --enable-api`.
-
-Then you can, for example, access conversation events via calling `http://localhost:8002/conversations/user/tracker`. **Note.** Here, 'user' is the value of the 'sender' field sent by bot server to Rasa webhook api (see request_handler.py).
-
-Check Tracker api here: `https://rasa.com/docs/rasa/pages/http-api/#tag/Tracker`.
-
-Also, you can run Rasa with `--debug` flag to see some useful output in the console. E.g. `rasa run -i localhost -p 8002 --debug`.
-
-Potentially, it is even more convenient to install Rasa X for the purpose of debugging but it is intended primarily for server-mode setup, so the installation and running is not so straightforward.
-
-#### Notes
-1. Command line interface: https://rasa.com/docs/rasa/command-line-interface
-2. Installation: https://rasa.com/docs/rasa/installation/. Install Python 3.8 first as Rasa does not support later versions yet (as of January 2022). In the `pip3 install -U --user pip && pip3 install rasa` command remove `--user` flag, otherwise you can experience an error saying that execution is not possible ("Can not perform a '--user' install. User site-packages are not visible in this virtualenv."). There is no sense to install packages to user folder (--user) when you are in a virtual environment.
-
-## 2. Testing
+## 4. Testing
 
 To run doctests, execute `doctests_run`

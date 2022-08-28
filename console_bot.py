@@ -6,7 +6,9 @@ from ai_replica.engine.reconstruct_mind import reconstruct
 if __name__ == "__main__":
     print("Reconstructing the mind...")
     reconstruct()
-    print("Done. Now, just enter something and press Enter. If you want to exit, press CTRL+C")
+    print(
+        "Done. Now, just enter something and press Enter. If you want to exit, press CTRL+C"
+    )
     while True:
         user_input = input("Enter something:\n")
         answer = get_answer(user_input)

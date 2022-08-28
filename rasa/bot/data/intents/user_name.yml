@@ -1,0 +1,11 @@
+version: "3.1"
+
+# user provides their name
+nlu:
+- intent: user_name
+  examples: |
+    - My name is [Nikola]{"entity": "name"}
+    - My name is [Elon]{"entity": "name"}
+    - My name is [Isaac]{"entity": "name"}
+    - My name is [Igor Petrov]{"entity": "name"}
+    - My name is [Semen Black]{"entity": "name"}

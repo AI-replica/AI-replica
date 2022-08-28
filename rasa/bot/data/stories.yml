@@ -1,32 +1,28 @@
-# It looks like there is no need to use stories. At least for now.
-# In any case, need to find a way to not too use user stories to reduce complexity and simplify training data.
-# version: "3.0"
+version: "3.1"
 
-# stories:
-
-# - story: happy path
+stories:
+# e2e story is commented as it caused an issue with spacynlp: 
+# "Your model uses a component 'SpacyNLP' which needs the param 'model' to be provided to its method 'process'. "
+# https://github.com/RasaHQ/rasa/issues/10525
+# It is an e2e story sample. https://rasa.com/docs/rasa/stories/#end-to-end-training
+# Note. Currently, you cannot provide variant bot responses in e2e training: 
+# "You need to create as many stories as you have utterances." (https://forum.rasa.com/t/end-to-end-training-experimental/38158/8)"
+# - story: User says Goodbye (1)
 #   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_great
-#   - action: utter_happy
+#   - user: Bye!
+#   - bot: Bye!
 
-# - story: sad path 1
+# - story: User says Goodbye (2)
 #   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - intent: affirm
-#   - action: utter_happy
+#   - user: Bye!
+#   - bot: Goodbye!
 
-# - story: sad path 2
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - intent: deny
-#   - action: utter_goodbye
+- story: User says Hello
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: User says Goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

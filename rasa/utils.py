@@ -23,27 +23,35 @@ def get_paths():
     requirements_path_abs = rasa_dir_abs + "/requirements.txt"
     rasa_exec_path_abs = venv_path_abs + "/bin/rasa"
     pip_exec_path_abs = venv_path_abs + "/bin/pip3"
-    return (
-        main_dir_abs,
-        venv_path_abs,
-        working_dir_abs,
-        requirements_path_abs,
-        rasa_exec_path_abs,
-        pip_exec_path_abs,
-    )
+    return {
+        "main_dir_abs": main_dir_abs,
+        "venv_path_abs": venv_path_abs,
+        "working_dir_abs": working_dir_abs,
+        "requirements_path_abs": requirements_path_abs,
+        "rasa_exec_path_abs": rasa_exec_path_abs,
+        "pip_exec_path_abs": pip_exec_path_abs,
+    }
 
 
 def install_rasa_dependencies(required_python):
-    main_dir, venv_dir, work_dir, requirements, rasa_exec, pip_exec = get_paths()
+    paths = get_paths()
+    main_dir = paths["main_dir_abs"]
+    venv_dir = paths["venv_path_abs"]
+    work_dir = paths["working_dir_abs"]
+    requirements = paths["requirements_path_abs"]
+    rasa_exec = paths["rasa_exec_path_abs"]
+    pip_exec = paths["pip_exec_path_abs"]
     install_dependencies(pip_exec, venv_dir, requirements, required_python, "rasa")
     return rasa_exec, work_dir
 
 
-def start_rasa_main_server(rasa_exec, working_dir):
+def start_rasa_main_server(rasa_exec, working_dir, options=None):
     """Starts the main Rasa server by executing a command like this: `rasa run -i localhost -p 8002`."""
-    execute_command(
-        rasa_exec, main_server_command, working_dir, run_in_another_terminal7=True
-    )
+    command = main_server_command
+    if options != None:
+        command = command + " " + options
+
+    execute_command(rasa_exec, command, working_dir, run_in_another_terminal7=True)
 
 
 def start_rasa_actions_server(rasa_exec, working_dir):

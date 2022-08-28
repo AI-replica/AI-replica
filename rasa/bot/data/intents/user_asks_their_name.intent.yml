@@ -1,0 +1,8 @@
+version: "3.1"
+
+# user asks their name
+nlu:
+- intent: user_asks_their_name
+  examples: |
+    - What is my name?
+    - Could you please say my name?

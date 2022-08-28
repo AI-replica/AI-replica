@@ -1,16 +1,52 @@
+const botInfo = document.getElementById("botInfo");
+
+// TODO: Provide a user possibility to choose a bot with whom to talk.
+let currentBot;
+
+const onWindowLoad =  async (event) => {
+  const userAndBotInfoResponse = await fetch("/getUserAndBotInfo", {method: "GET"})
+    .then((resp) => resp.json());
+  const userId = userAndBotInfoResponse.user.id;
+  currentBot = userAndBotInfoResponse.bot;
+  const botId = userAndBotInfoResponse.bot.id;
+  
+  const response = await fetch("/getConversationHistory?$top=1000", {
+    method: 'GET', 
+  })
+    .then((resp) => resp.json());
+  
+  let lastAddedMessage;
+  response.forEach((utterance) => {
+    if (utterance.user_id === userId) {
+      const userMessage = [{"type": "text", "content": utterance.text}];
+          
+      lastAddedMessage = addMessage(messages, userMessage, "You", "user-message");
+    } else if (utterance.user_id === botId) {
+      const botResponse = JSON.parse(utterance.text);
+      const botMessages = botResponse.messages || [];
+      botMessages.forEach((message) => {
+        lastAddedMessage = addMessage(messages, message, currentBot.name, "bot-message");
+      });
+    }
+    if (lastAddedMessage) {
+      lastAddedMessage.scrollIntoView(false);
+    }    
+  });
+  renderBotInfo();
+};
+
+const renderBotInfo = () => {
+  botInfo.innerHTML = `Hello, I am ${currentBot.name}.`;
+}
+
+window.addEventListener('load', onWindowLoad);
+
 const sendMessageButton = document.getElementById("sendMessageButton");
 sendMessageButton.addEventListener("click", onSendMessageButtonClicked);
 
 const messages = document.getElementById("messages");
-// TODO: retrieve info about registered bots from the server and provide a user possibility to choose a bot with whom to talk
-const currentBot = {
-  name: "Ben",
-};
 
 const messageInput = document.getElementById("messageInput");
-
-const botInfo = document.getElementById("botInfo");
-botInfo.innerHTML = `Hello, I am ${currentBot.name}.`;
 
 async function onSendMessageButtonClicked(event) {
   const userMessage = [{"type": "text", "content": messageInput.value}];

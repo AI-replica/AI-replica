@@ -32,6 +32,17 @@ action_endpoint:
 #    username: <username used for authentication>
 #    password: <password used for authentication>
 
+# uncomment the section if you want Rasa to store conversations in in-file sqlite db
+# sqlite in-file tracker store
+# tracker_store:
+#    type: SQL
+#    dialect: sqlite
+#    # specify path to a db file after sqlite:///
+#    url: sqlite:///../../../db/rasa.db 
+#    db: rasa.db
+#    username: 
+#    password: 
+
 # Event broker which all conversation events should be streamed to.
 # https://rasa.com/docs/rasa/event-brokers
 

@@ -1,0 +1,9 @@
+version: "3.1"
+
+# user provides their favorite color
+nlu:
+- intent: user_provides_their_favorite_color
+  examples: |
+    - My favorite color is [white]{"entity": "color"}.
+    - My favorite color is [red]{"entity": "color"}.
+    - I like [orange]{"entity": "color"} color the most.

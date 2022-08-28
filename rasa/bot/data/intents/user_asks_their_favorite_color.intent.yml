@@ -1,0 +1,8 @@
+version: "3.1"
+
+# user asks their favorite color
+nlu:
+- intent: user_asks_their_favorite_color
+  examples: |
+    - What is my favorite color?
+    - Could you please remind me my favorite color?

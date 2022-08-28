@@ -14,17 +14,17 @@ from rasa_sdk.executor import CollectingDispatcher
 
 
 class ActionHelloWorld(Action):
+    def name(self) -> Text:
+        return "action_hello_world"
 
-  def name(self) -> Text:
-    return "action_hello_world"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
 
-  def run(
-    self, 
-    dispatcher: CollectingDispatcher,
-    tracker: Tracker,
-    domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        print("action_hello_world is being run")
+        dispatcher.utter_message(text="Hello World!")
 
-    print("action_hello_world is being run")
-    dispatcher.utter_message(text="Hello World!")
-
-    return []
+        return []

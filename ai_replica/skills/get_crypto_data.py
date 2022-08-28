@@ -27,5 +27,3 @@ def get_skill_result(user_input):
     else:
         res = "May I interest you in buying some bitcoins instead?"
     return res
-
-

@@ -1,5 +1,6 @@
 system:
-  preferred_python_version: "3.8"  # Used to create virtual envs, install dependencies
+  # Used to create virtual envs, install dependencies for Rasa. Usually, Rasa does not support the latest Python version.
+  rasa_preferred_python_version: "3.9"
 
 bot_engine: "rasa"
 
@@ -11,3 +12,7 @@ server:
   port: 8000
   address: "localhost"
   static_files_dir: "./dist"
+  # db_path: "../db/replica.db" # sqlite db file path
+  db_path: "file::memory:?cache=shared" # sqlite in-memory db
+  anonymous_user_id: "anonymous"
+  text_to_speech_activated: false

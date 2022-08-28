@@ -1,4 +1,6 @@
-version: "3.0"
+# Looks like the slot mappings are applied in the order they are listed in the mapping section. I.e. the second mappping will override the first one if executed.
+
+version: "3.1"
 
 slots:
   name:
@@ -7,3 +9,18 @@ slots:
     - type: from_entity
       entity: name
       intent: who_is
+  user_name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: name
+      intent: user_name
+    - type: from_entity
+      entity: PERSON
+      intent: user_name
+  user_favorite_color:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: color
+      intent: user_provides_their_favorite_color
