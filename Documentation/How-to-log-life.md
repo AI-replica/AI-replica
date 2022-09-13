@@ -140,7 +140,7 @@ All bureaucratic documentation can be saved in PDF format by cell phone, either 
 
 # How to save all information from Anki software.
 
-Anki is a software for spaced repetition, where you place flash cards in a Q-A style for improve the learning.
+Anki is a software for spaced repetition, where you place flash cards in a QnA style for improve the learning.
 You can save the information by the follow instruction: https://docs.ankiweb.net/exporting.html
 
 # How to save your Zettelkasten and why
