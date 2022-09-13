@@ -148,7 +148,7 @@ You can save the information by the follow instruction: https://docs.ankiweb.net
 A Zettelkasten or slip-box is a way to store, process and inter-relate information in a similar way like flashcards, but little more elaborated.
 There exist multiple software, but the two main software that fit in the task are: tomboy and zettlr, both run in Windows, mac and Linux.
 Both can export the cards into text format. Follow the links at the end of file.
-The reason you need to save the slip-box is because is similar to your stream of thoughts and can help to save your thinking pattenrs.
+The reason you need to save the slip-box is because it is similar to your stream of thoughts and can help to save your thinking patterns.
 
 
 # How to make a private life record.
