@@ -143,7 +143,7 @@ All bureaucratic documentation can be saved in PDF format by cell phone, either 
 Anki is a software for spaced repetition, where you place flash cards in a Q-A style for improve the learning.
 You can save the information by the follow instruction: https://docs.ankiweb.net/exporting.html
 
-# How to save your zettelkasten and why
+# How to save your Zettelkasten and why
 
 A Zettlecasten or slip-box it's a way to store, proccese and inter-relate information in a similar way like flashcards, but little more elaborated.
 Exist multiple software, but the two main software who fit in the task is: tomboy and zettlr, both run in Windows, mac and Linux.
