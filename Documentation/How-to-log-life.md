@@ -187,6 +187,13 @@ although initially it is oriented to a basic verbal model to follow an MVP philo
 ## Note two of one of the authors:
 Do not hesitate to study all the links, if you are a programmer, I recommend that you try to copy the representation, processing and analysis algorithms of all the historically registered tools. And assemble it into a construction that serves to explore the information space of the subject to be copied and as one tool and its logical generation of relationships in context are exhausted, then move on to the next. In this way we will be able to create a mechanism for observation, analysis, problem posing, resolution, demonstration, representation, classification, organization and automatic management of personal knowledge. And thus feed the model. Basically it's doing 'Human Mining' (I coined this term, 'Mental Mining' is also valid)
 
+## Woebot backup
+Woebot is a chatbot for evidence-based psychological therapy using methods such as cognitive behaviour therapy. The sessions are recorded and stored on the servers once you install the app on your mobile phone.
+
+In order to request a backup or export you can ask the technical support email and they will send your information to your email.
+
+The contact email: support@woebothealth.com
+
 ### Resources andd references:
 
 - https://www.cnbc.com/2018/03/23/how-to-download-a-copy-of-facebook-data-about-you.html
