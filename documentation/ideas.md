@@ -1,0 +1,4 @@
+# free text QnA engine
+
+Currently, bag of words approach is used to search bot's personal data for answers. The approach works to some extent but has certain limitations. E.g. synonims and typos are not taken into account. Potentially, makes sense to try to use pre-trained embeddings, e.g. SpaCy. Though they have the limitation that the context is not taken into account, so in some cases the meaning of the words can be detected incorrectly, e.g. some words can represent different semantics, e.g. bank as financial organization and bank as a part of a river. To mitigate this limitation, potentially, it makes sense to use sentence embeddings. Also, it makes sense to investigate whether there is any pre-trained models tht allow performing QnA on free text data. Probably, there are such models that can be fine-tuned in unspurvised mode with minimal efforts.
+ 

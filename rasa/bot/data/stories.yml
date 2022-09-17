@@ -92,7 +92,7 @@ stories:
   - intent: who_is
   - action: action_who_is
 
-- story: User asks to translate a word form one language to another
+- story: User asks to translate a word from one language to another
   steps:
   - intent: translate_from_to
   - action: action_translate_from_to

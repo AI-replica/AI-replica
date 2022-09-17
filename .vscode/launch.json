@@ -5,12 +5,34 @@
   "version": "0.2.0",
   "configurations": [
     {
+        "name": "Python: Current File",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "justMyCode": false
+    },  
+    {
       "name": "Python: main server",
       "type": "python",
       "request": "launch",
       "program": "server_bot.py",
       "console": "integratedTerminal",
       "justMyCode": false
+    },
+    {
+        "name": "Python: Rasa actions",
+        "type": "python",
+        "python": "${workspaceFolder}/rasa/venv/bin/python",
+        "request": "launch",
+        "program": "${workspaceFolder}/rasa/venv/bin/rasa",
+        "args": ["run", "actions", "-p", "8004"],
+        "env": {
+            "SANIC_HOST": "localhost"
+        },
+        "cwd": "${workspaceFolder}/rasa/bot",
+        "console": "integratedTerminal",
+        "justMyCode": false
     },
     {
       "name": "Python: Remote Attach",
@@ -26,14 +48,6 @@
           "remoteRoot": "."
         }
       ],
-      "justMyCode": false
-    },
-    {
-      "name": "Python: Current File",
-      "type": "python",
-      "request": "launch",
-      "program": "${file}",
-      "console": "integratedTerminal",
       "justMyCode": false
     },
     {

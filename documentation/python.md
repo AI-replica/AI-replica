@@ -67,3 +67,8 @@ Editable installs: https://pip.pypa.io/en/stable/topics/vcs-support/#editable-vc
 - Open Commmand Palette.
 - Find the command: Python: select interpreter
 - Enter the path to the Python interpreter (e.g. /usr/local/bin/python3)
+
+## Debug Python
+[Python debugging in VS Code](https://code.visualstudio.com/docs/python/debugging)
+
+https://code.visualstudio.com/docs/python/debugging#_python

@@ -1,9 +1,13 @@
 # This action replies on the queries like "What is price of <thing>"
 
+import datetime
+import logging
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
+
+logger = logging.getLogger(__name__)
 
 
 class ActionWhatIs(Action):
@@ -17,7 +21,9 @@ class ActionWhatIs(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
 
-        print(f"action {self.name()} is being run")
+        logger.info(
+            f"[{datetime.datetime.now():%Y-%m-%d}] action {self.name()} is being run"
+        )
         entities = tracker.latest_message["entities"]
         thing_entity = None
         for entity in entities:
@@ -39,7 +45,10 @@ class ActionWhatIs(Action):
             dispatcher.utter_message(json_message=message)
         else:
             message = [
-                {"type": "text", "content": f"I have no clue about it."},
+                {
+                    "type": "text",
+                    "content": f"I have no clue about the price of this thing. Try to ask Google, dude.",
+                },
             ]
             dispatcher.utter_message(json_message=message)
 

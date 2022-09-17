@@ -95,7 +95,7 @@ Then you can launch all the servers by running:
 
 The UI chat will be available at `http://localhost:8000/chat/` (prod mode).
 
-**Note**. It can take a couple of minutes for Rasa server to start. You can check the status of Rasa server in the corresponding terminal (the one that starts reporting the message "Starting Rasa server"). Once the Rasa server is up, the terminal should report "Rasa server is up and running".
+**Note**. It can take a couple of minutes for Rasa server to start. Until that the UI can work incorrectly. You can check the status of Rasa server in the corresponding terminal (the one that starts reporting the message "Starting Rasa server"). Once the Rasa server is up, the terminal should report "Rasa server is up and running".
 
 ## Development
 Run all in dev mode (server and chat):

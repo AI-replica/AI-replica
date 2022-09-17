@@ -17,5 +17,5 @@ server:
   # db_path: "../db/replica.db" # sqlite db file path
   db_path: "file::memory:?cache=shared" # sqlite in-memory db
   anonymous_user_id: "anonymous"
-  text_to_speech_activated: true # options: true, false
+  text_to_speech_activated: false # options: true, false
   text_to_speech_engine: gtts # options: pyttsx3, gtts

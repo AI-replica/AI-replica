@@ -46,8 +46,17 @@ def start_rasa_server(rasa_path, work_dir):
 
 
 def start_rasa_server_with_debug_logs(rasa_path, work_dir):
-    stop_a_rasa_server(rasa_path, work_dir, server_name="main")
+    stop_a_rasa_server(rasa_path, server_name="main")
     start_rasa_main_server(
+        rasa_path,
+        work_dir,
+        "--debug",
+    )
+
+
+def start_rasa_actions_with_debug_logs(rasa_path, work_dir):
+    stop_a_rasa_server(rasa_path, server_name="actions")
+    start_rasa_actions_server(
         rasa_path,
         work_dir,
         "--debug",
@@ -135,6 +144,10 @@ def execute_control_command():
         args["actions_rasa"] = True
         restart_servers(
             rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"], args
+        )
+    elif command == "start_rasa_actions_with_debug_logs":
+        start_rasa_actions_with_debug_logs(
+            rasa_paths["rasa_exec_path_abs"], rasa_paths["working_dir_abs"]
         )
     elif command == "start_server":
         args["basic"] = True
