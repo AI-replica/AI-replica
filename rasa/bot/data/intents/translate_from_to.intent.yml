@@ -1,0 +1,12 @@
+version: "3.1"
+
+# user asks to translate a word from one language to another
+nlu:
+- intent: translate_from_to
+  examples: |
+    - Please translate [Колобок]{"entity": "word_to_translate"} from [Russian]{"entity": "language", "role": "from"} to [English]{"entity": "language", "role": "to"}.
+    - Translate [дом]{"entity": "word_to_translate"} from [Russian]{"entity": "language", "role": "from"} to [English]{"entity": "language", "role": "to"}.
+    - Translate [облако]{"entity": "word_to_translate"} from [Russian]{"entity": "language", "role": "from"} to [English]{"entity": "language", "role": "to"}.
+    - Please translate [Weather]{"entity": "word_to_translate"} from [English]{"entity": "language", "role": "from"} to [Russian]{"entity": "language", "role": "to"}.
+    - Please translate [house]{"entity": "word_to_translate"} from [English]{"entity": "language", "role": "from"} to [Russian]{"entity": "language", "role": "to"}.
+    - Please translate [cloud]{"entity": "word_to_translate"} from [English]{"entity": "language", "role": "from"} to [Russian]{"entity": "language", "role": "to"}.

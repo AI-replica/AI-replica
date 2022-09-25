@@ -54,12 +54,14 @@ def start_rasa_main_server(rasa_exec, working_dir, options=None):
     execute_command(rasa_exec, command, working_dir, run_in_another_terminal7=True)
 
 
-def start_rasa_actions_server(rasa_exec, working_dir):
+def start_rasa_actions_server(rasa_exec, working_dir, options=None):
     """Starts the Rasa server for actions"""
+    command = actions_server_command
+    if options != None:
+        command = command + " " + options
+
     set_environmental_variable(key="SANIC_HOST", value="localhost")
-    execute_command(
-        rasa_exec, actions_server_command, working_dir, run_in_another_terminal7=True
-    )
+    execute_command(rasa_exec, command, working_dir, run_in_another_terminal7=True)
 
 
 def stop_a_rasa_server(rasa_exec, server_name):

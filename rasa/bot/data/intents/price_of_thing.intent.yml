@@ -1,0 +1,13 @@
+version: "3.1"
+
+nlu:
+- intent: price_of_thing
+  examples: |
+    - What is the price of [Bitcoin]{"entity": "thing"}?
+    - What is the price of [Ethereum]{"entity": "thing"}?
+    - What is the price of [euro]{"entity": "thing"}?
+    - What is the price of [dollar]{"entity": "thing"}?
+    - What is the price of [swiss frank]{"entity": "thing"}?
+    - What is the price of [australian dollar]{"entity": "thing"}?
+    
+    - What is the price of [a car]{"entity": "thing"}?

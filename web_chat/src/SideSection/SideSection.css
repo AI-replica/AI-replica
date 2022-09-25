@@ -1,0 +1,13 @@
+#avatar {
+  width: 200px;
+}
+
+#avatar img {
+  width: 100%;
+}
+
+#testPageLinkWrapper {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 30px;
+}

@@ -17,7 +17,7 @@ class ActionWhatIs(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
 
-        print("action_what_is is being run")
+        print(f"action {self.name()} is being run")
         entities = tracker.latest_message["entities"]
         name_entity = None
         for entity in entities:
@@ -27,8 +27,6 @@ class ActionWhatIs(Action):
         name = name_entity["value"] if name_entity else None
         if name:
             # TODO: return data about requested thing using Wikipedia API
-            # TODO: think about how to return formatted text data, including links, to different channels, Web, Android, etc.
-            # It looks like a channel-specific formatters should be introduced here.
             message = [
                 {"type": "text", "content": f"Try to check about {name} here: "},
                 {

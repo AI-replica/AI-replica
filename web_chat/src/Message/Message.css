@@ -1,0 +1,11 @@
+.typing {
+  animation: 
+  typing 2.5s forwards infinite;
+  overflow: hidden;
+  width: 0;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}

@@ -11,10 +11,13 @@ intents:
   - greet
   - mood_great
   - mood_unhappy
+  - price_of_thing
   - tell_me_about
+  - translate_from_to
   - user_asks_their_favorite_color
   - user_asks_their_name
   - user_provides_their_favorite_color
   - user_name
+  - want_buy_apples
   - what_is
   - who_is

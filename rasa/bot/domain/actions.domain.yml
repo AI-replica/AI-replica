@@ -2,6 +2,8 @@ version: "3.1"
 
 actions:
   - action_hello_world
+  - action_price_of_thing
+  - action_translate_from_to
   - action_search_data
   - action_what_is
   - action_who_is

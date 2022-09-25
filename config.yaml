@@ -2,7 +2,8 @@ system:
   # Used to create virtual envs, install dependencies for Rasa. Usually, Rasa does not support the latest Python version.
   rasa_preferred_python_version: "3.9"
 
-bot_engine: "rasa"
+bot_engine: "rasa" # options: rasa, custom
+personal_data_search_engine: "bag_of_words" # options: bag_of_words
 
 rasa:
   rest_webhook: "http://localhost:8002/webhooks/rest/webhook"
@@ -11,8 +12,10 @@ rasa:
 server:
   port: 8000
   address: "localhost"
-  static_files_dir: "./dist"
+  static_files_dir: "./server/static"
+  web_chat_url: "http://localhost:8000/chat/"
   # db_path: "../db/replica.db" # sqlite db file path
   db_path: "file::memory:?cache=shared" # sqlite in-memory db
   anonymous_user_id: "anonymous"
-  text_to_speech_activated: false
+  text_to_speech_activated: false # options: true, false
+  text_to_speech_engine: gtts # options: pyttsx3, gtts

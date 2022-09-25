@@ -5,4 +5,7 @@ nlu:
 - intent: user_asks_their_name
   examples: |
     - What is my name?
+    - What's my name?
     - Could you please say my name?
+    - Say my name.
+    - How am I called?

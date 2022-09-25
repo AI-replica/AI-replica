@@ -51,7 +51,6 @@ policies:
     max_history: 5
     epochs: 100
   - name: TEDPolicy
-    max_history: 5
+    max_history: 10 # the higher the value, the better the prediction of the next action
     epochs: 100
     constrain_similarities: true
-    

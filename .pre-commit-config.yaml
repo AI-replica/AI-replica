@@ -1,0 +1,26 @@
+# this file is used by the `pre-commit` library
+default_install_hook_types:
+- pre-push
+default_stages:
+- push
+files: '' # check all files
+repos:
+# black hook formats code by default, so let's comment it and use custom hook that only reports linting status
+# see lint_code hook below
+# -   repo: https://github.com/psf/black
+#     rev:  22.3.0
+#     hooks:
+#     -   id: black
+# -   repo: https://github.com/pre-commit/pre-commit-hooks
+#     rev: v1.2.3
+#     hooks:
+#     -   id: trailing-whitespace
+# local repo. see https://pre-commit.com/#repository-local-hooks
+# local hooks should be defined in .pre-commit-config.yaml and not in .pre-commit-hooks.yaml
+-   repo: local
+    hooks:
+    -   id: lint_code
+        name: lint code
+        description: This hook lints the source code.
+        entry: make lint_code
+        language: system
