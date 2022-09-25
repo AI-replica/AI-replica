@@ -7,11 +7,12 @@
     {
         "name": "Python: Current File",
         "type": "python",
+        "python": "${workspaceFolder}/venv/bin/python",
         "request": "launch",
         "program": "${file}",
         "console": "integratedTerminal",
         "justMyCode": false
-    },  
+    }, 
     {
       "name": "Python: main server",
       "type": "python",

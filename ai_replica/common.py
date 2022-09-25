@@ -1,11 +1,23 @@
+import sys
 import ai_replica.skills as skills
-from ai_replica.engine.run_mind import get_model_answer
 from ai_replica.skills import *  # noqa
+from server.utils.read_config import config
 
 """Here, we put together the logic from the engine and the skills.
 
 The end result is served by the get_answer() func.
 """
+
+personal_data_search_engine = config["personal_data_search_engine"]
+if personal_data_search_engine == "bag_of_words":
+    from ai_replica.engine.bag_of_words.run_mind import get_model_answer
+    from ai_replica.engine.bag_of_words.reconstruct_mind import reconstruct
+elif personal_data_search_engine == "sbert":
+    from ai_replica.engine.sbert.run_mind import get_model_answer
+    from ai_replica.engine.sbert.reconstruct_mind import reconstruct
+else:
+    print(f"No engine found: {personal_data_search_engine}")
+    sys.exit()
 
 skill_modules = dict()
 for name in skills.__all__:
@@ -62,3 +74,7 @@ def get_answer(user_input, custom_model=None, seed=None):
     if res is None:
         res = get_model_answer(user_input, custom_model=custom_model, seed=seed)
     return res
+
+
+def reconstruct_mind(custom_save_path=None, custom_data_path=None):
+    reconstruct(custom_save_path, custom_data_path)

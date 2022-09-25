@@ -1,6 +1,12 @@
 version: "3.1"
 
 responses:
+  # need this response with this exct name for two-stage fallback
+  # see https://rasa.com/docs/rasa/fallback-handoff/#two-stage-fallback
+  # https://rasa.com/docs/rasa/fallback-handoff/#2-defining-the-fallback-responses
+  utter_ask_rephrase:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+
   utter_greet:
   - text: "Hey! How are you?"
   - text: "Hey!"
@@ -12,6 +18,13 @@ responses:
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  # When an action confidence is below the threshold, Rasa will run the action action_default_fallback. 
+  # This will send the response utter_default and revert back to the state of the conversation before the user message that caused the fallback, 
+  # so it will not influence the prediction of future actions.
+  # see https://rasa.com/docs/rasa/fallback-handoff/#handling-low-action-confidence
+  utter_default:
+  - text: "Could you please rephrase? I do not understand what I should do."
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -26,8 +39,10 @@ responses:
   utter_iamabot:
   - text: "I am a bot of Benjamin Franklin."
 
-  utter_please_rephrase:
-  - text: "I'm sorry, I didn't quite understand that. Could you please rephrase?"
+  # this response was used for one-stage fallback
+  # 
+  # utter_please_rephrase:
+  # - text: "I'm sorry, I didn't quite understand that. Could you please rephrase?"
 
   utter_name:
   - text: "My name is Benjamin Franklin."

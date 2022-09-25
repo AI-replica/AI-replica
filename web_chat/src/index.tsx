@@ -1,27 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import TestPage from './TestPage/TestPage';
 import { BASE_ROUTER_URL } from './utils/constants';
+import ROUTES from './utils/routes';
 
 const root = ReactDOM.createRoot(document.getElementById('root')!);
-// TODO: render content within App but not instead of App. App is a parent element to all pages.
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
     {
     // need to specify basename as the chat is served at '/chat` path
     // https://v5.reactrouter.com/web/api/BrowserRouter/basename-string
     }
     <BrowserRouter basename={BASE_ROUTER_URL}>
-        <Routes>
-            <Route path="/index.html" element={<App />} />
-            <Route path="/" element={<App />} />
-            <Route path="/test" element={<TestPage />} />
-        </Routes>
+        {ROUTES}
     </BrowserRouter>
   </React.StrictMode>
 );

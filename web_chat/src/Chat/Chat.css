@@ -1,3 +1,7 @@
+.Chat {
+    height: 100%;
+}
+
 #chat_player {
   display: none;
 }
@@ -14,7 +18,7 @@
 }
 
 #messages {
-  height: calc(100vh - 100px);
+  height: calc(100% - 100px);
   overflow-y: scroll;
 }
 

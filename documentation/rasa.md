@@ -78,4 +78,14 @@ By default, Rasa server provides webhook api: [see](https://rasa.com/docs/rasa/h
 To have access to additional functionality of a Rasa server, you can start server with exposed api: [Http API](https://rasa.com/docs/rasa/http-api/), 
 **Note** Make sure that the api endoints are protecte either with authorization or hidden behind a proxy server/app router, so that they are not exposed to the Internet.
 
+# Pipeline
+
+## linear_norm option for model_confidence of DIET classifier and TED policy
+
+In the old Rasa's documenttaion, it was suggested to try using linear_norm as the value for model_confidence. This should make it easier to handle actions predicted with low confidence. Also this suggestiob is still present in the current documentation. See https://rasa.com/docs/rasa/policies/#ted-policy
+But in fact linear_norm option is removed in Rasa 3.0.9 becuase of multiple issues found based on user feedback, 
+see https://github.com/RasaHQ/rasa/blob/ea0b3a3065c377b264800ff6a6152ce90dfc7c20/CHANGELOG.mdx
+see https://github.com/RasaHQ/rasa/blob/ea0b3a3065c377b264800ff6a6152ce90dfc7c20/CHANGELOG.mdx#280---2021-07-12
+model_confidence: linear_norm 
+
 

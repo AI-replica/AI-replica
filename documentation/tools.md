@@ -42,15 +42,26 @@ espeak-ng: https://github.com/espeak-ng/espeak-ng/blob/master/docs/guide.md
 MR that added support for espeak-ng: https://github.com/nateshmbhat/pyttsx3/pull/163/files
 espeak-mg git: https://github.com/espeak-ng/espeak-ng
 
-# mozilla tts
+# mozilla/coqui tts
 
-**TODO** Try Mozilla TTS library.
-https://rasa.com/blog/how-to-build-a-voice-assistant-with-open-source-rasa-and-mozilla-tools/
-https://gist.github.com/JustinaPetr/e43b84a9664f20c24eb5bb8fe75d4a0a
-https://github.com/mozilla/TTS/wiki
-https://pypi.org/project/TTS/
-https://github.com/coqui-ai/TTS
-https://github.com/coqui-ai/TTS/blob/dev/TTS/bin/synthesize.py
+It looks like the TTS project is being developed by Coqui now.
+> Coqui-TTS is the successor to Mozilla-TTS: some time ago Mozilla stopped their STT and TTS project. Coqui.ai was founded by members of the former Mozilla team.
+
+(source: https://github.com/coqui-ai/TTS/discussions/1292#discussioncomment-2250327)
+
+- https://rasa.com/blog/how-to-build-a-voice-assistant-with-open-source-rasa-and-mozilla-tools/
+- The sample model can be downloaded from [here](https://drive.google.com/drive/folders/1GU8WGix98WrR3ayjoiirmmbLUZzwg4n0) or a model provided by the TTS framework can be used.
+- https://gist.github.com/JustinaPetr/e43b84a9664f20c24eb5bb8fe75d4a0a
+- https://github.com/mozilla/TTS/wiki
+- https://pypi.org/project/TTS/
+- https://github.com/coqui-ai/TTS
+- https://github.com/coqui-ai/TTS/blob/dev/TTS/bin/synthesize.py
+
+The following model is used by default (as of September 2022):
+ > tts_models/en/ljspeech/tacotron2-DDC is already downloaded.
+ > vocoder_models/en/ljspeech/hifigan_v2 is already downloaded.
+ > Using model: Tacotron2
+
 
 
 
@@ -77,3 +88,32 @@ https://stackoverflow.com/q/70458458
 https://github.com/AI-replica/AI-replica/actions
 
 You can click on an individual workflow run to see the output, i.e. how the steps were executed.
+
+## Jobs
+
+https://docs.github.com/en/actions/using-workflows/about-workflows
+
+Every job is run on a runner machine. Two jobs are run on two different runners. By default the jobs are run in parallel.
+
+## Caching dependencies
+
+https://github.com/actions/setup-python#caching-packages-dependencies
+https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#caching-packages
+
+## Kill command on timeout
+
+There is `timeout` command in Linux that can kill the command on timeout: https://linuxize.com/post/timeout-command-in-linux/
+
+In the following example, timeout runs the command for one minute, and if it is not terminated, it will kill it after ten seconds:
+`sudo timeout -k 10 1m ping 8.8.8.8`
+
+If no signal is given, timeout sends the SIGTERM signal to the managed command when the time limit is reached. You can specify which signal to send using the -s (--signal) option. The signal is sent to the managed command, i.e. to the command that is executed with timeout, i.e. `ping` command in the sample below.
+`sudo timeout -s 9 ping 8.8.8.8`
+
+Run command with timeout in github workflow: https://stackoverflow.com/questions/63641822/run-command-with-timeout-in-github-workflow
+
+# Bash
+
+## Conditionals
+
+`if-else-fi`: https://linuxize.com/post/bash-if-else-statement/

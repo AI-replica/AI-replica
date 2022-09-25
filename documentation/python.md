@@ -60,6 +60,11 @@ Install package in editable mode, i.e. the package is installed in the `src` fol
 
 Editable installs: https://pip.pypa.io/en/stable/topics/vcs-support/#editable-vcs-installs
 
+## Caching packages
+
+Get the location of cache dir: `pip cache dir` (https://pip.pypa.io/en/stable/topics/caching/#pip-cache-dir)
+Inspect and manage pip’s wheel cache: https://pip.pypa.io/en/stable/cli/pip_cache/#pip-cache
+
 # VSCode
 
 ## Select Python interpreter
@@ -72,3 +77,16 @@ Editable installs: https://pip.pypa.io/en/stable/topics/vcs-support/#editable-vc
 [Python debugging in VS Code](https://code.visualstudio.com/docs/python/debugging)
 
 https://code.visualstudio.com/docs/python/debugging#_python
+# Unit testing
+
+## unittest
+
+Built-in python module.
+https://docs.python.org/3/library/unittest.html
+
+Test discovery: https://docs.python.org/3/library/unittest.html#test-discovery.
+By default the `discover` command looks for `test*.py` files.
+
+## pytest
+
+https://docs.pytest.org/en/7.1.x/

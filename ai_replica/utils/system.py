@@ -97,6 +97,10 @@ def install_replica_dependencies(python_version):
     )
 
 
+# TODO: the command '../../venv/bin/tts --text "Hello. How are you doing?" --out_path ./speech.wav' will nor be split correctly by
+# `command.split()` call used by `execute_command`
+# think how to fix it. Probably need to split not by the default delimiter (whitespace) but introduce regex to split the command by parts
+# or argparse should be used instead
 def execute_command(
     exec_path,
     command,
@@ -113,7 +117,12 @@ def execute_command(
     By default, the command will be executed in a separate process, and the script will not wait for the end of the execution.
     If it's not what you want, set wait_till_finished7=True
     """
-    args = [exec_path] + command.split()
+
+    if isinstance(command, list):
+        args = [exec_path] + command
+    else:
+        args = [exec_path] + command.split()
+
     print("launching the script " + str(command))
 
     if run_in_another_terminal7:

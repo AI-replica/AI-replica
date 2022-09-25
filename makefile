@@ -36,9 +36,13 @@ reconstruct_mind:
 run_console_bot:
 	python3 console_bot.py
 run_simple_console_bot:
-	python3 simple_console_bot.py
+	venv/bin/python3 simple_console_bot.py
+run_tests:
+	venv/bin/python3 -m unittest discover -p test_*.py
 start_all: start_rasa_actions start_rasa_server start_server start_ui
-start_all_development_mode: start_rasa_actions start_rasa_server start_server_development_mode start_ui_dev_mode
+start_all:
+	start_rasa_actions start_rasa_server start_server start_ui
+start_all_development_mode: start_rasa_actions start_rasa_server_development_mode start_server_development_mode start_ui_dev_mode
 start_console_chat:
 	python3 console_chat.py
 start_rasa_actions:
@@ -47,8 +51,8 @@ start_rasa_actions_with_debug_logs:
 	python3 control.py start_rasa_actions_with_debug_logs
 start_rasa_server:
 	python3 control.py start_rasa_server
-start_rasa_server_with_debug_logs:
-	python3 control.py start_rasa_server_with_debug_logs
+start_rasa_server_development_mode:
+	python3 control.py start_rasa_server_development_mode
 start_rasa_shell:
 	echo "Need to call: rasa shell"
 start_server:

@@ -1,0 +1,143 @@
+name: PR Checks
+
+on: push # TODO: activate for pushes into main and for pull requests only
+  # # Trigger the workflow on push or pull request,
+  # # but only for the main branch
+  # push:
+  #   branches:
+  #     - main
+  # # Replace pull_request with pull_request_target if you
+  # # plan to use this action with forks, see the Limitations section
+  # pull_request:
+  #   branches:
+  #     - main
+
+# Down scope as necessary via https://docs.github.com/en/actions/security-guides/automatic-token-authentication#modifying-the-permissions-for-the-github_token
+# permissions:
+#   checks: write
+#   contents: write
+
+env:
+  PYTHON_VERSION: "3.9"
+
+jobs:
+# #---- JOB: Run linters ------------------
+  run-linters:
+    name: Run linters
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v3  # checkout the repository content to github runner.
+
+      # Install dependencies
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{env.PYTHON_VERSION}}
+          # do not cache deps temporily to fix teh following issues:
+          # git workflow shows the following message: "Post job cleanup.
+          # Cache hit occurred on the primary key..."
+          # cache: "pip"
+          # cache-dependency-path: "**/requirements.txt"
+
+      - name: Install Python dependencies
+        run: pip install black
+      
+      # Run commands
+      - name: Run linter
+        run: make lint_code
+
+#--------- JOB: Run tests ------------------------------------------------
+  # run-tests:
+  #   name: Run tests
+  #   runs-on: ubuntu-latest
+
+  #   steps:
+  #     - name: Check out Git repository
+  #       uses: actions/checkout@v3  # checkout the repository content to github runner.
+
+  #     # Install dependencies
+  #     - name: Set up Python
+  #       uses: actions/setup-python@v4
+  #       with:
+  #         python-version: ${{env.PYTHON_VERSION}}
+  #         # do not cache deps temporily to fix teh following issues:
+  #         # git workflow shows the following message: "Post job cleanup.
+  #         # Cache hit occurred on the primary key..."
+  #         # cache: "pip"
+  #         # cache-dependency-path: "**/requirements.txt"
+
+  #     # - name: Install Python dependencies
+  #     #   run: pip install black
+      
+  #     # Run commands
+  #     - name: Run tests
+  #       run: make run_tests
+
+
+#--------- JOB: Build code -----------------------------------------
+  build-code:
+    name: Build code
+    runs-on: ubuntu-latest
+    # wait till run-linters job is complete to prevent issues with caching
+    # git workflow shows the following message: "Post job cleanup.
+    # Cache hit occurred on the primary key..."
+    # needs: run-linters
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v3  # checkout the repository content to github runner.
+
+      # Install dependencies
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{env.PYTHON_VERSION}}
+          cache: "pip"
+          cache-dependency-path: "**/requirements.txt"
+
+      # - name: Install Python linting dependencies
+      #   run: pip install black
+      
+      # # Run commands
+      # - name: Run linter
+      #   run: make lint_code
+
+      # TODO: consider caching dependencies
+      # see https://github.com/actions/setup-python#caching-packages-dependencies
+      - name: Install Python dependencies
+        run: make install_prerequisites
+
+      # TODO: try to train Rasa model after and run Python unit tests
+      - name: Install replica and Rasa dependencies
+        run: make install_dependencies
+
+      - name: Activate Python venv
+        run: source venv/bin/activate
+
+      # TODO: consider mobing into a separate job
+      # for now, keep here - to re-use cached dependencies
+      - name: Run tests
+        run: make run_tests
+
+      - name: Train Rasa model
+        run: make train_rasa_model
+
+      - name: Start server
+        # fails for some reason: "ModuleNotFoundError: No module named 'sanic'"
+        # run: make start_server
+        # does not work because of the follwing issue:
+        # FileNotFoundError: [Errno 2] No such file or directory: 'gnome-terminal'
+        # run: venv/bin/python3 control.py start_server
+        # the server is started but the job never completes
+        # TODO: think how to check that the server is startable?
+        # I guess it makes sense to kill the script after 10s after successful start
+        # run: venv/bin/python3 server_bot.py
+        # execute the command with the timeout of 60 seconds, kill the process after 10s once the timeout occurs in case the process is not killed automatically, send signal code "0" when the timeout occurs
+        # without timeout the server runs indefinetely but we just want to check that it starts
+        # it sends signal code 127 on the timeout while we need to send signal 0
+        # run: timeout 60s -k 10s -s 0 venv/bin/python3 server_bot.py
+        # without timeout the server runs indefinetely but we just want to check that it starts
+        # it sends signal code 127 on the timeout while we need to send signal 0, i.e. the successful signal
+        run: timeout 60s venv/bin/python3 server_bot.py || code=$?; if [[ $code -ne 124 && $code -ne 0 ]]; then exit $code; fi

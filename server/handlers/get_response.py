@@ -16,6 +16,27 @@ TEXT_TO_SPEECH_ACTIVATED = config["server"]["text_to_speech_activated"]
 TEXT_TO_SPEECH_ENGINE = config["server"]["text_to_speech_engine"]
 
 
+def reduce_answer_content(acc, val: Dict):
+    if val["type"] == "text":
+        if len(acc) > 0:
+            return acc + "; " + val["content"]
+        else:
+            return val["content"]
+    else:
+        return acc
+
+
+def reduce_content(acc, val: List):
+    answer_text_content = reduce(reduce_answer_content, val, "")
+    if answer_text_content != "":
+        if len(acc) > 0:
+            return acc + ". " + answer_text_content
+        else:
+            return answer_text_content
+    else:
+        return acc
+
+
 def get_response(request: Request, context):
     obj = request.json
     user_message = obj["message"]
@@ -44,20 +65,8 @@ def get_response(request: Request, context):
         json.dumps(content), context["bot_id"], context["conversation_id"]
     )
 
-    def reduce_answer_content(acc, val: Dict):
-        if val["type"] == "text":
-            return acc + "; " + val["content"]
-        else:
-            return acc
-
-    def reduce_content(acc, val: List):
-        answer_text_content = reduce(reduce_answer_content, val, "")
-        if answer_text_content != "":
-            return acc + ". " + answer_text_content
-        else:
-            return acc
-
     text_content = reduce(reduce_content, bot_answers, "")
+    print("get_response", "text_content", text_content)
 
     if TEXT_TO_SPEECH_ACTIVATED == True:
         if TEXT_TO_SPEECH_ENGINE == "pyttsx3":
@@ -66,6 +75,10 @@ def get_response(request: Request, context):
             text_to_speech(text_content, guid)
         elif TEXT_TO_SPEECH_ENGINE == "gtts":
             from server.utils.text_to_speech_gtts import text_to_speech
+
+            text_to_speech(text_content, guid)
+        elif TEXT_TO_SPEECH_ENGINE == "coqui":
+            from server.utils.text_to_speech_coqui import text_to_speech
 
             text_to_speech(text_content, guid)
 

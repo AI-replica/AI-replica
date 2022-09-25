@@ -1,11 +1,9 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Chat from '../Chat/Chat';
-import SideSection from '../SideSection/SideSection';
 import AppContext from '../utils/AppContext';
 import { BASE_API_URL } from '../utils/constants';
 import IAppContext from '../utils/IAppContext';
-import HomePage from '../HomePage/HomePage';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   const [appContextValue, setAppContextValue] = useState<IAppContext>({});
@@ -28,7 +26,11 @@ function App() {
 
   return (    
     <AppContext.Provider value={appContextValue}>
-        <HomePage />
+        <div className="App">
+            <header>AI Replica</header>
+            <Outlet />
+            <footer>AI Replica</footer>
+        </div>
     </AppContext.Provider>
   );
 }

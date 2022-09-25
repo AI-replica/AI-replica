@@ -1,16 +1,27 @@
+:root {
+    --header-height: 1rem;
+    --header-full-height: calc(var(--header-height) + 2px);
+    --footer-height: 1rem;
+}
+
+header {
+    height: var(--header-height);
+    border-bottom: 1px black dotted;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+}
+
 #chat {
   width: 100%;
   min-width: 200px;
   max-width: 800px;
   padding: 3px;
-  /* used just to display avatar div*/
-  /* TODO: use flex layout */
-  float: left;
 }
 
 .App {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .App-logo {

@@ -79,8 +79,18 @@ rules:
 #   - intent: want_buy_apples
 #   - action: utter_suggest_to_buy_apples
 
-# FALLBACK
-- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+# this rule was used for one-stage fallback
+# FALLBACK NLU - intent claiisfication
+# - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+#   steps:
+#   - intent: nlu_fallback
+#   - action: utter_please_rephrase
+
+# Two-Stage Fallback: https://rasa.com/docs/rasa/fallback-handoff/#two-stage-fallback
+# Defining a Two-Stage Fallback Rule: https://rasa.com/docs/rasa/fallback-handoff/#3-defining-a-two-stage-fallback-rule
+- rule: Implementation of the Two-Stage-Fallback
   steps:
   - intent: nlu_fallback
-  - action: utter_please_rephrase
+  - action: action_two_stage_fallback
+  # https://rasa.com/docs/rasa/default-actions/#action_two_stage_fallback
+  - active_loop: action_two_stage_fallback
