@@ -16,7 +16,7 @@ def save_embeddings(path, embeddings_data):
 
 
 def build_model(custom_data_path=None):
-    model = SentenceTransformer("bert-base-nli-mean-tokens")
+    model = SentenceTransformer("msmarco-distilbert-base-dot-prod-v3")
 
     if isinstance(custom_data_path, str):
         data_path = custom_data_path

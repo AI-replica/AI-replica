@@ -1,5 +1,6 @@
 """Tools for Natural Language Processing"""
 
+import numpy as np
 import string
 
 
@@ -33,6 +34,16 @@ def tokenize(text):
     lowered = almost_no_punctuation.lower()
     tokens = lowered.split()
     return tokens
+
+
+def cosine_similaruty(a, b):
+    """Calculates cosine similarity"""
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+
+
+def euclidean_similarity(a, b):
+    """Calculates euclidean distance similarity"""
+    return np.linalg.norm(a - b)
 
 
 def get_bag_of_words(text):

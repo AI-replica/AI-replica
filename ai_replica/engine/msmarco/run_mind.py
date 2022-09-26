@@ -2,16 +2,13 @@ import logging
 import os
 import random
 import numpy as np
+from ai_replica.utils.nlp import euclidean_similarity
 from sentence_transformers import SentenceTransformer
 
 from ai_replica.utils.files import PERSONAL_DATA_DIR, read_json
 
 logger = logging.getLogger(__name__)
 embeddings_file = os.path.abspath(os.path.dirname(__file__) + "/embeddings.json")
-
-
-def cosine(u, v):
-    return np.dot(u, v) / (np.linalg.norm(u) * np.linalg.norm(v))
 
 
 def load_model(load_path):
@@ -47,7 +44,7 @@ def get_model_answer(user_input, seed=None, custom_model=None):
     query_vec = model.encode([query])[0]
 
     def get_similarity(sentence_embedding):
-        return cosine(query_vec, sentence_embedding)
+        return euclidean_similarity(query_vec, sentence_embedding)
 
     similarities = list(map(get_similarity, sentence_embeddings))
 
@@ -60,9 +57,7 @@ def get_model_answer(user_input, seed=None, custom_model=None):
             range(len(sentences)),
         )
     )
-    sentences_info_sorted = sorted(
-        sentences_info, key=get_similarity_sort_key, reverse=True
-    )
+    sentences_info_sorted = sorted(sentences_info, key=get_similarity_sort_key)
     # sentences_top5 = sentences_info_sorted[0:5]
     best_match = sentences_info_sorted[0]
     if best_match == None:
