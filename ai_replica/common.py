@@ -12,6 +12,9 @@ personal_data_search_engine = config["personal_data_search_engine"]
 if personal_data_search_engine == "bag_of_words":
     from ai_replica.engine.bag_of_words.run_mind import get_model_answer
     from ai_replica.engine.bag_of_words.reconstruct_mind import reconstruct
+elif personal_data_search_engine == "msmarco":
+    from ai_replica.engine.msmarco.run_mind import get_model_answer
+    from ai_replica.engine.msmarco.reconstruct_mind import reconstruct
 elif personal_data_search_engine == "sbert":
     from ai_replica.engine.sbert.run_mind import get_model_answer
     from ai_replica.engine.sbert.reconstruct_mind import reconstruct

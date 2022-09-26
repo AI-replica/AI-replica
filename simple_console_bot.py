@@ -13,7 +13,7 @@ def main():
     while True:
         user_input = input("Enter something:\n")
         answer = get_answer(user_input)
-        print("\n" + answer + "\n")
+        print(f"\n*Bot*: {answer}\n")
 
 
 if __name__ == "__main__":
