@@ -7,7 +7,7 @@ import sys
 import time
 import argparse
 from server.utils.read_config import config
-from ai_replica.engine.reconstruct_mind import reconstruct
+from ai_replica.common import reconstruct_mind
 from ai_replica.utils.system import (
     execute_command,
     open_url_in_browser,
@@ -130,7 +130,7 @@ def execute_control_command():
         open_url_in_browser(web_chat_url)
     elif command == "reconstruct_mind":
         print("Reconstruction started.")
-        reconstruct()
+        reconstruct_mind()
         print("Reconstruction completed.")
     elif command == "start_rasa_server":
         start_rasa_server(

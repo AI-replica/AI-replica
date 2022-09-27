@@ -16,7 +16,7 @@ https://arxiv.org/pdf/1810.04805.pdf
 ## msmarco models for asymmetric semantic search
 https://www.sbert.netdocs/pretrained-models/msmarco-v3.html
 
-https://medium.com/mlearning-ai/semantic-search-with-s-bert-is-all-you-need-951bc710e160
+Semantic Search with S-BERT is all you need: https://medium.com/mlearning-ai/semantic-search-with-s-bert-is-all-you-need-951bc710e160
 
 ## GPT-3 fine-tuning
 
@@ -54,6 +54,13 @@ The task of long-form question answering (LFQA) involves retrieving documents re
 
 https://stackoverflow.com/questions/55677314/using-sklearn-how-do-i-calculate-the-tf-idf-cosine-similarity-between-documents/55682395#55682395
  
+# Large Dialog Models
+- LaMBDA by Google
+- Sparrow by DeepMind
+- ...
+
+It makes sense to take some pretty big dialog model and fine-tune it in a custom text. Ideally, it should be a model that is able to extract knowledge from text, so that the fine-tuning data can be unsupervised. I.e. the data/knowledge provided in a free text should be incorporate dinto the model's knowledge and subsequently used in a dialog. Also this model should be able provide response of variable length, i.e. a one-one sentence, a multi-word sentence, a paragraph - whatever represents the best answer or a turn in a dialog.
+
 # Language detection
 
 Try to determine whether a user is speaking in a  non-English language and ask to switch to English. The fllowing classifoer can be used as an example or re-used completely: https://github.com/RasaHQ/rasa-nlu-examples/tree/0.2.8

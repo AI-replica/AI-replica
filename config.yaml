@@ -3,7 +3,7 @@ system:
   rasa_preferred_python_version: "3.9"
 
 bot_engine: "rasa" # options: rasa, custom
-personal_data_search_engine: "msmarco" # options: bag_of_words, msmarco, sbert
+personal_data_search_engine: "msmarco2" # options: bag_of_words, msmarco, msmarco2, sbert
 
 rasa:
   rest_webhook: "http://localhost:8002/webhooks/rest/webhook"

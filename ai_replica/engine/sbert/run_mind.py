@@ -10,13 +10,17 @@ from ai_replica.utils.files import PERSONAL_DATA_DIR, read_json
 logger = logging.getLogger(__name__)
 embeddings_file = os.path.abspath(os.path.dirname(__file__) + "/embeddings.json")
 
+global_model = None
+
 
 def load_model(load_path):
     loaded_model = read_json(load_path)
     return loaded_model
 
 
-global_model = load_model(embeddings_file)
+def load_global_model():
+    global global_model
+    global_model = load_model(embeddings_file)
 
 
 def get_model_answer(user_input, seed=None, custom_model=None):
