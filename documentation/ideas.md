@@ -108,9 +108,31 @@ Multi-Modal Open-Domain Dialogue: https://parl.ai/projects/multimodal_blenderbot
 
 ### BlenderBot 3 by Meta
 
-https://ai.facebook.com/blog/blenderbot-3-a-175b-parameter-publicly-available-chatbot-that-improves-its-skills-and-safety-over-time/
+BlenderBot 3: A 175B parameter, publicly available chatbot that improves its skills and safety over time: https://ai.facebook.com/blog/blenderbot-3-a-175b-parameter-publicly-available-chatbot-that-improves-its-skills-and-safety-over-time/
+https://parl.ai/projects/bb3/
 
-BlenderBot 3: A 175B parameter, publicly available chatbot that improves its skills and safety over time
+BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage: https://arxiv.org/abs/2208.03188
+
+Today (August 9, 2022), we’re announcing that Meta AI has built and released BlenderBot 3, the first 175B-parameter, publicly available chatbot complete with model weights, code, datasets, and model cards. We’ve deployed it in a live interactive conversational AI demo here.
+
+**BlenderBot 3 Demo:** https://blenderbot.ai/
+
+We are releasing three model sizes: 3B, 30B and 175B.
+
+Model card: https://github.com/facebookresearch/ParlAI/blob/main/parlai/zoo/bb3/model_card.md
+
+BlenderBot 3 delivers superior performance because it’s built from Meta AI’s publicly available OPT-175B language model — approximately 58 times the size of BlenderBot 2. The model itself has a modular design, which is a subsequent version of our recently introduced SeeKeR architecture. With the release of the BlenderBot 3 demo, our goal is to help the wider AI community build models that can learn how to interact with people in safe and constructive ways. Our initial experiments show that we can indeed make our models significantly better by enabling them to learn from their experience.
+
+BlenderBot 3 is built with all the skills of its predecessors, which include internet search, long-term memory, personality, and empathy. 
+
+During the learning procedure, the techniques either filter or down-weight feedback that looks suspicious. We find that a method that takes into account the entire user behavior across conversations — which learns to trust some users — improves learning compared with standard training procedures.
+
+But we are buoyed that our deployment of BlenderBot 3 and the accompanying program of continuous data collection can provide a path to resolving these issues in reproducible research chatbots and eventually lead to useful production applications, such as virtual assistants. 
+
+Together, we can advance responsible conversational AI research in the hope of one day building AI-powered computers that everyone can chat with in genuinely helpful and interesting ways.
+
+
+
 
 ### Meena by Google
 https://arxiv.org/abs/2001.09977
@@ -119,6 +141,8 @@ https://arxiv.org/abs/2001.09977
 
 ### Sparrow by DeepMind
 
+# Meta ParlAI platform
+Intercating with models: https://www.parl.ai/docs/tutorial_basic.html#interacting-with-models
 
 # Language detection
 
