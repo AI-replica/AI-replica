@@ -106,6 +106,22 @@ Minimal model size: BST+MSC+WizInt w/Switch3	400M	2.78	8.33	5.00	10.56 (as per h
 
 Multi-Modal Open-Domain Dialogue: https://parl.ai/projects/multimodal_blenderbot/?fbclid=IwAR3T5sZo6-iO660CvgS_rCOZT6yyDT3Lh0E77EwzFadpN-imgdItEtuylpM
 
+BlenderBot 2.0 400m: --model-file zoo:blenderbot2/blenderbot2_400M/model (https://parl.ai/projects/blenderbot2/)
+
+For some reason, it always requires  search server.
+
+Start with fake search server: `parlai interactive --model-file zoo:blenderbot2/blenderbot2_400M/model --knowledge-access-method memory_only --search-server "https://test.com"`.
+
+Start with real local search server (see below fo search server implementations): `parlai interactive --model-file zoo:blenderbot2/blenderbot2_400M/model --search-server "http://0.0.0.0:8080"`.
+
+Do not use search server: `parlai interactive --model-file zoo:blenderbot2/blenderbot2_400M/model --search_server None`.
+
+Also, another way of disabling search server: https://github.com/facebookresearch/ParlAI/issues/3972.
+
+**Search servers**
+- Search engine (uses googlesearch under the hood, pretty slow): https://github.com/JulesGM/ParlAI_SearchEngine (run: `python search_server.py serve --host 0.0.0.0:8080`).
+- Search engine (uses Bing under the hood, faster than googlesearch): https://github.com/hitchingsh/ParlAI_SearchEngine (run: `python search_server.py serve --host 0.0.0.0:8080`).
+
 ### BlenderBot 3 by Meta
 
 BlenderBot 3: A 175B parameter, publicly available chatbot that improves its skills and safety over time: https://ai.facebook.com/blog/blenderbot-3-a-175b-parameter-publicly-available-chatbot-that-improves-its-skills-and-safety-over-time/
@@ -143,6 +159,10 @@ https://arxiv.org/abs/2001.09977
 
 # Meta ParlAI platform
 Intercating with models: https://www.parl.ai/docs/tutorial_basic.html#interacting-with-models
+
+parlai interactive --model-file zoo:pretrained_transformers/model_poly/model
+
+
 
 # Language detection
 
