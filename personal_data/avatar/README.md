@@ -15,7 +15,7 @@ https://www.myheritage.de/deep-nostalgia/
 
 # New features
 
-Added the module avatar-generator-GUI
+Added the module avatar-generator-GUI inside AI-replica/tools folder.
 Added the URL to Google Colab Jupiter Notebook
 with the procedure for generate the animated 
 pictures for realistic face expression.
