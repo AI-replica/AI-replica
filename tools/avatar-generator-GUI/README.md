@@ -5,6 +5,9 @@ facial expressions in 2D vector pictures; speak, neutral, happy, sad, fear, angr
 
 # Instructions
 
+It's very important install inside of this sub-folder a Python3.10 virtual 
+environment because this tool works only with this version.
+
     $ python3 virtualenv venv\
     $ pip install -r requirements.txt\
     $ python main.py

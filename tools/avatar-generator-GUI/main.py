@@ -17,6 +17,7 @@
 import PySimpleGUI as psg
 import py_avataaars as pa
 
+
 def face_generator(Facial_hair_color, Facial_hair_type, Hair_color, Skin_color, Style, Top, accessories_expr,
                    clothe_expr, eye_expr, eyebrow_expr, face_expression, graphic, hatcolor, name):
     """ Face generator.
@@ -44,6 +45,7 @@ def face_generator(Facial_hair_color, Facial_hair_type, Hair_color, Skin_color, 
         clothe_graphic_type=graphic)
     # generate
     avatar.render_png_file(f'{name}.png')
+
 
 def set_variables_configuration():
     """ Set variables configuration.
@@ -89,8 +91,8 @@ def set_variables_configuration():
                       'SHIRT_SCOOP_NECK', 'SHIRT_V_NECK']
     graphic = ['BAT', 'BEAR', 'CUMBIA', 'DEER', 'DIAMOND', 'HOLA', 'PIZZA', 'RESIST', 'SELENA', 'SKULL',
                'SKULL_OUTLINE']
-    emotion = ['neutral','speak','happy','sad','fear','angry','disgust','surprise']
-    return accessories_types, beard_styles, circle, clothing_types, colors, expressions, eye_types, eyebrow_types, facial_hair_colors, graphic, hair_colors,  skin_tones, top_types, emotion
+    emotion = ['neutral', 'speak', 'happy', 'sad', 'fear', 'angry', 'disgust', 'surprise']
+    return accessories_types, beard_styles, circle, clothing_types, colors, expressions, eye_types, eyebrow_types, facial_hair_colors, graphic, hair_colors, skin_tones, top_types, emotion
 
 
 def params_on_the_fly(values):
@@ -446,16 +448,16 @@ def params_on_the_fly(values):
     else:
         print(f"Invalid graphic type: {values[12]}")
 
-    return Facial_hair_color, Facial_hair_type, Hair_color, Skin_color, Style, Top, accessories_expr, clothe_expr, eye_expr, eyebrow_expr, face_expression, graphic_expr,hatcolor
+    return Facial_hair_color, Facial_hair_type, Hair_color, Skin_color, Style, Top, accessories_expr, clothe_expr, eye_expr, eyebrow_expr, face_expression, graphic_expr, hatcolor
 
 
 def configuration():
-  """ Configuration.
-  
-      The function shows GUI for configuring the avatar generator and labelling de facial expression.
-      : param none :
-      : return png :
-  """
+    """ Configuration.
+
+        The function shows GUI for configuring the avatar generator and labelling de facial expression.
+        : param none :
+        : return png :
+    """
     # set variables for face generation
     accessories_types, beard_styles, circle, clothing_types, colors, expressions, eye_types, eyebrow_types, facial_hair_colors, graphic, hair_colors, skin_tones, top_types, emotion = set_variables_configuration()
     # Format window.
@@ -500,8 +502,6 @@ def configuration():
             break
             # Write and save the configuration of the face.
     window.close()
-
-
 
 
 configuration()
