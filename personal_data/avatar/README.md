@@ -26,4 +26,4 @@ Simply copy the Colab in your Drive.
 Then enter in your Drive and open your Colab.
 Then apply the inside procedure step by step.
 
-(Colab Jupyter's notebook)[https://colab.research.google.com/drive/13zRGNL3tmU0WA0THa0RNAqo1QY1PsGln#scrollTo=czsWABcK_2KE]
+[Colab Jupyter's notebook](https://colab.research.google.com/drive/1x-CnBKoaLCBpFQ2LMURYyoCuytY6yifb#scrollTo=IcMX7ueZO0Oa)
