@@ -44,7 +44,7 @@ def face_generator(Facial_hair_color, Facial_hair_type, Hair_color, Skin_color, 
         clothe_color=hatcolor,
         clothe_graphic_type=graphic)
     # generate
-    avatar.render_png_file(f'{name}.png')
+    avatar.render_png_file(f'expressions/{name}.png')
 
 
 def set_variables_configuration():
