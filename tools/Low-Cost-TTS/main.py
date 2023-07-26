@@ -58,7 +58,7 @@ def learning_phase(language):
     print(len(missing_words))
     current_word_index = 0
 
-    while current_word_index < len(missing_words): # old words variable list
+    while current_word_index < len(missing_words):  # old words variable list
         current_word = missing_words[current_word_index]  # old words variable list
         print("Word:", current_word)
 
@@ -125,12 +125,12 @@ def pronunciation_phase(language):
         if word in words and os.path.isfile(os.path.join(pronunciation_folder, word + ".wav")):
             # Pronounce the word
             audio_file = os.path.join(pronunciation_folder, word + ".wav")
-            # Cargar la muestra sonora desde un archivo WAV
+            # load sample from wav
             sound = AudioSegment.from_wav(audio_file)
-            # Duración en milisegundos de la atenuación gradual
-            # Aplicar la atenuación gradual al principio y al final de la muestra sonora
+
+            # apply down wave at the end and the start of the file
             sound = sound.fade_in(100).fade_out(100)
-            # Exportar la muestra sonora con la atenuación gradual aplicada
+            # export the build from samples
             sound.export("output.wav", format="wav")
             # Play
             playsound("output.wav")
