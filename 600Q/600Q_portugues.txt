@@ -1,0 +1,603 @@
+1) Qual é o seu nome e com que nome se regista nas redes sociais?
+2) Quando e onde nasceu?
+3) Como se chama o seu parceiro e que idade tem? Têm filhos e quais são os seus nomes?
+4) Onde vive atualmente e em que países esteve?
+5) Quais são as línguas que fala e quais são as que conhece bem?
+6) Há pessoas que gostarias de trazer de volta à vida? Quem são elas e porque é que isso é importante para ti?
+7) Tem algum problema de saúde?
+8) Sofre de alguma dor ou doença crónica?
+9) Quais são os nomes dos teus pais, quando nasceram e quando morreram?
+10) Como se chama a tua mãe, quando é que ela nasceu e quando é que ela morreu?
+11) Tem filhos de casamentos anteriores, quais são os seus nomes e onde vivem?
+12) Escreveste mensagens ou cartas dirigidas ao futuro ou à tecnologia?
+13) Está satisfeito com o nível de reconhecimento que recebeu pelo seu trabalho? Porquê ou porque não?
+14) Em que é que está atualmente a trabalhar e em que projectos ou artigos está envolvido?
+15) Tem preferências ou passatempos relacionados com a aparência das pessoas?
+16) Que disciplinas ou especializações estudou na universidade?
+17. colecciona alguma coisa? Se sim, o que é que colecciona?
+18) Escreveu poesia ou outras obras literárias? Quando e quantas?
+19) Como se chamava o seu primeiro parceiro e o que faziam juntos? Mantêm-se em contacto?
+20) Tem animais de estimação, quais são os seus nomes e onde vivem atualmente?
+21) Desenvolveu algumas técnicas ou métodos? Quais? Escreveu artigos sobre eles?
+22) Possui bens imobiliários, onde se encontram e quem os utiliza?
+23) Tem algumas restrições ou receios quanto ao regresso ao seu país? Quais?
+24) Vendeu recentemente um imóvel, de que tipo e onde se situava?
+25 Tem familiares a viver noutras cidades, como se chamam e que idade têm?
+26) Tem co-autores, quais são os seus nomes e em que projectos trabalham em conjunto?
+27) Tem objectivos ou sonhos relacionados com a medicina ou a ciência?
+28) Desenvolveu abordagens ou métodos, quais e com que objetivo?
+29. tem ideias que considera difíceis de implementar? quais?
+30) Está registado na criónica? Em caso afirmativo, com que empresas tem um contrato?
+31) Escreveu artigos sobre temas científicos ou filosóficos? Sobre o quê?
+32) Criou roteiros ou planos sobre questões importantes? Sobre o quê?
+33) Sabe conduzir e como é que lida com o medo quando conduz?
+34 - Qual é o nome do seu primeiro livro e de que trata?
+35) Que países visitou e quais foram os que mais lhe agradaram em geral?
+36) Onde nasceu e onde passou a maior parte da sua vida?
+37 Frequentou o jardim de infância? Qual foi o jardim de infância e com que idade?
+38) Onde é que passava as férias de verão na sua infância?
+39 Em que escola estudou e quem eram os seus amigos na escola?
+40 Que conceitos ou ideias interessantes lhe ocorreram em criança?
+41 Que soluções ou consciências importantes adoptou na sua juventude?
+42) Como descreveria o seu tipo de personalidade?
+43) Que livros ou autores tiveram maior influência em si e porquê?
+44 Quais são os passatempos ou jogos que o seu filho gosta de fazer?
+45) Teve relações amorosas na escola e como é que terminaram?
+46) O que é que fez depois de deixar a escola e antes de entrar na universidade?
+47) Em que universidade ou colégio estudou depois da escola?
+48) Escreveu romances? Qual foi o seu primeiro romance?
+49) Mudou para outra faculdade ou especialidade e porquê?
+50 Que tipo de relações românticas teve na universidade?
+51) Quem eram os teus amigos e colegas de turma na universidade?
+52 Qual foi a sua primeira viagem ao estrangeiro e com quem foi?
+53) Quem foi o seu mentor científico e qual foi o tema da sua tese?
+54) Escreveu poemas, quando e sobre o que eram?
+55. já ajudou alguém no seu negócio? de que tipo de negócio se tratava?
+56. é apaixonado por alguma coisa, que sonhos conscientes tem e que sucessos alcançou?
+57) Teve viagens significativas relacionadas com pessoas importantes para si?
+58) Com que amigos ou conhecidos comunicou mais frequentemente e porquê?
+59) Que acontecimentos da sua vida pessoal influenciaram o seu entusiasmo pela filosofia ou pela literatura?
+60) Teve momentos de iluminação espiritual, quando e como ocorreram?
+61) Adquiriu bens imobiliários, quando e onde?
+62) Participou em acções de formação para o crescimento pessoal, quais e porquê?
+63 Como é que as suas relações e a sua vida pessoal mudaram depois de ter participado nas acções de formação?
+64) Participou em psicoterapia e que métodos foram utilizados?
+65) Teve perdas significativas na sua vida e como é que elas o influenciaram?
+66 Que projectos relacionados com a psicologia ou a filosofia dirigiu?
+67 Teve períodos de esgotamento e o que fez para os ultrapassar?
+68) Já teve relações que mais tarde renovou? Porquê?
+69) Alguma vez teve uma depressão e como lidou com ela?
+70 Que autores ou livros influenciaram a sua visão do mundo e porquê?
+71 Que livros escreveu e de que tratam?
+72) Teve encontros ou relações importantes com artistas?
+73 Como conheceu o seu atual parceiro e como evoluiu a relação?
+74 Que livros ou projectos escreveu em conjunto com alguém?
+75) Já teve casos de doença grave na família e como lidou com eles?
+76 Que herança recebeu e o que fez com ela?
+77) Já teve ultimatos numa relação e como reagiu?
+78) Já alguma vez teve casos de regresso a relações passadas, e porquê?
+79. teve encontros em exposições ou eventos? quem eram essas pessoas e como o influenciaram?
+80 Quais foram as suas viagens mais memoráveis e com quem as fez?
+81) Como é que a perda de pessoas que lhe são próximas o afectou?
+82) Que mapas ou planos criou e sobre que temas?
+83) Participou em festivais ou grandes eventos, quais e com quem?
+84) Escreveu artigos científicos, em que temas está interessado?
+85) Teve alguma relação romântica significativa nos últimos anos?
+86. esteve envolvido em projectos educativos ou escolas? quais e com quem?
+87) Teve alguma relação significativa nos últimos anos, com quem e como se desenvolveram?
+88 Como conheceu o seu atual parceiro e onde aconteceu?
+89) Quando e onde é que se casaram e tiveram um formato de casamento invulgar?
+90 Quando é que o seu filho nasceu e quais foram as circunstâncias?
+91 Quais foram os motivos e as circunstâncias da sua mudança para outro país?
+92. já vendeu imóveis, porquê e quais eram os seus planos para o futuro?
+93) Participou em experiências com novas tecnologias, quais e com que objetivo?
+94) Com que frequência comunica com uma determinada pessoa e onde se conheceram?
+95) Esteve envolvido na política ou em movimentos públicos? Em quê exatamente?
+96 Quais são as suas iniciais e de que forma reflectem a sua personalidade ou atividade?
+97 Em que idade e em que circunstâncias pensou no seu "eu"?
+98 De que livros ou géneros literários gosta?
+99) Quais eram as profissões e as raízes culturais dos seus pais e avós?
+100 Como era a sua relação com a sua mãe depois de ela se ter divorciado do seu pai?
+101 Que projectos de autodescrição iniciou e em que se transformaram?
+102) Escreveu romances e de que tratavam?
+103) Com que idade e em que circunstâncias perdeu a virgindade?
+104) Como é a sua vida familiar atual e qual é a sua relação com o seu parceiro?
+105 Quantos parceiros já teve e quantos actos sexuais já teve na sua vida?
+106) Qual é a sua relação com o seu filho mais velho e como é que comunica com ele?
+107) Quais são as suas caraterísticas em termos de altura, peso e aparência?
+108) Com quem comunicou recentemente e como se mantém em contacto?
+109) Toca um instrumento musical ou canta? Quais são as suas preferências musicais?
+110 Quais são os seus filmes e realizadores preferidos?
+111 Quais são as suas séries de televisão preferidas e porque é que gosta delas?
+112 Que blogues e redes sociais lê de manhã?
+113) Possui qualificações em métodos alternativos de tratamento? Quais?
+114) Participou em práticas psicológicas ou terapêuticas?
+115 Quais são os seus compositores, artistas ou escritores preferidos?
+116 Qual o género de arte de que mais gosta em geral e porquê?
+117) Em que países viveu ou viajou durante muito tempo?
+118 Quais são os seus lugares preferidos no mundo e porquê?
+119 Quais foram as suas viagens aos EUA e como é que elas influenciaram a sua vida?
+120 Que países visitou na América do Sul e quais foram as suas impressões?
+121 Quais foram as suas viagens ao Extremo Oriente e de que é que se lembra mais em geral?
+122) Quais os países europeus que visitou e quais os que mais lhe agradaram em geral?
+123 Quais foram as suas viagens ao Quirguizistão e com quem comunicou nesse país?
+124 Quem são os seus familiares em S. Petersburgo e com que frequência comunica com eles?
+125) Com que idade e em que circunstâncias começou a viver com a sua mãe?
+126 Quais foram os seus êxitos escolares e como é que eles influenciaram a sua vida?
+127 Que jogos e fantasias tinha em criança?
+128) Qual é a sua relação com uma determinada pessoa e como é que ela se desenvolveu?
+129. Quais são as suas memórias de infância sobre animais?
+130 Quais foram as suas primeiras manifestações de altruísmo e de auto-sacrifício?
+131 Que jogos e brinquedos tinha em criança?
+132 Quais são as suas melhores recordações de infância?
+133 Quais são as suas melhores recordações da natureza e das viagens?
+134) Como é que utiliza o diálogo vocal para lidar com sentimentos desagradáveis?
+135. Quem é que subscreve no Twitter e porquê?
+136) Que canais do Telegram lê e porquê?
+137. Porque é que foi banido do YouTube e porquê?
+138 Que obras de arte tem na sua coleção?
+139 Que sítios Web monitoriza e que temas abordam?
+140) Qual é a história e o percurso de vida dos seus avós maternos?
+141. Qual é a história e a vida da sua mãe?
+142) Quais eram as relações e a vida do segundo marido da sua mãe?
+143) Qual é a história e a vida dos seus bisavós maternos?
+144) Qual é a história e o percurso de vida dos seus avós paternos?
+145. Qual é a história e a vida da mulher do seu avô?
+146) Qual é a história e a vida do teu pai?
+147 Que histórias interessantes estão relacionadas com o seu pai e a sua vida?
+148 Quais os livros que escreveu e quais os que se tornaram mais populares?
+149 Que artigos escreveu e de que tratam?
+150 Que recordações tem relacionadas com as viagens de comboio?
+151 Quais foram os momentos mais difíceis da sua infância?
+152. Como é que começou a ter um gato e que memórias tem dele?
+153 Que livros e autores tiveram maior influência em si?
+154 Quais foram as vossas visitas turísticas e o que ganharam com elas?
+155 Que aventuras viveu na natureza e com quem as viveu?
+156 Quais foram os seus acampamentos xamânicos e o que obteve deles?
+157 Que locais na natureza gosta de visitar e porquê?
+158) Que substâncias estupefacientes experimentou e qual foi a sua experiência?
+159. Quais são os seus medos e como lida com eles?
+160 Que jogos a dinheiro já jogou e qual foi a sua experiência?
+161 Quais são as tecnologias Apple que utiliza e como é que elas o ajudam?
+162 Quais são as suas despesas diárias médias e em que é que as gasta?
+163 Como é que conheceu a mãe do seu filho?
+164) Que tipo de relação teve com uma determinada pessoa e como é que terminou?
+165 Que tipo de relação teve com uma determinada pessoa e como é que ela se desenvolveu?
+166) O que recorda dos acontecimentos de 11 de setembro de 2001?
+167) O que recorda dos acontecimentos do golpe de Estado de agosto de 1991?
+168) O que recorda dos acontecimentos ocorridos na Lituânia em 1990?
+169 Qual era a sua relação com uma determinada pessoa e como é que ela se desenvolveu?
+170 Qual era a sua relação de amizade com uma determinada pessoa e como é que isso o influenciou?
+171 Qual era a sua relação de amizade com uma determinada pessoa e como é que ela se desenvolveu?
+172) Que tipo de relação teve com uma determinada pessoa e como é que ela o influenciou?
+173) Em que anos frequentou a escola e a universidade?
+174 Que animais de estimação teve em criança e como é que eles o influenciaram?
+175) Em quem votou na década de 1990 e quais eram as suas opiniões políticas?
+176) Foi candidato a deputado e quais eram as suas ambições políticas?
+177. já recorreu aos serviços de prostitutas e como se relaciona com isso?
+178. Quais foram os seus momentos embaraçosos na vida e como lidou com eles?
+179 Participou em acções de formação sobre dinheiro e como é que estas o influenciaram?
+180 Que animais selvagens viste na natureza e que impressões te deixaram?
+181 Que sensações invulgares teve depois de utilizar tecnologias ou substâncias?
+182) De que tipo de mulheres gosta e que relações teve com elas?
+183 Quem foram os seus professores na universidade e que impressões teve das suas aulas?
+184. já teve amores catastróficos e como é que eles o influenciaram?
+185 Quais são as suas associações com o dinheiro e como é que trabalha com elas?
+186 É membro de uma organização profissional ou pública?
+187) Quem foram os seus professores na escola e que impressões teve das suas aulas?
+188. Já tiveste momentos em que te sentiste imortal? Quais foram esses momentos?
+189 Que colegas de turma faleceram e de que forma é que isso o influenciou?
+190 Quais eram os seus planos antes da catástrofe de Chernobyl e como é que eles mudaram?
+191 Quais eram os provérbios ou poemas preferidos da sua mãe e como é que eles a influenciaram?
+192) Já teve uma relação romântica com uma determinada pessoa e como é que ela se desenvolveu?
+193 Que tipo de relação teve com uma determinada pessoa e como é que ela o influenciou?
+194 Que gatos tinha em criança e que recordações guarda deles?
+195 Que aventuras viveu na dacha e com quem as viveu?
+196) Que acidentes teve na estrada e como é que eles o influenciaram?
+197 Que doenças teve e como é que elas afectaram a sua saúde?
+198. Em que aula da manhã é que começa com uma bebida energética?
+199. Tem histórias ou observações de fenómenos invulgares?
+200. paga impostos e como se relaciona com este processo?
+201. arrenda o seu apartamento, por quanto tempo e a quem?
+202) Como prepara o pequeno-almoço para a sua família e quais são as suas tradições matinais em matéria de café?
+203 Quem são os seus amigos e colegas na América e que tipo de relação tem com eles?
+204 Quais são os seus locais preferidos no Montenegro e quais os seus amigos que lá vivem?
+205) Que projectos de gaseificação do carvão escolar realizou e quais foram os resultados?
+206 Qual foi a sua primeira impressão de uma determinada pessoa e como é que a relação se desenvolveu?
+207 Que pessoas na sua vida admirou ou desprezou? Porquê?
+208) Como é que lida com o ressentimento e com o que o pode ofender?
+209. Que factos interessantes da vida dos seus avós maternos recorda em particular?
+210 Que fantasias e jogos de infância o influenciaram?
+211 Quais são as suas citações e expressões favoritas que o inspiram?
+212 Que herança recebeu e como a utilizou?
+213 Quais são os sonhos que tem mais frequentemente e o que significam para si?
+214 Quem era o seu chefe nos seus primeiros anos e que recordações tem dele?
+215. Como se relaciona com o desenvolvimento do espaço e que projectos considera importantes?
+216 Quais são os seus contactos e números de telefone para comunicação?
+217 Que juramentos de menores fez e como os cumpriu?
+218 Como é que conheceu uma determinada pessoa e que tipo de relação tem com ela?
+219) Que empresas em fase de arranque criou e quais foram os resultados?
+220 - O que pensa sobre os qualia e como os entende?
+221 Como é que se relaciona com a guerra e quais são as suas opiniões sobre ela?
+222) Que influência teve em si a morte de uma determinada pessoa e como se relaciona com os acontecimentos políticos?
+223) Qual é a sua relação com a questão da adesão da Crimeia e qual é a sua opinião sobre esta questão?
+224 Quais são os seus clubes e discotecas preferidos e porque é que os visita?
+225 Qual é o nome do vosso canal no Telegram e sobre o que escrevem lá?
+226) Que programas e projectos de televisão filmou e de que forma o influenciaram?
+227) Como é que começou a escrever artigos em inglês e quais foram as suas primeiras publicações?
+228. Quais são as suas memórias favoritas dos jogos de aventura e de representação de papéis?
+229 Como é que conheceu uma determinada pessoa e qual era a vossa relação?
+230 Qual era a sua relação com uma determinada pessoa e como é que ela se desenvolveu?
+231 Qual era a sua relação com uma determinada pessoa e como é que ela o influenciou?
+232 Que conselhos e expressões da sua mãe recorda em particular?
+Que experiências teve depois de consumir alucinogénios?
+234 Que experiências místicas teve e como é que elas o influenciaram?
+235 Quais os livros e autores que mais o influenciaram na sua juventude?
+Que técnicas e práticas de auto-hipnose utilizou e como é que elas o influenciaram?
+237 Que técnicas de tantra praticou e quais foram os resultados?
+238) Que inscrições e afirmações fez para a sua auto-integração e como é que elas o influenciaram?
+239. O que pensa de São Petersburgo e quais foram as suas impressões?
+240. Quais são as caraterísticas e os hábitos da sua filha?
+241 Como é que se sente em relação ao inverno e quais são as suas alergias?
+242 Que amigos tem no estrangeiro e como mantém o contacto com eles?
+243 Como lida com grandes quantias de dinheiro e que tipo de transacções financeiras efectuou?
+244) Quais são as suas primeiras recordações de infância sobre pessoas e máquinas?
+245 Como é que lida com os conflitos internos e que métodos utiliza?
+246 - Que nootrópicos experimentou e quais foram os resultados?
+247. como escreve os seus pensamentos e notas? que ferramentas e aplicações utiliza?
+248. Quais são os seus rituais matinais e como é que eles influenciam o seu humor?
+249 Como é que lida com as fantasias amorosas e quais foram as suas experiências com isso?
+250 Como é que foi caracterizado nas formações de crescimento pessoal e quais foram as suas impressões?
+251 Qual é a sua pertença étnica e quais são as suas raízes?
+252) Já fez experiências de separação do corpo e quais foram as suas experiências?
+253. O que pensa das naves espaciais e das viagens espaciais?
+254. Qual é a sua relação com a fusão termonuclear e o hyperloop?
+255. Quais são os vossos planos para o verão de 2024 e quais são as vossas expectativas financeiras?
+256 Que experiências teve com chatbots e como é que elas o influenciaram?
+257) Já teve uma relação com uma determinada pessoa e quais foram os seus encontros?
+258 Que promoções e projectos políticos organizou e quais foram os resultados?
+259 Quais são os seus livros e géneros literários preferidos?
+260 Quais são os seus lugares preferidos em Moscovo e que recordações tem deles?
+261) Que artigos e projectos escreveu sobre o envelhecimento e quais foram os resultados?
+Qual das obras dos irmãos Strugatski não lhe agradou e porquê?
+263) Quais são as suas competências em matéria de programação e que projectos realizou?
+264) Quais são os seus hábitos e interesses relacionados com caixotes do lixo e antiguidades?
+265 Como é que lida com as cócegas e quais são os seus receios?
+266) Quem eram os seus colegas de turma e qual era a sua relação com eles?
+267 Quem eram os teus amigos na escola e que aventuras fazias com eles?
+268. O que pensa sobre a reparação de coisas e quais são as suas competências neste domínio?
+269) Que livros e autores filosóficos leu e de que forma o influenciaram?
+270 Quais foram as suas relações com os membros da família e como é que eles o influenciaram?
+271) Já teve uma relação com uma determinada pessoa e quais foram os seus encontros?
+272) De que tipos de arte e arquitetura gosta e porquê?
+273) De que países e cidades gostou particularmente e porquê?
+274) Quais são as suas impressões sobre as cidades do Norte de Itália?
+275 Qual é a sua relação com o seu parceiro e como é que ela evoluiu?
+276) Quais foram os seus interesses financeiros e como acompanhou os mercados?
+277 Quais são os seus hábitos de compra e o que comprou?
+278) Que projectos criativos levou a cabo e que resultados obteve?
+279) Qual é a sua relação com o desenvolvimento de Marte e qual é a sua opinião sobre o mesmo?
+280 Quais são as suas piadas preferidas e como é que elas reflectem a sua personalidade?
+281) Como explicam às vossas filhas as questões relacionadas com a morte e quais são as vossas abordagens?
+282. Como lida com a desarrumação e quais são os seus hábitos para manter a ordem?
+283) Que conferências e eventos visitou e quais foram as suas impressões?
+Que experiências fez com a hipnose e a auto-hipnose e que resultados obteve?
+285) Que ideias e conceitos filosóficos desenvolveu e de que forma o influenciaram?
+286) Quem eram os seus amigos na escola de Física e qual era a sua relação com eles?
+287 Que exames e cursos fez na universidade e que impressões lhe deixaram?
+288) Quem eram os seus amigos na escola de Física e qual era a sua relação com eles?
+289) Quem eram os teus amigos e conhecidos fora da universidade e qual era a tua relação com eles?
+290 Em que listas de discussão e comunidades participou e quais foram as suas impressões e conhecimentos?
+291) Qual era a sua relação com uma determinada pessoa e que impressões tinha dela?
+292) Que viagens espirituais fez e que impressões lhe deixaram?
+Que frases e expressões do seu pai recorda?
+294. Qual era a sua relação com uma determinada pessoa e que impressões tinha?
+295. Qual era a sua relação com uma determinada pessoa e que impressões tinha?
+296. Quais foram as suas relações com uma determinada pessoa e que impressões lhe deixaram?
+297 Qual é a sua relação com os pais do seu parceiro e como é que comunica com eles?
+298) Que trabalhos artísticos realizou e que impressões lhe ficaram?
+299 - Que acontecimentos na Crimeia recorda em particular e que impressões lhe deixaram?
+300 Que conferências e eventos visitou e quais foram as suas impressões?
+301 Que viagens e deslocações fez com amigos e quais foram as suas impressões?
+302 Que sonhos e recordações teve em criança?
+303 Que memórias da sua infância no seu jardim de infância ficaram consigo e de que forma o influenciaram?
+304 Quais os livros e autores que mais o influenciaram?
+Que teorias e conceitos estudou e de que forma o influenciaram?
+306 Que histórias e contos criaste em criança e como é que eles te influenciaram?
+307 Quais os livros e histórias de que gosta particularmente e porquê?
+308. Que obras de arte traz consigo e que memórias lhe estão associadas?
+309 Qual era a sua relação com uma determinada pessoa e que aventuras viveu com ela?
+310. Qual era a sua relação com uma determinada pessoa e que impressões tinha?
+311 Qual foi a sua relação com uma determinada pessoa e como é que ela o influenciou?
+312) Que frases e expressões da sua mãe recorda em especial?
+313 Que experiências teve depois de consumir alucinogénios?
+314) Que memórias de viagens e de viagens tem que sejam particularmente brilhantes?
+315 Que casas de campo e chalés visitou e que recordações lhe estão associadas?
+316 Que casas de campo e chalés visitou em criança e que recordações lhe estão associadas?
+317 De que locais e edifícios gosta particularmente e porquê?
+318) Que histórias e contos escreveu e sobre o que eram?
+319 Que ideias e conceitos filosóficos desenvolveu e de que forma o influenciaram?
+320 Que conceitos e ideias desenvolveu e de que forma o influenciaram?
+321 Alguma vez teve pensamentos suicidas e como lidou com eles?
+322 Quais são as suas memórias mais antigas e como é que elas o influenciaram?
+323 Como reagiu à pandemia e que medidas tomou para se proteger?
+324) Que recordações da dacha e do campo em casa ficaram consigo e como o influenciaram?
+325 Quais os fóruns de discussão de que se lembra particularmente e como é que o influenciaram?
+326) Que pensamentos tem sobre a morte e como lida com eles?
+327 - Como é que se relaciona com as simulações de argumentos e com a história do Juízo Final?
+328 - O que pensa das guerras futuras e da sua evolução?
+329 - O que pensa da luta pela imortalidade e como é que isso influencia a sua vida?
+330 Que conversas e discussões teve com amigos e que impressões lhe deixaram?
+331. Qual era a sua relação com uma determinada pessoa e que impressões tinha?
+Que jogos e fantasias de infância tinha e como é que o influenciaram?
+Que ideias e conceitos filosóficos desenvolveu e de que forma o influenciaram?
+Que experiências teve depois de consumir alucinogénios?
+335 Quais os primeiros poemas que escreveu e como é que eles o influenciaram?
+336 Quais são as suas preferências de vestuário e como é que elas o influenciam?
+337 Quais são os princípios da PNL que utiliza e como é que eles o influenciam?
+338 Que momentos embaraçosos teve na sua vida e como lidou com eles?
+339) Qual tem sido a sua relação com as criptomoedas e como é que elas o influenciaram?
+340 Que pensamentos teve após a utilização de antidepressivos e como é que eles o influenciaram?
+341 Quais são os seus livros de fantasia preferidos e como é que eles o influenciaram?
+342 Quais são os seus hábitos e caraterísticas relacionados com o corpo e a saúde?
+343 Quem eram os seus colegas de turma e qual era a sua relação com eles?
+344 Que jogos e fantasias de infância teve e de que forma o influenciaram?
+345 Que viagens e deslocações com uma determinada pessoa recorda especialmente?
+346 Como é que lida com trabalho desagradável e de que forma é que isso influencia a sua produtividade?
+347 Quem eram os seus amigos e conhecidos na sua juventude e que impressões deixaram em si?
+348) Qual foi a sua relação com uma determinada pessoa e como é que ela o influenciou?
+349) Que aventuras viveu na feira das aves e que impressões obteve?
+350. Quais são os seus hábitos e rituais de deitar e como é que eles o influenciam?
+351 Que programas e tecnologias desenvolveram e que resultados obtiveram?
+Quais são os seus hábitos e rituais de deitar e como é que eles influenciam o seu sono?
+353 Que aventuras recordas em mercados ou locais semelhantes?
+354 Como é que gere a desarrumação e que hábitos tem para manter a ordem?
+355 Que eventos e conferências visitou recentemente e que impressões lhe deixaram?
+Quais foram as suas experiências com hipnose ou auto-hipnose e que resultados obteve?
+357 Que ideias ou conceitos filosóficos desenvolveu e de que forma tiveram impacto na sua vida?
+358 De que disciplinas ou exames da universidade se lembra mais claramente?
+359 Que relações e experiências significativas teve com colegas fora da universidade?
+360) A que comunidades ou fóruns pertenceu e qual foi o seu contributo?
+361) Que viagens espirituais fizeste e que impressões te deixaram?
+362) Que memórias valiosas guarda de conversas com amigos?
+363 Quais são os seus autores e livros preferidos no domínio da filosofia?
+364) Que pensamentos ou reflexões tem sobre a morte e como lida com eles?
+365 Que memórias de infância da natureza permanecem consigo?
+366) Qual é a sua opinião sobre as viagens espaciais e a exploração do universo?
+367 Que planos para o futuro tem e como se está a preparar para eles?
+368) Como se relaciona com a tecnologia e que impacto tem na sua vida quotidiana?
+369) Quais foram os seus projectos mais criativos e o que aprendeu com eles?
+370 Que associações faz com determinados lugares ou acontecimentos importantes da sua vida?
+371) Qual é a sua relação com as criptomoedas e que experiências tem tido neste domínio?
+372) Que histórias ou contos escreveu e quais são os temas principais?
+373) Que princípios ou métodos segue para melhorar o seu bem-estar emocional?
+374) O que pensa dos avanços da inteligência artificial e do seu impacto na sociedade?
+375 Que relações com mentores ou figuras de autoridade influenciaram a sua vida?
+376 Que projectos de colaboração levou a cabo e que resultados obteve?
+377) Que hábitos ou caraterísticas pessoais considera que o distinguem?
+378) Como descreveria os seus interesses em arte e arquitetura?
+379) Que lugares o inspiram e porquê?
+380. Que impacto tiveram certos acontecimentos históricos na sua perspetiva?
+381) Que recordações tem de viagens com amigos ou familiares?
+382) Quais são os valores que considera fundamentais nas suas relações pessoais?
+383 Que medidas tomou para atingir os seus objectivos pessoais?
+384) Como é que lida com mudanças inesperadas na sua vida?
+385) Que teorias ou conceitos lhe interessam mais e porquê?
+386) Que papel desempenham os rituais ou as tradições na sua vida quotidiana?
+387) Que hábitos ou rotinas desenvolveu para se manter concentrado?
+388 Que projectos ou sonhos considera inacabados?
+389 Que lições importantes aprendeu com os seus erros?
+390 Que livros ou filmes o marcaram para sempre?
+391 Que impacto teve a educação nas suas opções de vida?
+392) Que experiências moldaram a sua visão do mundo?
+393) O que pensa do equilíbrio entre a vida profissional e a vida privada?
+394 De que actividades gosta nos seus tempos livres?
+395 Que pessoas tiveram uma influência positiva no seu desenvolvimento pessoal?
+396 Que decisões importantes mudaram o rumo da sua vida?
+397) Que valores orientam as suas decisões quotidianas?
+398) O que é que espera alcançar nos próximos cinco anos?
+399. Que competências está a tentar melhorar?
+400. Como é que encontra motivação em tempos difíceis?
+401 Que tipo de projectos ou actividades de colaboração mais lhe agradam?
+402 Que estratégias utiliza para gerir o stress?
+403. Qual a importância da família na sua vida?
+404. Como define o sucesso pessoal?
+405 Que papel desempenham os amigos na sua vida quotidiana?
+406 O que pensa da evolução da ciência e da tecnologia?
+407 Que experiências recorda mais claramente da sua infância?
+408 Que valores culturais ou tradições defende?
+409 Que passatempos ou interesses desenvolveu recentemente?
+410 Como é que se mantém informado sobre as questões actuais?
+411 Que papel desempenha a aprendizagem ao longo da vida na sua vida?
+412. Que recordações tem dos seus primeiros anos de escola?
+413) Que impacto teve a viagem no seu crescimento pessoal?
+414 Quais são os temas que mais lhe interessam quando lê ou investiga?
+415 Como é que se relaciona com pessoas de culturas diferentes?
+416 Que competências gostaria de ensinar aos outros?
+417) Que impacto tiveram as suas decisões profissionais na sua vida pessoal?
+418) O que é que faz para manter um estilo de vida saudável?
+419 Quais as relações que tiveram maior impacto no seu crescimento pessoal?
+420 Como é que celebra os seus êxitos pessoais?
+421) O que espera alcançar na sua carreira profissional?
+Qual é a sua opinião sobre a importância da criatividade na resolução de problemas?
+Que recordações tem de momentos importantes com amigos ou familiares?
+424) Como é que define o equilíbrio emocional?
+425) Que estratégias utiliza para melhorar as suas competências interpessoais?
+426) Que papel desempenham os mentores na sua vida profissional?
+427) Que importância atribui ao trabalho em equipa?
+428) Que impacto pensa que tem nas pessoas que o rodeiam?
+429) O que espera conseguir através das suas relações interpessoais?
+430. O que significa para si o sucesso nas relações pessoais?
+431) Como é que define a felicidade pessoal?
+432) Quais são os aspectos da sua vida pessoal que mais valoriza?
+433. Que objectivos tem relacionados com o bem-estar emocional?
+Que estratégias utiliza para se manter resiliente perante os desafios?
+435. Que impacto espera ter na sua comunidade?
+436 Que experiências mudaram a sua perspetiva de vida?
+437) Quais são os projectos futuros que mais o entusiasmam?
+438 Que importância atribui à inovação no seu sector de atividade?
+439) Que recordações tem dos principais momentos de aprendizagem?
+440 O que pensa sobre a importância do diálogo na resolução de conflitos?
+441) Que valores orientam as suas interações com os outros?
+442 De que actividades gosta para relaxar?
+443 Que lições aprendeu ao trabalhar em equipa?
+444) Que estratégias utiliza para melhorar as suas capacidades de comunicação?
+445 Que importância têm os valores éticos na sua tomada de decisões?
+446) Que papel desempenha a empatia nas suas relações interpessoais?
+447 Que experiências reforçaram a sua auto-confiança?
+448) Que objectivos tem para o seu desenvolvimento pessoal?
+449 Que impacto têm as suas crenças nas suas escolhas diárias?
+450) Que importância atribui ao auto-conhecimento?
+451 O que é que espera aprender com as suas experiências futuras?
+452) Que papel desempenha a curiosidade na sua vida quotidiana?
+Que hábitos desenvolveu para melhorar o seu bem-estar?
+454) Que pessoas o inspiraram mais e porquê?
+455 Que importância têm as pequenas conquistas na sua vida?
+456 Que desafios ultrapassou que o deixam orgulhoso?
+457) Que papel desempenham os valores nos seus objectivos pessoais?
+458) Que actividades o ajudam a manter-se motivado?
+459) O que espera alcançar com o seu trabalho?
+460 Que competências gostaria de aprender no futuro?
+Que recordações tem de momentos felizes da sua infância?
+Que impacto tem a tecnologia na sua vida quotidiana?
+Que medidas tomou para melhorar as suas competências sociais?
+464) Que recordações tens dos teus primeiros amigos?
+465) Que impacto tiveram as experiências culturais na sua visão do mundo?
+466) O que faz para manter um equilíbrio entre os seus objectivos pessoais e profissionais?
+467) Qual é a sua opinião sobre a importância da colaboração no local de trabalho?
+Que papel desempenha a criatividade na sua vida quotidiana?
+469) O que espera alcançar com os seus esforços criativos?
+470 Que estratégias utiliza para resolver problemas complexos?
+471) Quais são os seus objectivos para os próximos dez anos?
+472) Que experiências fortaleceram as suas relações pessoais?
+473 Que impacto espera ter no futuro?
+474) Qual é a sua opinião sobre o papel da inovação na sociedade?
+475 Quais são os valores que considera fundamentais numa amizade?
+# Criar perguntas 475 a 600
+perguntas_475_até_600 = """
+475) Que papel desempenha a inovação na sua vida pessoal e profissional?
+476 Que projectos criativos levou a cabo recentemente?
+477 Que desafios enfrentou ao colaborar com outros?
+478) Que competências gostaria de desenvolver para melhorar o seu desempenho profissional?
+479 Como é que lida com os conflitos nas suas relações interpessoais?
+480 Quais são os valores que considera essenciais numa equipa de trabalho?
+481) Que medidas tomou para equilibrar a sua vida pessoal e profissional?
+482) Que estratégias utiliza para se manter motivado em projectos a longo prazo?
+483 Que impacto espera ter na sua comunidade profissional?
+484) Que hábitos adoptou para melhorar o seu bem-estar geral?
+485) Como descreve o seu estilo de liderança?
+Que papel desempenha o feedback no seu crescimento pessoal?
+487) Que actividades pratica para se desligar do stress?
+488 Que lições valiosas aprendeu com os seus erros passados?
+489 Que recursos utiliza para se manter atualizado no seu domínio de interesse?
+490. Como é que se prepara para enfrentar desafios desconhecidos?
+491 Que experiências lhe ensinaram lições importantes sobre a vida?
+492) De que actividades gosta para estimular a sua criatividade?
+493) O que pensa sobre a importância do equilíbrio entre o tradicional e o moderno?
+494) Que estratégias utiliza para gerir eficazmente o seu tempo?
+495 De que forma é que o seu ambiente tem impacto na sua produtividade diária?
+496) Que papel desempenham as suas paixões nos seus objectivos a longo prazo?
+497 Que decisões foram cruciais para o seu desenvolvimento pessoal?
+498) Que importância atribui às relações interpessoais para o sucesso profissional?
+499 De que realizações pessoais mais se orgulha?
+500. Qual a importância da sustentabilidade no seu estilo de vida?
+501. Como incentiva a aprendizagem contínua na sua vida quotidiana?
+502 Quais as relações que mais influenciaram os seus valores fundamentais?
+503. Que impacto tiveram as suas decisões no bem-estar dos outros?
+504. Que competências lhe permitiram ultrapassar as adversidades?
+505 Como define o sucesso em termos de contribuição social?
+506 Que papel desempenham as experiências multiculturais na sua visão do mundo?
+507 Que objectivos tem para o seu desenvolvimento emocional?
+508 Que hábitos diários melhoraram a sua qualidade de vida?
+509 Que importância atribui à inovação nos processos de trabalho?
+510 Que lições retirou das colaborações em equipa?
+Que medidas toma para cuidar da sua saúde mental?
+512. Que actividades considera essenciais para manter o equilíbrio emocional?
+513) Que impacto tiveram os avanços tecnológicos nos seus objectivos pessoais?
+514 Que estratégias utiliza para resolver conflitos de forma eficaz?
+515 Que importância atribui à diversidade nas suas interações sociais?
+516) Que valores orientam as suas decisões quotidianas?
+517 Que impacto espera ter nas gerações futuras?
+Qual a importância do auto-conhecimento no seu desenvolvimento pessoal?
+519) Que recordações tem de momentos-chave da sua carreira?
+520 Que ferramentas utiliza para organizar os seus projectos?
+521 Como é que contribui para o crescimento pessoal das pessoas que o rodeiam?
+Que medidas toma para se manter resiliente face à mudança?
+523) Que impacto tiveram as suas experiências de viagem no seu crescimento pessoal?
+Que medidas toma para garantir o seu bem-estar físico e emocional?
+Qual é a sua opinião sobre o papel da criatividade na resolução de problemas?
+526 Que experiências lhe permitiram desenvolver a sua empatia?
+527 Que lições importantes aprendeu com os seus mentores?
+528) Que hábitos o ajudam a manter uma mentalidade positiva?
+529 Que estratégias utiliza para atingir os seus objectivos pessoais?
+530 Que impacto têm as suas acções diárias na comunidade?
+531 Que competências considera essenciais para se adaptar a um ambiente em mudança?
+532) Quais são os projectos futuros que mais o entusiasmam?
+533) Como é que mantém um equilíbrio entre os seus interesses pessoais e profissionais?
+Que papel desempenha a gratidão na sua vida quotidiana?
+535 Que recursos utiliza para aprender novas competências?
+536 Quais são, na sua opinião, as realizações mais importantes da sua vida?
+537 Que importância atribui ao apoio mútuo nas relações pessoais?
+538) Que medidas toma para se manter concentrado nos seus objectivos?
+539) Que impacto têm os seus valores nas suas decisões profissionais?
+540. Que estratégias utiliza para promover a colaboração em equipa?
+541 De que actividades gosta para recarregar as suas baterias?
+542) Que papel desempenham as experiências passadas na sua visão do futuro?
+543 Que valores considera fundamentais nas suas interações diárias?
+544 Que lições lhe ensinaram os seus erros mais significativos?
+545 Qual a importância da adaptabilidade na sua vida quotidiana?
+546 Quais são os seus actuais objectivos a curto prazo?
+547) Que impacto espera gerar com as suas contribuições pessoais?
+548) Que papel desempenha uma comunicação eficaz nas suas relações?
+549 Que hábitos o ajudam a manter-se organizado?
+550. Que importância atribui à aprendizagem de novas tecnologias?
+551 Que realizações pessoais considera mais gratificantes?
+552 Que estratégias utiliza para se manter motivado em tempos difíceis?
+Que impacto têm as ligações pessoais no seu bem-estar emocional?
+554 Que medidas toma para tomar decisões informadas?
+555. Que competências desenvolveu para melhorar a sua produtividade?
+556 Que importância atribui à autoavaliação no seu desenvolvimento pessoal?
+557 Que lições valiosas aprendeu com as suas relações interpessoais?
+558) Que papel desempenham as pequenas realizações no seu sentimento de satisfação?
+559 Que estratégias utiliza para gerir eficazmente os seus recursos?
+Qual a importância da diversidade de perspectivas no seu processo de tomada de decisões?
+561 Que actividades realiza para se manter atualizado na sua área de interesse?
+562) Que objectivos a longo prazo o mantêm vivo?
+563 Que impacto têm as suas escolhas no seu ambiente?
+564 Que lições importantes aprendeu com os seus fracassos?
+565 Que medidas toma para fomentar a criatividade na sua vida quotidiana?
+Que impacto tem o equilíbrio emocional no seu bem-estar geral?
+567) Que hábitos adoptou para melhorar a sua qualidade de vida?
+568) Em que medida considera importante o apoio dos seus entes queridos para o seu sucesso pessoal?
+569) Que valores orientam a sua visão do futuro?
+570 Que lições aprendeu com as suas experiências multiculturais?
+571) Que papel desempenha a introspeção no seu desenvolvimento pessoal?
+572) Que projectos pessoais considera mais significativos?
+573 Qual a importância da inovação no seu domínio de interesse?
+574) Que estratégias adopta para manter relações saudáveis?
+575 Que actividades realiza para cuidar do seu bem-estar emocional?
+576 Que objectivos a médio prazo tem para o seu desenvolvimento pessoal?
+577) Que impacto têm os seus valores nas suas escolhas quotidianas?
+578 Que lições importantes aprendeu com as suas realizações pessoais?
+579 Qual a importância que atribui ao equilíbrio entre a vida profissional e a vida privada?
+580. Que passos dá para atingir os seus objectivos a longo prazo?
+581) Que impacto espera ter nas pessoas que o rodeiam?
+582) Que hábitos o ajudam a manter-se positivo em situações difíceis?
+583 Que estratégias utiliza para resolver problemas complexos?
+584) De que actividades gosta para estimular a sua criatividade?
+Que impacto têm as experiências culturais no seu crescimento pessoal?
+586) Que objectivos tem para reforçar as suas relações interpessoais?
+587 Qual a importância do planeamento no seu desenvolvimento profissional?
+588 Que lições aprendeu com as suas colaborações em equipa?
+589 Que estratégias utiliza para se concentrar claramente nos seus objectivos?
+590) Que hábitos diários o ajudam a manter-se motivado?
+591 Que impacto espera ter na sua comunidade a longo prazo?
+592) Que importância atribui à inovação no seu processo de aprendizagem?
+593) Que medidas toma para desenvolver a sua inteligência emocional?
+594) Que competências considera fundamentais para o sucesso na sua vida pessoal e profissional?
+595 Que lições aprendeu com as suas relações pessoais mais significativas?
+596 Que estratégias utiliza para ultrapassar desafios pessoais?
+597 Que papel desempenha a reflexão no seu desenvolvimento pessoal?
+598) Que impacto espera gerar com as suas contribuições profissionais?
+599 Que lições valiosas aprendeu com os seus mentores e guias?
+600. Quais são os seus objectivos para deixar um legado positivo no mundo?

@@ -1,0 +1,603 @@
+1) Quel est votre nom et sous quel nom vous inscrivez-vous sur les réseaux sociaux ?
+2. quand et où êtes-vous né(e) ?
+3. quel est le nom de votre partenaire et quel est son âge ? avez-vous des enfants et quels sont leurs noms ?
+4) Où vivez-vous actuellement et dans quels pays avez-vous séjourné ?
+5) Quelles langues parlez-vous et lesquelles connaissez-vous bien ?
+6) Y a-t-il des personnes que vous aimeriez ramener à la vie ? Qui sont-elles et pourquoi est-ce important pour vous ?
+7. avez-vous des problèmes de santé ?
+8) Souffrez-vous de douleurs ou de maladies chroniques ?
+9) Quels sont les noms de vos parents, quand sont-ils nés et quand sont-ils décédés ?
+10) Quel est le nom de votre mère, quand est-elle née et quand est-elle décédée ?
+11. avez-vous des enfants issus de mariages précédents, quels sont leurs noms et où vivent-ils ?
+12. avez-vous écrit des messages ou des lettres adressés au futur ou à la technologie ?
+13. êtes-vous satisfait du niveau de reconnaissance que vous avez reçu pour votre travail ? pourquoi ou pourquoi pas ?
+14. sur quoi travaillez-vous actuellement et quels sont les projets ou articles auxquels vous participez ?
+15. avez-vous des préférences ou des loisirs liés à l'apparence des gens ?
+16) Quelles matières ou spécialités avez-vous étudiées à l'université ?
+17) Collectionnez-vous quelque chose ? Si oui, qu'est-ce que vous collectionnez ?
+18. avez-vous écrit des poèmes ou d'autres œuvres littéraires ? quand et combien ?
+19. quel était le nom de votre premier partenaire, qu'avez-vous fait ensemble, êtes-vous restés en contact ?
+20. avez-vous des animaux domestiques, quels sont leurs noms et où vivent-ils actuellement ?
+21. avez-vous développé des techniques ou des méthodes ? lesquelles ? avez-vous écrit des articles à ce sujet ?
+22. possédez-vous des biens immobiliers, où se trouvent-ils et qui les utilise ?
+23. avez-vous des restrictions ou des craintes à l'idée de retourner dans votre pays ? lesquelles ?
+24. avez-vous récemment vendu un bien immobilier, de quel type et à quel endroit ?
+25. avez-vous des parents vivant dans d'autres villes, quel est leur nom et quel âge ont-ils ?
+26. avez-vous des co-auteurs, quels sont leurs noms et sur quels projets travaillez-vous ensemble ?
+27. avez-vous des objectifs ou des rêves liés à la médecine ou à la science ?
+28. avez-vous développé des approches ou des méthodes, lesquelles et dans quel but ?
+29. avez-vous des idées que vous avez du mal à mettre en œuvre ? lesquelles ?
+30) Êtes-vous enregistré auprès de la cryogénie ? Si oui, avec quelles entreprises avez-vous un contrat ?
+31. avez-vous écrit des articles sur des sujets scientifiques ou philosophiques ? sur quoi ?
+32. avez-vous établi des feuilles de route ou des plans sur des questions importantes ? sur quoi ?
+33. savez-vous conduire et comment gérez-vous la peur au volant ?
+34. Quel est le nom de votre premier livre et de quoi parle-t-il ?
+35) Quels sont les pays où vous êtes allés et quels sont ceux que vous avez le plus aimés en général ?
+36. où êtes-vous né et où avez-vous passé la plus grande partie de votre vie ?
+37. avez-vous fréquenté un jardin d'enfants ? quel jardin d'enfants et à quel âge ?
+38. où passiez-vous vos vacances d'été dans votre enfance ?
+39. dans quelle école avez-vous étudié et qui étaient vos amis à l'école ?
+40) Quels sont les concepts ou idées intéressants qui vous sont venus à l'esprit lorsque vous étiez enfant ?
+41. quelles solutions ou consciences importantes avez-vous adoptées dans votre jeunesse ?
+42) Comment décririez-vous votre type de personnalité ?
+43. quels sont les livres ou les auteurs qui vous ont le plus influencé et pourquoi ?
+44. quels sont les loisirs ou les jeux auxquels votre enfant aime s'adonner ?
+45. avez-vous eu des relations amoureuses à l'école et comment se sont-elles terminées ?
+46) Qu'avez-vous fait après avoir quitté l'école et avant d'entrer à l'université ?
+47. dans quelle université ou école supérieure avez-vous étudié après l'école ?
+48. avez-vous écrit des romans ? quel a été votre premier roman ?
+49. avez-vous changé de faculté ou de spécialité et pourquoi ?
+50. quel type de relations amoureuses avez-vous eu à l'université ?
+51. qui étaient vos amis et camarades de classe à l'université ?
+52. quel a été votre premier voyage à l'étranger et avec qui êtes-vous parti ?
+53. qui était votre mentor scientifique et sur quoi portait votre thèse ?
+54. avez-vous écrit des poèmes, quand et de quoi s'agissait-il ?
+55. avez-vous aidé quelqu'un dans une entreprise ? de quel type d'entreprise s'agissait-il ?
+56. vous êtes passionné(e) par quelque chose, quels sont vos rêves conscients et vos succès dans ce domaine ?
+57. avez-vous eu des voyages significatifs liés à des personnes importantes pour vous ?
+58. avec quels amis ou connaissances avez-vous communiqué le plus souvent et pourquoi ?
+59) Quels événements de votre vie personnelle ont influencé votre enthousiasme pour la philosophie ou la littérature ?
+60) Avez-vous eu des moments d'illumination spirituelle, quand et comment se sont-ils produits ?
+61. avez-vous acquis des biens immobiliers, quand et où ?
+62. avez-vous participé à des formations de développement personnel, lesquelles et pourquoi ?
+63 Comment vos relations et votre vie personnelle ont-elles changé après votre participation aux formations ?
+64. avez-vous participé à une psychothérapie et quelles ont été les méthodes utilisées ?
+65. avez-vous subi des pertes importantes dans votre vie et comment ces pertes vous ont-elles influencé ?
+66) Quels sont les projets liés à la psychologie ou à la philosophie que vous avez menés ?
+67. avez-vous connu des périodes d'épuisement professionnel et qu'avez-vous fait pour y remédier ?
+68. Avez-vous eu des relations que vous avez renouvelées par la suite ? Pourquoi ?
+69. avez-vous déjà souffert de dépression et comment y avez-vous fait face ?
+70) Quels sont les auteurs ou les livres qui ont influencé votre vision du monde et pourquoi ?
+71) Quels sont les livres que vous avez écrits et de quoi s'agit-il ?
+72. avez-vous eu des rencontres ou des relations significatives avec des artistes ?
+73. comment avez-vous rencontré votre partenaire actuel et comment la relation s'est-elle développée ?
+74. Quels sont les livres ou les projets que vous avez co-écrits avec quelqu'un ?
+75. avez-vous eu des cas de maladie grave dans votre famille et comment les avez-vous gérés ?
+76) Quel héritage avez-vous reçu et qu'en avez-vous fait ?
+77. avez-vous reçu des ultimatums dans vos relations et comment avez-vous réagi ?
+78. vous est-il arrivé de revenir sur des relations passées, et pourquoi ?
+79) Avez-vous fait des rencontres lors d'expositions ou d'événements ? Qui étaient ces personnes et comment vous ont-elles influencé ?
+80) Quels ont été vos voyages les plus mémorables et avec qui les avez-vous effectués ?
+81) Comment la perte de vos proches vous a-t-elle affecté ?
+82) Quelles cartes ou quels plans avez-vous créés et sur quels sujets ?
+83. avez-vous participé à des festivals ou à de grands événements ? lesquels et avec qui ?
+84) Avez-vous écrit des articles scientifiques, sur quels sujets vous intéressez-vous ?
+85. Avez-vous eu des relations amoureuses significatives au cours des dernières années ?
+86. avez-vous participé à des projets éducatifs ou à des écoles ? lesquels et avec qui ?
+87. avez-vous eu des relations importantes au cours des dernières années, avec qui et comment se sont-elles développées ?
+88 Comment avez-vous rencontré votre partenaire actuel et où cela s'est-il passé ?
+89) Quand et où vous êtes-vous marié(e) et avez-vous eu un format de mariage inhabituel ?
+90. Quand votre enfant est-il né et dans quelles circonstances ?
+91. Quelles ont été les raisons et les circonstances de votre déménagement dans un autre pays ?
+92. avez-vous vendu des biens immobiliers, pourquoi et quels étaient vos projets pour l'avenir ?
+93. avez-vous participé à des expériences avec de nouvelles technologies ? lesquelles et dans quel but ?
+94. à quelle fréquence communiquez-vous avec une certaine personne et où l'avez-vous rencontrée ?
+95. avez-vous participé à des activités politiques ou à des mouvements publics ? en quoi exactement ?
+96) Quelles sont vos initiales et en quoi reflètent-elles votre personnalité ou votre activité ?
+97 A quel âge et dans quelles circonstances avez-vous pensé à votre "moi" ?
+98) Quels sont les livres ou les genres littéraires que vous aimez ?
+99. Quelles étaient les professions et les racines culturelles de vos parents et grands-parents ?
+100. Quelle a été votre relation avec votre mère après son divorce d'avec votre père ?
+101) Quels sont les projets d'autodescription que vous avez lancés et qu'ont-ils concrétisés ?
+102. avez-vous écrit des romans et de quoi s'agissait-il ?
+103. à quel âge et dans quelles circonstances avez-vous perdu votre virginité ?
+104. quelle est votre vie de famille actuelle et quelle est votre relation avec votre partenaire ?
+105. Combien de partenaires avez-vous eus et combien d'actes sexuels avez-vous eus dans votre vie ?
+106. quelle est votre relation avec votre enfant aîné et comment communiquez-vous avec lui ?
+107) Quels sont votre taille, votre poids et votre apparence ?
+108. avec qui avez-vous communiqué récemment et comment restez-vous en contact ?
+109. savez-vous jouer d'un instrument de musique ou chanter ? quelles sont vos préférences musicales ?
+110 - Quels sont vos films et réalisateurs préférés ?
+111) Quelles sont vos séries télévisées préférées et pourquoi les aimez-vous ?
+112) Quels blogs et sites de réseaux sociaux lisez-vous le matin ?
+113. avez-vous des qualifications en matière de méthodes de traitement alternatives ? lesquelles ?
+114. avez-vous participé à des pratiques psychologiques ou thérapeutiques ?
+115. quels sont vos compositeurs, artistes ou écrivains préférés ?
+116) Quel genre d'art préférez-vous en général et pourquoi ?
+117) Dans quels pays avez-vous vécu ou voyagé à long terme ?
+118) Quels sont vos endroits préférés dans le monde et pourquoi ?
+119) Quels ont été vos voyages aux États-Unis et comment ont-ils influencé votre vie ?
+120) Quels pays avez-vous visités en Amérique du Sud et quelles ont été vos impressions ?
+121 - Quels ont été vos voyages en Extrême-Orient et quels sont vos souvenirs les plus marquants ?
+122) Quels sont les pays européens que vous avez visités et quels sont ceux que vous avez le plus appréciés en général ?
+123) Quels ont été vos voyages au Kirghizstan et avec qui avez-vous communiqué là-bas ?
+124. quels sont les membres de votre famille à Saint-Pétersbourg et à quelle fréquence communiquez-vous avec eux ?
+125. à quel âge et dans quelles circonstances avez-vous commencé à vivre avec votre mère ?
+126) Quelles ont été vos réussites à l'école et comment ont-elles influencé votre vie ?
+127) Quels sont les jeux et les fantasmes de votre enfance ?
+128) Quelle est votre relation avec une certaine personne et comment s'est-elle développée ?
+129) Quels sont vos souvenirs d'enfance concernant les animaux ?
+130 - Quelles ont été vos premières manifestations d'altruisme et d'abnégation ?
+131) Quels jeux et jouets aviez-vous lorsque vous étiez enfant ?
+132) Quels sont vos meilleurs souvenirs d'enfance ?
+133 - Quels sont vos meilleurs souvenirs de nature et de voyage ?
+134 Comment utilisez-vous le dialogue vocal pour faire face à des sentiments désagréables ?
+135. à qui vous abonnez-vous sur Twitter et pourquoi ?
+136 Quelles chaînes Telegram lisez-vous et pourquoi ?
+137) Pourquoi avez-vous été banni de YouTube et pourquoi ?
+138 - Quelles sont les œuvres d'art que vous possédez dans votre collection ?
+139) Quels sont les sites web que vous surveillez et quels sont les sujets qu'ils couvrent ?
+140. Quelle est l'histoire et la vie de vos grands-parents du côté de votre mère ?
+141) Quelle est l'histoire et la vie de votre mère ?
+142) Quelles étaient les relations et la vie du second mari de votre mère ?
+143) Quelle est l'histoire et la vie de vos arrière-grands-parents du côté de votre mère ?
+144) Quelle est l'histoire et la vie de vos grands-parents du côté de votre père ?
+145) Quelle est l'histoire et la vie de la femme de votre grand-père ?
+146. quelle est l'histoire et la vie de votre père ?
+147 Quelles sont les histoires intéressantes liées à votre père et à sa vie ?
+148) Quels sont les livres que vous avez écrits et ceux qui sont devenus les plus populaires ?
+149) Quels sont les articles que vous avez écrits et sur quoi portent-ils ?
+150. Quels sont vos souvenirs liés aux voyages en train ?
+151. quels ont été les moments les plus difficiles de votre enfance ?
+152 Comment avez-vous commencé à avoir un chat et quels souvenirs en gardez-vous ?
+153) Quels sont les livres et les auteurs qui vous ont le plus influencé ?
+154) Quelles ont été vos visites touristiques et qu'en avez-vous retiré ?
+155. quelles aventures as-tu vécues dans la nature et avec qui les as-tu vécues ?
+156) Quels ont été vos camps chamaniques et qu'en avez-vous retiré ?
+157) Quels sont les endroits de la nature que vous aimez visiter et pourquoi ?
+158) Quels sont les stupéfiants que vous avez essayés et quelle a été votre expérience ?
+159 Quelles sont vos peurs et comment les gérez-vous ?
+160. à quels jeux d'argent avez-vous joué et quelle a été votre expérience ?
+161) Quelles sont les technologies Apple que vous utilisez et comment vous aident-elles ?
+162) Quelles sont vos dépenses quotidiennes moyennes et à quoi les consacrez-vous ?
+163 Comment avez-vous rencontré la mère de votre enfant ?
+164. quel type de relation avez-vous eu avec une certaine personne et comment s'est-elle terminée ?
+165. quel type de relation avez-vous eu avec une certaine personne et comment s'est-elle développée ?
+166) Quels sont vos souvenirs des événements du 11 septembre 2001 ?
+167 Que vous rappelez-vous des événements du coup d'État d'août 1991 ?
+168) Quels sont vos souvenirs des événements survenus en Lituanie en 1990 ?
+169) Quelle était votre relation avec une certaine personne et comment s'est-elle développée ?
+170. quelle était votre relation amicale avec une certaine personne et comment cela vous a-t-il influencé ?
+171) Quelle était votre relation amicale avec une certaine personne et comment s'est-elle développée ?
+172. quel type de relation avez-vous eu avec une certaine personne et comment cela vous a-t-il influencé ?
+173. en quelles années êtes-vous allé à l'école et à l'université ?
+174 Quels animaux de compagnie avez-vous eus dans votre enfance et comment vous ont-ils influencé ?
+175. pour qui avez-vous voté dans les années 1990 et quelles étaient vos opinions politiques ?
+176 - Avez-vous été candidat au Parlement et quelles étaient vos ambitions politiques ?
+177. Avez-vous eu recours aux services de prostituées et quelle est votre relation avec elles ?
+178) Quels ont été vos moments difficiles dans la vie et comment les avez-vous gérés ?
+179. avez-vous participé à des formations sur l'argent et quelle influence ont-elles eue sur vous ?
+180) Quels sont les animaux sauvages que vous avez vus dans la nature et quelles impressions ont-ils laissé sur vous ?
+181) Quels sentiments inhabituels avez-vous éprouvés après avoir consommé des technologies ou des substances ?
+182. quel type de femmes aimez-vous et quelles relations avez-vous eues avec elles ?
+183. qui étaient vos professeurs à l'université et quelles impressions avez-vous retirées de leurs cours ?
+184. avez-vous connu des amours catastrophiques et comment vous ont-ils influencés ?
+185 Quelles sont vos relations avec l'argent et comment les gérez-vous ?
+186. Êtes-vous membre d'une organisation professionnelle ou publique ?
+187) Quels étaient vos professeurs à l'école et quelles impressions avez-vous retirées de leurs cours ?
+188. Avez-vous eu des moments où vous vous êtes senti immortel ? Quels étaient ces moments ?
+189. quels camarades de classe sont décédés et comment cela vous a-t-il influencé ?
+190) Quels étaient vos projets avant la catastrophe de Tchernobyl et comment ont-ils évolué ?
+191 Quels étaient les proverbes ou les poèmes préférés de votre mère et comment vous ont-ils influencé ?
+192. avez-vous eu une relation amoureuse avec une certaine personne et comment s'est-elle développée ?
+193. quel type de relation avez-vous eu avec une certaine personne et comment cela vous a-t-il influencé ?
+194. quels chats avez-vous eus dans votre enfance et quels souvenirs en gardez-vous ?
+195) Quelles aventures avez-vous vécues à la datcha et avec qui les avez-vous vécues ?
+196) Quels accidents avez-vous eus sur la route et comment vous ont-ils influencé ?
+197. Quelles maladies avez-vous eues et comment ont-elles affecté votre santé ?
+198 Quel est le cours du matin que vous commencez par une boisson énergisante ?
+199 Avez-vous des histoires ou des observations de phénomènes inhabituels ?
+200. payez-vous des impôts et comment vous situez-vous par rapport à ce processus ?
+201. louez-vous votre appartement, pour quelle durée et à qui ?
+202 Comment préparez-vous le petit-déjeuner pour votre famille et quelles sont vos traditions en matière de café du matin ?
+203) Qui sont vos amis et collègues en Amérique et quel type de relations entretenez-vous avec eux ?
+204 Quels sont vos endroits préférés au Monténégro et lesquels de vos amis y vivent ?
+205) Quels projets de gazéification du charbon en milieu scolaire avez-vous menés et quels en ont été les résultats ?
+206 Quelle a été votre première impression d'une certaine personne et comment la relation s'est-elle développée ?
+207. Quelles sont les personnes que vous avez admirées ou méprisées dans votre vie ? Pourquoi ?
+208 Comment gérez-vous le ressentiment et qu'est-ce qui peut vous offenser ?
+209) Quels sont les faits intéressants de la vie de vos grands-parents du côté de votre mère dont vous vous souvenez en particulier ?
+210 Quels sont les jeux et les fantasmes de votre enfance qui vous ont influencé ?
+211) Quelles sont vos citations et expressions préférées qui vous inspirent ?
+212) Quel héritage avez-vous reçu et comment l'avez-vous utilisé ?
+213 Quels rêves faites-vous le plus souvent et que signifient-ils pour vous ?
+214. qui était votre patron dans vos premières années et quels souvenirs en gardez-vous ?
+215) Quel est votre rapport au développement de l'espace et quels sont les projets que vous considérez comme importants ?
+216. Quels sont vos contacts et vos numéros de téléphone pour la communication ?
+217. quels serments d'enfants avez-vous prêtés et comment les avez-vous tenus ?
+218 Comment avez-vous rencontré une certaine personne et quel type de relation entretenez-vous avec elle ?
+219) Quelles sont les start-ups que vous avez créées et quels en ont été les résultats ?
+220) Que pensez-vous des qualia et comment les comprenez-vous ?
+221 Comment vous situez-vous par rapport à la guerre et quelles sont vos opinions à ce sujet ?
+222) Quelle influence la mort d'une certaine personne a-t-elle eue sur vous et quel est votre rapport avec les événements politiques ?
+223 - Quel est votre rapport à la question de l'adhésion de la Crimée et quel est votre point de vue sur cette question ?
+224 Quels sont vos clubs et discothèques préférés et pourquoi les fréquentez-vous ?
+225 - Quel est le nom de votre canal Telegram et sur quoi écrivez-vous ?
+226) Quels programmes et projets télévisés avez-vous filmés et comment vous ont-ils influencé ?
+227 Comment avez-vous commencé à écrire des articles en anglais et quelles ont été vos premières publications ?
+228 - Quels sont vos meilleurs souvenirs de jeux de rôle et d'aventure ?
+229. Comment avez-vous rencontré une certaine personne et quelle a été votre relation ?
+230) Quelle était votre relation avec une certaine personne et comment s'est-elle développée ?
+231. quelle était votre relation avec une certaine personne et comment cela vous a-t-il influencé ?
+232) Quels sont les conseils et les expressions de votre mère dont vous vous souvenez en particulier ?
+Quelles expériences avez-vous vécues après avoir consommé des hallucinogènes ?
+234) Quelles sont les expériences mystiques que vous avez vécues et comment vous ont-elles influencé ?
+235 Quels sont les livres et les auteurs qui vous ont le plus influencé dans votre jeunesse ?
+Quelles techniques et pratiques d'auto-hypnose avez-vous utilisées et comment vous ont-elles influencé ?
+237) Quelles techniques de tantra avez-vous pratiquées et quels en ont été les résultats ?
+238 Quelles sont les inscriptions et les affirmations que vous avez faites pour vous intégrer et comment vous ont-elles influencé ?
+239 - Que pensez-vous de Saint-Pétersbourg et quelles ont été vos impressions ?
+240. Quelles sont les caractéristiques et les habitudes de votre fille ?
+241 Comment vous sentez-vous par rapport à l'hiver et quelles sont vos allergies ?
+242) Quels sont vos amis à l'étranger et comment gardez-vous le contact avec eux ?
+243 Comment gérez-vous les grosses sommes d'argent et quels types de transactions financières avez-vous effectués ?
+244. Quels sont vos premiers souvenirs d'enfance concernant les personnes et les machines ?
+245) Comment gérez-vous les conflits internes et quelles méthodes utilisez-vous ?
+246) Quels nootropiques avez-vous essayés et quels ont été les résultats ?
+247. Comment écrivez-vous vos pensées et vos notes ? Quels sont les outils et les applications que vous utilisez ?
+248 Quels sont vos rituels matinaux et comment influencent-ils votre humeur ?
+249 Comment gérez-vous les fantasmes amoureux et quelles ont été vos expériences en la matière ?
+250. comment avez-vous été caractérisé dans les formations de développement personnel et quelles ont été vos impressions ?
+251. Quelle est votre appartenance ethnique et quelles sont vos racines ?
+252 Avez-vous fait des expériences de séparation du corps et quelles ont été vos expériences ?
+253) Que pensez-vous des vaisseaux spatiaux et des voyages dans l'espace ?
+254 Quel est votre rapport avec la fusion thermonucléaire et l'hyperloop ?
+255. Quels sont vos projets pour l'été 2024 et quelles sont vos attentes financières ?
+256 Quelles expériences avez-vous eues avec les chatbots et comment vous ont-elles influencées ?
+257. avez-vous eu une relation avec une certaine personne et quelles ont été vos rencontres ?
+258) Quelles promotions et quels projets politiques avez-vous organisés et quels en ont été les résultats ?
+259 Quels sont vos livres et genres littéraires préférés ?
+260) Quels sont vos endroits préférés à Moscou et quels souvenirs en gardez-vous ?
+261 Quels articles et projets avez-vous rédigés sur le vieillissement et quels en ont été les résultats ?
+Parmi les œuvres des frères Strugatski, laquelle n'avez-vous pas aimée et pourquoi ?
+263. Quelles sont vos compétences en programmation et quels projets avez-vous mis en œuvre ?
+264 Quelles sont vos habitudes et vos intérêts en matière de poubelles et d'antiquités ?
+265 Comment gérez-vous les chatouilles et quelles sont vos craintes ?
+266. Qui étaient vos camarades de classe et quelle était votre relation avec eux ?
+267 Qui étaient tes amis à l'école et quelles aventures as-tu vécues avec eux ?
+268. Que pensez-vous de la réparation des objets et quelles sont vos compétences en la matière ?
+269 Quels livres et auteurs philosophiques avez-vous lus et comment vous ont-ils influencé ?
+270. Quelles ont été vos relations avec les membres de votre famille et comment vous ont-ils influencé ?
+271 Avez-vous eu une relation avec une certaine personne et quelles ont été vos rencontres ?
+272) Quels types d'art et d'architecture aimez-vous et pourquoi ?
+273 Quels sont les pays et les villes que vous avez particulièrement appréciés et pourquoi ?
+274 Quelles sont vos impressions sur les villes du nord de l'Italie ?
+275. Quelle a été votre relation avec votre partenaire et comment s'est-elle développée ?
+276 Quels ont été vos intérêts financiers et comment avez-vous suivi les marchés ?
+277. quelles ont été vos habitudes d'achat et quels articles avez-vous achetés ?
+278. Quels projets créatifs avez-vous menés et quels résultats avez-vous obtenus ?
+279 Quel est votre rapport avec le développement de Mars et quel est votre point de vue à ce sujet ?
+280 - Quelles sont vos blagues préférées et en quoi reflètent-elles votre personnalité ?
+281 Comment expliquez-vous les questions relatives à la mort à vos filles et quelles sont vos approches à ce sujet ?
+282 Comment gérez-vous le désordre et quelles sont vos habitudes pour maintenir l'ordre ?
+283 Quelles conférences et manifestations avez-vous visitées et quelles ont été vos impressions ?
+Quelles expériences avez-vous faites avec l'hypnose et l'auto-hypnose et quels résultats avez-vous obtenus ?
+285 Quelles sont les idées et les concepts philosophiques que vous avez développés et comment vous ont-ils influencés ?
+286) Qui étaient vos amis à l'école de physique et quelles étaient vos relations avec eux ?
+287 Quels sont les examens et les cours que vous avez suivis à l'université et quelles sont les impressions qu'ils vous ont laissées ?
+288) Qui étaient vos amis à l'école de physique et quelles étaient vos relations avec eux ?
+289 Qui étaient vos amis et connaissances en dehors de l'université et quelles étaient vos relations avec eux ?
+290) Quelles sont les listes de diffusion et les communautés auxquelles vous avez participé et quelles ont été vos impressions et vos connaissances ?
+291. quelle a été votre relation avec une certaine personne et quelles impressions avez-vous eues d'elle ?
+292) Quels sont les voyages spirituels que vous avez effectués et quelles sont les impressions qu'ils vous ont laissées ?
+De quelles phrases et expressions de votre père vous souvenez-vous ?
+294. quelle a été votre relation avec une certaine personne et quelles ont été vos impressions ?
+295. quelle a été votre relation avec une certaine personne et quelles ont été vos impressions ?
+296 Quelles ont été vos relations avec telle ou telle personne et quelles impressions vous ont-elles laissées ?
+297. Quelle est votre relation avec les parents de votre partenaire et comment communiquez-vous avec eux ?
+298) Quelles œuvres artistiques avez-vous réalisées et quelles impressions en avez-vous retirées ?
+299) Quels sont les événements de Crimée dont vous vous souvenez particulièrement et quelles sont les impressions qu'ils vous ont laissées ?
+300 - Quelles conférences et manifestations avez-vous visitées et quelles ont été vos impressions ?
+301) Quels sont les voyages et les déplacements que vous avez effectués avec des amis et quelles ont été vos impressions ?
+302) Quels sont les rêves et les souvenirs de votre enfance ?
+303) Quels sont les souvenirs de votre enfance au jardin d'enfants qui vous sont restés en mémoire et comment vous ont-ils influencés ?
+304 Quels sont les livres et les auteurs qui vous ont le plus influencé ?
+Quels sont les théories et les concepts que vous avez étudiés et comment vous ont-ils influencés ?
+306 Quelles histoires et quels contes avez-vous créés dans votre enfance et comment vous ont-ils influencés ?
+307 Quels sont les livres et les histoires que vous aimez particulièrement et pourquoi ?
+308 Quelles sont les œuvres d'art que vous portez sur vous et quels sont les souvenirs qui y sont liés ?
+309 Quelle était votre relation avec une certaine personne et quelles aventures avez-vous vécues avec elle ?
+310. Quelle a été votre relation avec une certaine personne et quelles ont été vos impressions ?
+311. quelle a été votre relation avec une certaine personne et quelle a été son influence sur vous ?
+312) Quelles sont les phrases et expressions de votre mère dont vous vous souvenez particulièrement ?
+313 Quelles expériences avez-vous eues après avoir consommé des hallucinogènes ?
+314 - Quels sont les souvenirs de voyage qui vous ont particulièrement marqué ?
+315. quelles maisons de campagne et quels gîtes avez-vous visités et quels sont les souvenirs qui s'y rattachent ?
+316 Quelles maisons de campagne et quels chalets avez-vous visités dans votre enfance et quels sont les souvenirs qui s'y rattachent ?
+317 Quels sont les lieux et les bâtiments que vous aimez particulièrement et pourquoi ?
+318 Quelles histoires et quels contes avez-vous écrits et de quoi s'agissait-il ?
+319 Quelles sont les idées et les concepts philosophiques que vous avez développés et comment vous ont-ils influencés ?
+320. Quels sont les concepts et les idées que vous avez développés et comment vous ont-ils influencés ?
+321 Avez-vous déjà eu des pensées suicidaires et comment y avez-vous fait face ?
+322 Quels sont vos premiers souvenirs et comment vous ont-ils influencé ?
+323 Comment avez-vous réagi à la pandémie et quelles mesures avez-vous prises pour vous protéger ?
+324 Quels sont les souvenirs de la datcha et de la campagne à la maison qui vous sont restés et comment vous ont-ils influencés ?
+325) Quelles sont les discussions du forum dont vous vous souvenez particulièrement et comment vous ont-elles influencé ?
+326 Quelles sont les pensées que vous avez sur la mort et comment les gérez-vous ?
+327 Comment vous situez-vous par rapport aux simulations d'arguments et à l'intrigue de Doomsday ?
+328 - Que pensez-vous des guerres futures et de leur évolution ?
+329) Que pensez-vous de la lutte pour l'immortalité et comment cela influence-t-il votre vie ?
+330 Quelles conversations et discussions avez-vous eues avec des amis et quelles impressions vous ont-elles laissées ?
+331. quelle a été votre relation avec telle ou telle personne et quelles ont été vos impressions ?
+Quels sont les jeux et les fantasmes de votre enfance et comment vous ont-ils influencés ?
+Quels sont les idées et les concepts philosophiques que vous avez développés et comment vous ont-ils influencés ?
+Quelles expériences avez-vous vécues après avoir consommé des hallucinogènes ?
+335 Quels sont les premiers poèmes que vous avez écrits et comment vous ont-ils influencés ?
+336 Quelles sont vos préférences vestimentaires et comment vous influencent-elles ?
+337 Quels sont les principes de la PNL que vous utilisez et comment vous influencent-ils ?
+338 Quels sont les moments gênants que vous avez vécus dans votre vie et comment les avez-vous gérés ?
+339 Quelle a été votre relation avec les crypto-monnaies et comment vous ont-elles influencé ?
+340 Quelles pensées avez-vous eues après avoir pris des antidépresseurs et comment vous ont-elles influencé ?
+341 Quels sont vos livres de fantasy préférés et comment vous ont-ils influencé ?
+342. quelles sont vos habitudes et caractéristiques liées à votre corps et à votre santé ?
+343. qui étaient vos camarades de classe et quelles étaient vos relations avec eux ?
+344. quels jeux et fantasmes avez-vous eus dans votre enfance et comment vous ont-ils influencés ?
+345) Quels sont les voyages et les déplacements avec une personne en particulier dont vous vous souvenez le plus ?
+346 Comment gérez-vous les tâches désagréables et comment cela influence-t-il votre productivité ?
+347. qui étaient vos amis et connaissances dans votre jeunesse et quelles impressions vous ont-ils laissées ?
+348 Quelle a été votre relation avec une certaine personne et quelle a été son influence sur vous ?
+349) Quelles aventures avez-vous vécues au marché aux oiseaux et quelles impressions en avez-vous retirées ?
+350 - Quels sont vos habitudes et rituels au moment du coucher et comment vous influencent-ils ?
+351 Quels programmes et technologies avez-vous développés et quels résultats avez-vous obtenus ?
+Quels sont vos habitudes et rituels au moment du coucher et comment influencent-ils votre sommeil ?
+353 Quelles sont les aventures dont vous vous souvenez sur les marchés ou dans d'autres lieux similaires ?
+354 Comment gérez-vous le désordre et quelles habitudes prenez-vous pour maintenir l'ordre ?
+355 Quels événements et conférences avez-vous visités récemment et quelles impressions vous ont-ils laissées ?
+Quelles ont été vos expériences en matière d'hypnose ou d'auto-hypnose et quels résultats avez-vous obtenus ?
+357 Quelles idées ou concepts philosophiques avez-vous développés et quel impact ont-ils eu sur votre vie ?
+358 Quels sont les cours ou les examens universitaires dont vous vous souvenez le plus clairement ?
+359 Quelles relations et expériences significatives avez-vous eues avec des pairs en dehors de l'université ?
+360. à quelles communautés ou forums avez-vous appartenu et que vous ont-ils apporté ?
+361 Quels sont les voyages spirituels que vous avez effectués et quelles sont les impressions qu'ils vous ont laissées ?
+362 Quels souvenirs précieux gardez-vous de vos conversations avec vos amis ?
+363) Quels sont vos auteurs et livres préférés dans le domaine de la philosophie ?
+364 Quelles pensées ou réflexions avez-vous sur la mort et comment les gérez-vous ?
+365) Quels sont les souvenirs d'enfance que vous gardez de la nature ?
+366) Que pensez-vous des voyages spatiaux et de l'exploration de l'univers ?
+367 Quels sont vos projets d'avenir et comment vous y préparez-vous ?
+368 Quel est votre rapport à la technologie et quel est son impact sur votre vie quotidienne ?
+369 Quels ont été vos projets les plus créatifs et quels enseignements en avez-vous tirés ?
+370 Quelles associations faites-vous avec certains lieux ou événements importants de votre vie ?
+371 Quelle est votre relation avec les crypto-monnaies et quelles sont vos expériences dans ce domaine ?
+372) Quels sont les récits ou les contes que vous avez écrits et quels en sont les principaux thèmes ?
+373 Quels principes ou méthodes suivez-vous pour améliorer votre bien-être émotionnel ?
+374 Que pensez-vous des progrès de l'intelligence artificielle et de leur impact sur la société ?
+375. quelles relations avec des mentors ou des figures d'autorité ont influencé votre vie ?
+376 Quels sont les projets de collaboration que vous avez menés et les résultats que vous avez obtenus ?
+377 Quelles sont les habitudes ou les caractéristiques personnelles qui, selon vous, vous distinguent des autres ?
+378 Comment décririez-vous votre intérêt pour l'art et l'architecture ?
+379 Quels sont les lieux qui vous inspirent et pourquoi ?
+380) Quel impact certains événements historiques ont-ils eu sur votre point de vue ?
+381 Quels souvenirs gardez-vous des voyages effectués avec des amis ou des membres de votre famille ?
+382 Quelles sont les valeurs que vous considérez comme fondamentales dans vos relations personnelles ?
+383 Quelles mesures avez-vous prises pour atteindre vos objectifs personnels ?
+384 Comment gérez-vous les changements inattendus dans votre vie ?
+385 Quelles sont les théories ou les concepts qui vous intéressent le plus et pourquoi ?
+386 Quel rôle jouent les rituels ou les traditions dans votre vie quotidienne ?
+387 Quelles habitudes ou routines avez-vous développées pour rester concentré ?
+388 Quels sont les projets ou les rêves que vous considérez comme inachevés ?
+389 Quelles leçons importantes avez-vous tirées de vos erreurs ?
+390) Quels sont les livres ou les films qui vous ont le plus marqué ?
+391 Quel impact l'éducation a-t-elle eu sur vos choix de vie ?
+392 Quelles sont les expériences qui ont façonné votre vision du monde ?
+393 Que pensez-vous de l'équilibre entre vie professionnelle et vie privée ?
+394 Quelles sont les activités que vous pratiquez pendant votre temps libre ?
+395 Quelles sont les personnes qui ont eu une influence positive sur votre développement personnel ?
+396 Quelles décisions importantes ont changé le cours de votre vie ?
+397 Quelles sont les valeurs qui guident vos décisions quotidiennes ?
+398 Quels sont vos objectifs pour les cinq prochaines années ?
+399 Quelles compétences cherchez-vous à améliorer ?
+400) Comment trouvez-vous la motivation dans les moments difficiles ?
+401) Quel type de projets ou d'activités de collaboration aimez-vous le plus ?
+402 Quelles stratégies utilisez-vous pour gérer le stress ?
+403 Quelle est l'importance de la famille dans votre vie ?
+404 Comment définissez-vous la réussite personnelle ?
+405 Quel rôle jouent les amis dans votre vie quotidienne ?
+406 Que pensez-vous de l'évolution de la science et de la technologie ?
+407 Quelles sont les expériences de votre enfance dont vous vous souvenez le plus clairement ?
+408 Quelles sont les valeurs culturelles ou les traditions que vous défendez ?
+409 Quels sont les loisirs ou les centres d'intérêt que vous avez développés récemment ?
+410 Comment vous tenez-vous informé des questions d'actualité ?
+411 Quel rôle l'apprentissage tout au long de la vie joue-t-il dans votre vie ?
+412 Quels souvenirs gardez-vous de vos premières années d'école ?
+413 Quel impact les voyages ont-ils eu sur votre développement personnel ?
+414 Quels sont les sujets qui vous intéressent le plus lorsque vous lisez ou faites des recherches ?
+415. Quelles sont vos relations avec des personnes de cultures différentes ?
+416. Quelles sont les compétences que vous aimeriez enseigner aux autres ?
+417 Quel impact vos décisions professionnelles ont-elles eu sur votre vie personnelle ?
+418 Que faites-vous pour maintenir un mode de vie sain ?
+419 Quelles sont les relations qui ont eu le plus d'impact sur votre développement personnel ?
+420 Comment célébrez-vous vos réussites personnelles ?
+421. que souhaitez-vous réaliser dans votre carrière professionnelle ?
+Que pensez-vous de l'importance de la créativité dans la résolution de problèmes ?
+Quels souvenirs gardez-vous de moments importants avec des amis ou des membres de votre famille ?
+424 Comment définissez-vous l'équilibre émotionnel ?
+425 Quelles stratégies utilisez-vous pour améliorer vos compétences interpersonnelles ?
+426 Quel rôle jouent les mentors dans votre vie professionnelle ?
+427 Quelle importance accordez-vous au travail en équipe ?
+428 Quel impact pensez-vous avoir sur les personnes qui vous entourent ?
+429) Qu'espérez-vous obtenir grâce à vos relations interpersonnelles ?
+430 - Que signifie pour vous la réussite dans les relations personnelles ?
+431 Comment définissez-vous le bonheur personnel ?
+432 Quels sont les aspects de votre vie personnelle auxquels vous accordez le plus d'importance ?
+433 Quels sont vos objectifs en matière de bien-être émotionnel ?
+Quelles stratégies utilisez-vous pour rester résilient face aux défis ?
+435 Quel impact espérez-vous avoir sur votre communauté ?
+436 Quelles sont les expériences qui ont changé votre vision de la vie ?
+437 Quels sont les projets futurs qui vous enthousiasment le plus ?
+438 Quelle importance accordez-vous à l'innovation dans votre domaine d'activité ?
+439 Quels sont les souvenirs que vous avez des moments clés de l'apprentissage ?
+440) Que pensez-vous de l'importance du dialogue dans la résolution des conflits ?
+441 Quelles sont les valeurs qui guident vos interactions avec les autres ?
+442 Quelles sont les activités qui vous permettent de vous détendre ?
+443 Quelles leçons avez-vous tirées du travail en équipe ?
+444 Quelles stratégies utilisez-vous pour améliorer vos compétences en matière de communication ?
+445 Quelle est l'importance des valeurs éthiques dans votre prise de décision ?
+446 Quel rôle joue l'empathie dans vos relations interpersonnelles ?
+447 Quelles sont les expériences qui ont renforcé votre confiance en vous ?
+448 Quels sont vos objectifs en matière de développement personnel ?
+449 Quel est l'impact de vos croyances sur vos choix quotidiens ?
+450 Quelle importance accordez-vous à la connaissance de soi ?
+451) Qu'espérez-vous apprendre de vos futures expériences ?
+452 Quel rôle joue la curiosité dans votre vie quotidienne ?
+Quelles habitudes avez-vous prises pour améliorer votre bien-être ?
+454 Quelles sont les personnes qui vous ont le plus inspiré et pourquoi ?
+455 Quelle est l'importance des petites réussites dans votre vie ?
+456 Quels sont les défis que vous avez relevés et dont vous êtes fier ?
+457 Quel rôle les valeurs jouent-elles dans vos objectifs personnels ?
+458 Quelles sont les activités qui vous aident à rester motivé(e) ?
+459) Qu'espérez-vous obtenir grâce à votre travail ?
+460 Quelles sont les compétences que vous aimeriez acquérir à l'avenir ?
+Quels souvenirs gardez-vous des moments heureux de votre enfance ?
+Quel est l'impact de la technologie sur votre vie quotidienne ?
+Quelles mesures avez-vous prises pour améliorer vos compétences sociales ?
+464 Quels souvenirs gardez-vous de vos premiers amis ?
+465 Quel impact les expériences culturelles ont-elles eu sur votre vision du monde ?
+466 Que faites-vous pour maintenir un équilibre entre vos objectifs personnels et professionnels ?
+467 Que pensez-vous de l'importance de la collaboration sur le lieu de travail ?
+Quel rôle joue la créativité dans votre vie quotidienne ?
+469) Qu'espérez-vous obtenir grâce à vos efforts créatifs ?
+470 Quelles stratégies utilisez-vous pour résoudre des problèmes complexes ?
+471 Quels sont vos objectifs pour les dix prochaines années ?
+472 Quelles sont les expériences qui ont renforcé vos relations personnelles ?
+473 Quel impact espérez-vous avoir à l'avenir ?
+474 Que pensez-vous du rôle de l'innovation dans la société ?
+475 Quelles sont les valeurs que vous considérez comme fondamentales dans une amitié ?
+# Créer les questions 475 à 600
+questions_475_to_600 = """
+475 Quel rôle joue l'innovation dans votre vie personnelle et professionnelle ?
+476 Quels sont les projets créatifs que vous avez réalisés récemment ?
+477 Quels sont les défis auxquels vous avez été confronté(e) dans le cadre de la collaboration avec d'autres personnes ?
+478 Quelles sont les compétences que vous souhaiteriez développer pour améliorer vos performances professionnelles ?
+479 Comment gérez-vous les conflits dans vos relations interpersonnelles ?
+480) Quelles sont les valeurs que vous considérez comme essentielles dans une équipe de travail ?
+481 Quelles mesures avez-vous prises pour équilibrer votre vie personnelle et professionnelle ?
+482 Quelles stratégies utilisez-vous pour rester motivé dans des projets à long terme ?
+483 Quel impact espérez-vous avoir sur votre communauté professionnelle ?
+484 Quelles habitudes avez-vous prises pour améliorer votre bien-être général ?
+485 Comment décrivez-vous votre style de leadership ?
+Quel rôle joue le retour d'information dans votre développement personnel ?
+487 Quelles sont les activités que vous pratiquez pour vous déconnecter du stress ?
+488 Quelles leçons précieuses avez-vous tirées de vos erreurs passées ?
+489 Quelles ressources utilisez-vous pour vous tenir au courant dans votre domaine d'intérêt ?
+490 Comment vous préparez-vous à faire face à des défis inconnus ?
+491 Quelles sont les expériences qui vous ont permis de tirer des leçons importantes sur la vie ?
+492 Quelles sont les activités qui favorisent votre créativité ?
+493 Que pensez-vous de l'importance de l'équilibre entre la tradition et la modernité ?
+494 Quelles stratégies utilisez-vous pour gérer efficacement votre temps ?
+495 Comment votre environnement influe-t-il sur votre productivité quotidienne ?
+496 Quel rôle jouent vos passions dans vos objectifs à long terme ?
+497 Quelles décisions ont été déterminantes pour votre développement personnel ?
+498 Quelle importance accordez-vous aux relations interpersonnelles pour la réussite professionnelle ?
+499 Quelles sont les réalisations personnelles dont vous êtes le plus fier ?
+500 - Quelle est l'importance du développement durable dans votre mode de vie ?
+501 Comment encouragez-vous l'apprentissage continu dans votre vie quotidienne ?
+502 Quelles sont les relations qui ont le plus influencé vos valeurs fondamentales ?
+503. Quel impact vos décisions ont-elles eu sur le bien-être des autres ?
+504 Quelles sont les compétences qui vous ont permis de surmonter l'adversité ?
+505 Comment définissez-vous le succès en termes de contribution sociale ?
+506 Quel rôle les expériences multiculturelles jouent-elles dans votre vision du monde ?
+507 Quels sont les objectifs que vous vous êtes fixés pour votre développement émotionnel ?
+508 Quelles sont les habitudes quotidiennes qui ont amélioré votre qualité de vie ?
+509 Quelle importance accordez-vous à l'innovation dans les processus de travail ?
+510. Quelles leçons avez-vous tirées des collaborations au sein de l'équipe ?
+Quelles mesures prenez-vous pour prendre soin de votre santé mentale ?
+512 Quelles sont les activités que vous considérez comme essentielles au maintien de l'équilibre émotionnel ?
+513 Quel impact les progrès technologiques ont-ils eu sur vos objectifs personnels ?
+514 Quelles stratégies utilisez-vous pour résoudre efficacement les conflits ?
+515 Quelle importance accordez-vous à la diversité dans vos interactions sociales ?
+516 Quelles sont les valeurs qui guident votre prise de décision au quotidien ?
+517 Quel impact espérez-vous avoir sur les générations futures ?
+Quelle est l'importance de la connaissance de soi dans votre développement personnel ?
+519 Quels souvenirs gardez-vous des moments clés de votre carrière ?
+520 Quels outils utilisez-vous pour organiser vos projets ?
+521 Comment contribuez-vous à l'épanouissement personnel des personnes qui vous entourent ?
+Quelles mesures prenez-vous pour rester résilient face au changement ?
+523 Quel impact vos expériences de voyage ont-elles eu sur votre développement personnel ?
+Quelles mesures prenez-vous pour assurer votre bien-être physique et émotionnel ?
+Que pensez-vous du rôle de la créativité dans la résolution de problèmes ?
+526 Quelles sont les expériences qui vous ont permis de développer votre empathie ?
+527 Quelles leçons importantes avez-vous tirées de vos mentors ?
+528 Quelles habitudes vous aident à conserver un état d'esprit positif ?
+529 Quelles stratégies suivez-vous pour atteindre vos objectifs personnels ?
+530 Quel est l'impact de vos actions quotidiennes sur la communauté ?
+531 Quelles sont les compétences que vous considérez comme essentielles pour s'adapter à un environnement changeant ?
+532 Quels sont les projets futurs qui vous enthousiasment le plus ?
+533 Comment maintenez-vous l'équilibre entre vos intérêts personnels et professionnels ?
+Quel rôle joue la gratitude dans votre vie quotidienne ?
+535 Quelles ressources utilisez-vous pour acquérir de nouvelles compétences ?
+536 Quelles sont, selon vous, les réalisations les plus importantes de votre vie ?
+537 Quelle importance accordez-vous au soutien mutuel dans les relations personnelles ?
+538 Quelles mesures prenez-vous pour rester concentré sur vos objectifs ?
+539 Quel est l'impact de vos valeurs sur vos décisions professionnelles ?
+540 Quelles stratégies utilisez-vous pour favoriser la collaboration au sein de l'équipe ?
+541 Quelles sont les activités qui vous permettent de vous ressourcer ?
+542 Quel rôle jouent les expériences passées dans votre vision de l'avenir ?
+543 Quelles sont les valeurs que vous considérez comme essentielles dans vos interactions quotidiennes ?
+544) Quelles leçons avez-vous tirées de vos erreurs les plus importantes ?
+545 Quelle est l'importance de la capacité d'adaptation dans votre vie quotidienne ?
+546 Quels sont vos objectifs actuels à court terme ?
+547 Quel impact espérez-vous générer grâce à vos contributions personnelles ?
+548 Quel rôle joue une communication efficace dans vos relations ?
+549 Quelles sont les habitudes qui vous aident à rester organisé ?
+550 Quelle importance accordez-vous à l'apprentissage des nouvelles technologies ?
+551 Quelles sont les réalisations personnelles que vous considérez comme les plus gratifiantes ?
+552 Quelles stratégies utilisez-vous pour rester motivé dans les moments difficiles ?
+Quel est l'impact des relations personnelles sur votre bien-être émotionnel ?
+554 Quelles mesures prenez-vous pour prendre des décisions en connaissance de cause ?
+555 Quelles compétences avez-vous développées pour améliorer votre productivité ?
+556 Quelle importance accordez-vous à l'auto-évaluation dans votre développement personnel ?
+557 Quelles leçons précieuses avez-vous tirées de vos relations interpersonnelles ?
+558 Quel rôle jouent les petites réussites dans votre sentiment de satisfaction ?
+559 Quelles stratégies utilisez-vous pour gérer efficacement vos ressources ?
+Quelle est l'importance de la diversité des points de vue dans votre processus de décision ?
+561 Quelles activités faites-vous pour vous tenir au courant de votre domaine d'intérêt ?
+562 Quels sont les objectifs à long terme qui vous permettent de tenir le coup ?
+563 Quel est l'impact de vos choix sur votre environnement ?
+564 Quelles leçons importantes avez-vous tirées de vos échecs ?
+565 Quelles mesures prenez-vous pour favoriser la créativité dans votre vie quotidienne ?
+Quel est l'impact de l'équilibre émotionnel sur votre bien-être général ?
+567 Quelles habitudes avez-vous prises pour améliorer votre qualité de vie ?
+568 Quelle importance accordez-vous au soutien de vos proches pour votre réussite personnelle ?
+569 Quelles sont les valeurs qui guident votre vision de l'avenir ?
+570 Quelles leçons avez-vous tirées de vos expériences multiculturelles ?
+571 Quel rôle joue l'introspection dans votre développement personnel ?
+572 Quels sont les projets personnels que vous considérez comme les plus importants ?
+573 Quelle est l'importance de l'innovation dans votre domaine d'intérêt ?
+574 Quelles stratégies appliquez-vous pour entretenir des relations saines ?
+575 Quelles activités faites-vous pour vous occuper de votre bien-être émotionnel ?
+576 Quels sont vos objectifs à moyen terme en matière de développement personnel ?
+577 Quel est l'impact de vos valeurs sur vos choix quotidiens ?
+578 Quelles leçons importantes avez-vous tirées de vos réalisations personnelles ?
+579 Quelle importance accordez-vous à l'équilibre entre vie professionnelle et vie privée ?
+580 Quelles mesures prenez-vous pour atteindre vos objectifs à long terme ?
+581 Quel impact espérez-vous avoir sur les personnes qui vous entourent ?
+582 Quelles habitudes vous aident à rester positif dans les situations difficiles ?
+583 Quelles stratégies utilisez-vous pour résoudre des problèmes complexes ?
+584 Quelles sont les activités qui favorisent votre créativité ?
+Quel est l'impact des expériences culturelles sur votre développement personnel ?
+586 Quels sont les objectifs que vous vous êtes fixés pour renforcer vos relations interpersonnelles ?
+587 Quelle est l'importance de la planification dans votre développement professionnel ?
+588 Quelles leçons avez-vous tirées de vos collaborations au sein de l'équipe ?
+589 Quelles stratégies utilisez-vous pour rester concentré sur vos objectifs ?
+590 Quelles sont les habitudes quotidiennes qui vous aident à rester motivé(e) ?
+591 Quel impact espérez-vous avoir sur votre communauté à long terme ?
+592 Quelle importance accordez-vous à l'innovation dans votre processus d'apprentissage ?
+593 Quelles mesures prenez-vous pour développer votre intelligence émotionnelle ?
+594 Quelles sont les compétences que vous considérez comme essentielles pour réussir dans votre vie personnelle et professionnelle ?
+595 Quelles leçons avez-vous tirées de vos relations personnelles les plus importantes ?
+596 Quelles stratégies utilisez-vous pour surmonter vos difficultés personnelles ?
+597 Quel rôle joue la réflexion dans votre développement personnel ?
+598 Quel impact espérez-vous générer grâce à vos contributions professionnelles ?
+599 Quelles leçons précieuses avez-vous tirées de vos mentors et guides ?
+600. Quels sont vos objectifs pour laisser un héritage positif dans le monde ?
